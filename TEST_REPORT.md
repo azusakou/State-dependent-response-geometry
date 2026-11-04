@@ -1,0 +1,13 @@
+# Reproduction checks
+
+The complete `Rscript run_all.R` workflow was tested from an initially empty results directory on macOS CPU. All 66 numerical and membership checks passed. The check table is `reference/verification.tsv`. It covers the task catalogue, interaction statistics, prediction models, lineage inference, guide agreement, duration contrasts and nested prediction analysis. The 200-draw lineage bootstrap and both endpoint-network optimization settings are included.
+
+The Norman input has four RDS components. Their automatically reconstructed object and serialized object bytes are identical to the source input. The reader checks each array's checksum, shape, labels and GEM order. Tests confirmed rejection of missing, corrupted, reordered, incorrectly labelled and swapped components. Every distributed file is below 25,000,000 bytes and the repository contains fewer than 100 files.
+
+The count-level scVI analysis completed 25 executions of 200 epochs using 15 distinct reference-cell subsets. All query-state hashes were unchanged, all technical batches were supported and no formal fit required recovery. The original 600-iteration endpoint-network setting reached its limit in all 75 fits; all 75 fits reported optimizer convergence under the 6,000-iteration setting. Every elastic-net fit completed all 17 penalties without an optimization error. Non-network predictions, penalties and cutoffs were identical between network settings. Reversing additional-query outcomes left predictions, tuning and acceptance decisions unchanged.
+
+Public-count reconstruction used five checksum-verified cached archives. All 718,140,768 retained cell–gene positions matched the source QC objects exactly, with 87,198,177 nonzero entries and identical gene/cell order. Fresh network downloading was not repeated. Synthetic software tests checked frozen query inference, checkpoint saving/recovery and rejection of missing outputs or incompatible inputs, roles and configurations. Synthetic inputs were not used as scientific results.
+
+Dependency information is recorded in `reference/` and the Python requirements file. Independent representation retraining can vary with numerical libraries and hardware. Optimizer convergence is a diagnostic, not proof of a global optimum. Bootstrap intervals condition on fixed out-of-fold predictions and decisions.
+
+Raw-read alignment, archived QC/endpoint reconstruction, new peak-link inference, independent biological experiments and prospective policy experiments are outside the tested workflow. The additional cell-line analysis does not make outcome-defined target groups or globally defined source clusters prospective. The low-support and novel-intervention panels remain separate from the primary catalogue.

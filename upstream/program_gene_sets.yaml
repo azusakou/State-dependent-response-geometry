@@ -1,0 +1,12 @@
+# Gene modules used for descriptive RNA program scores.
+version: 1
+axes:
+  apoptosis:
+    positive_genes: [BAX, BBC3, PMAIP1, BCL2L11, APAF1, CASP3, CASP7, CASP8, FAS, TNFRSF10B, DDIT3, GADD45A]
+    negative_genes: [BCL2, BCL2L1, MCL1, XIAP, BIRC5]
+  proliferation:
+    positive_genes: [MKI67, PCNA, MCM2, MCM3, MCM4, MCM5, MCM6, MCM7, TOP2A, CDK1, CCNB1, CCNB2, UBE2C]
+    negative_genes: [CDKN1A, CDKN1B, BTG1, BTG2]
+  stress:
+    positive_genes: [ATF3, ATF4, DDIT3, HSPA1A, HSPA1B, HSP90AA1, HSPB1, DNAJB1, FOS, JUN, JUNB, GADD45A, PPP1R15A]
+    negative_genes: []

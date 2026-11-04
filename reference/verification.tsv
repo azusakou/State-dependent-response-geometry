@@ -1,0 +1,67 @@
+check	passed	value	tolerance
+complete task identifiers and eligibility	TRUE	TRUE	1e-08
+715 eligible tasks	TRUE	TRUE	1e-08
+Norman basin assignment	TRUE	TRUE	1e-08
+Norman primary projection	TRUE	0	1e-08
+Norman 131 classes	TRUE	TRUE	1e-08
+Norman technical-GEM p	TRUE	0	1e-08
+MIX model coverage	TRUE	0	1e-08
+MIX model RMSE	TRUE	0	1e-06
+MIX atomic split membership	TRUE	TRUE	1e-08
+norman_metrics interaction RMSE	TRUE	0	1e-05
+norman_metrics AUROC	TRUE	0	1e-06
+norman_baseline_metrics interaction RMSE	TRUE	0	1e-05
+norman_baseline_metrics AUROC	TRUE	0	1e-06
+9894 gene evidence classes	TRUE	TRUE	1e-08
+multiome joint guide criteria	TRUE	TRUE	1e-08
+multiome RNA guide cosine	TRUE	0	1e-08
+retrospective exposure labels	TRUE	TRUE	1e-08
+endpoint diversity across 3 thresholds	TRUE	0	1e-08
+LARRY stress sensitivity coefficients	TRUE	0	1e-08
+LARRY full-pipeline bootstrap interval	TRUE	0	1e-08
+numerical replay lineage_validation/quality_overlap_results.tsv	TRUE	0	1e-06
+numerical replay lineage_validation/paired_clone_context_summary.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/nested_calibration_summary.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/rawRNA_performance.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/rawRNA_matched_comparison.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/norman_paired_baseline_differences.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/tss_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/non_targeting_null_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/target_rna_depletion_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/equal_cell_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/independent_reference_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/independent_reference_null_summary.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/nt_required_evidence_class_counts.tsv	TRUE	0	1e-06
+numerical replay multiome_validation/gene_criterion_four_state_counts.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/functional_descriptive_metrics.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/functional_match_summary.tsv	TRUE	0	1e-06
+numerical replay prediction_validation/basin_growth_summary.tsv	TRUE	0	1e-06
+numerical replay lineage_primary/state_associations.tsv	TRUE	3.00133251585066e-11	1e-06
+numerical replay lineage_primary/leave_dataset_transfer.tsv	TRUE	9.71445146547012e-17	1e-06
+numerical replay nested_scvi/predictions.tsv	TRUE	0	1e-06
+numerical replay nested_scvi/metrics.tsv	TRUE	0	1e-06
+numerical replay nested_scvi/eligibility.tsv	TRUE	0	1e-06
+numerical replay nested_scvi/training.tsv	TRUE	0	1e-06
+numerical replay nested_scvi/policies.tsv	TRUE	0	1e-06
+nested outer decisions complete and unique	TRUE	TRUE	1e-08
+nested calibration excludes outer cell lines	TRUE	TRUE	1e-08
+RNA training representation excludes test contexts	TRUE	TRUE	1e-08
+7328 baseline cells map to 57 source contexts	TRUE	TRUE	1e-08
+orthogonal growth matching and coverage	TRUE	TRUE	1e-08
+nested scVI completed25 slots and15 distinct training states	TRUE	TRUE	1e-08
+nested scVI fresh fits and frozen query encoding	TRUE	TRUE	1e-08
+nested scVI complete fitted-input audit	TRUE	TRUE	1e-08
+nested scVI reported selected genes and200epoch budget	TRUE	TRUE	1e-08
+nested scVI finite reported training and scheduled validation histories	TRUE	TRUE	1e-08
+nested scVI query leaves all encoder weights fixed	TRUE	TRUE	1e-08
+nested scVI exact2520 task memberships and roles	TRUE	TRUE	1e-08
+nested scVI all25 actual cell memberships agree with frozen line exclusions	TRUE	TRUE	1e-08
+nested scVI no inner validation or outer lines enter model training	TRUE	TRUE	1e-08
+nested scVI primary plus additional predictions complete without duplicates	TRUE	TRUE	1e-08
+nested scVI eligibility330 rows keeps120 primary144known66novel separate	TRUE	TRUE	1e-08
+nested scVI policy and audit counts	TRUE	TRUE	1e-08
+nested EN complete17lambda path budget 600	TRUE	TRUE	1e-08
+nested NN finite objectives and recorded status budget 600	TRUE	TRUE	1e-08
+nested EN complete17lambda path budget 6000	TRUE	TRUE	1e-08
+nested NN finite objectives and recorded status budget 6000	TRUE	TRUE	1e-08
+nested NN budget leaves all nonNN predictions and policies invariant	TRUE	TRUE	1e-08

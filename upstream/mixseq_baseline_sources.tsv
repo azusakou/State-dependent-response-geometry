@@ -1,0 +1,6 @@
+archive	source_file	download_url	bytes	md5	retained_cells	dataset_doi	license
+DMSO_24hr_expt1.zip	DMSO_24hr_expt1.qc.h5ad	https://ndownloader.figshare.com/files/18716354	28491332	614e59230a2650d31423004b05eea769	2513	10.6084/m9.figshare.10298696.v3	CC BY 4.0
+DMSO_24hr_expt3.zip	DMSO_24hr_expt3.qc.h5ad	https://ndownloader.figshare.com/files/18716390	131222789	2d0eb7fbd0b017c9b4dfd6b2978c9274	5632	10.6084/m9.figshare.10298696.v3	CC BY 4.0
+DMSO_6hr_expt1.zip	DMSO_6hr_expt1.qc.h5ad	https://ndownloader.figshare.com/files/18716357	19734899	8a5b25eb1d2a3e399e17860abda76fd2	1833	10.6084/m9.figshare.10298696.v3	CC BY 4.0
+DMSO_6hr_expt3.zip	DMSO_6hr_expt3.qc.h5ad	https://ndownloader.figshare.com/files/18716393	108722978	1fb6a7c3b67200b7f12832093dc92226	7750	10.6084/m9.figshare.10298696.v3	CC BY 4.0
+DMSO_expt10.zip	DMSO_expt10.qc.h5ad	https://ndownloader.figshare.com/files/24848513	54600725	f98d3e9b4a3cb02e8e1f75d105d75882	4208	10.6084/m9.figshare.10298696.v3	CC BY 4.0
