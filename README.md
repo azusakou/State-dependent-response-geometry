@@ -14,12 +14,6 @@ Rscript run_all.R
 
 This command refits the models and computes the statistics from the supplied inputs without network access or a GPU. It writes results to `results/`, refreshes the compressed tables and checks them against numerical references. `Rscript run_all.R --quick` skips the 200-draw lineage bootstrap and descendant-depth sensitivity. Both commands evaluate the endpoint-rate network under the 600- and 6,000-iteration settings.
 
-## Repository upload
-
-Extract the archive and upload its contained files and folders together, preserving their relative paths. Each distributed file is below 25 MB and the complete repository contains fewer than 100 files, within the [GitHub browser upload limits](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
-
-The Norman data are stored as `inputs/norman_summary.rds` and `inputs/norman_gem_1.rds` through `norman_gem_3.rds`. The summary contains condition metadata and aggregate responses; the three arrays contain technical GEM groups 1–3, 4–6 and 7–8. The input reader assembles them in memory and verifies their checksums, dimensions and labels. No manual joining or large reconstructed file is required.
-
 ## Data and tables
 
 `inputs/` contains source-derived cell scores, condition/GEM expression profiles, lineage branch counts and state axes, guide-level RNA/ATAC summaries and fold-specific baseline coordinates. The complete 3,591-gene Norman profiles support interaction reorientation and normalization checks. All 32,738 measured genes are retained in the RNA-baseline profiles so feature selection can be repeated within training folds. Reference objects are used for verification rather than model fitting.
