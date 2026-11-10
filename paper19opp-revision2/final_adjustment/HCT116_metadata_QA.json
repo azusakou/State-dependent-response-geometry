@@ -1,7 +1,0 @@
-{
-  "source": "HCT116_filtered_guide_calls_per_cell.csv.gz",
-  "sha256": "ccad101489130775b12637d4ce7d88dca2af653ea31b6d5c65236410c5053368",
-  "pass_guide_cells": 3409169,
-  "cell_counts_are_guide_metadata_not_RNA_QC": true,
-  "minimum_frozen_top20": 25
-}

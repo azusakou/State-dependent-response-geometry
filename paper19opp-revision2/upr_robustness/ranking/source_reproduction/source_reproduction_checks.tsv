@@ -1,9 +1,0 @@
-file	passed
-source_input_hashes.tsv	TRUE
-source_GEM_consistency_QA.tsv	TRUE
-source_alternative_rankings.tsv.gz	TRUE
-source_alternative_Top10_Top20.tsv	TRUE
-source_parent_specific_null_rankings.tsv.gz	TRUE
-source_rank_stability_vs_current.tsv	TRUE
-source_alternative_background_matches.tsv	TRUE
-source_alternative_matching_coverage.tsv	TRUE

@@ -1,8 +1,0 @@
-dataset	public_url	file_or_role	terms	original_authors	original_article_doi
-Replogle	https://doi.org/10.6084/m9.figshare.20029387	K562 essential single cells and genome-wide pseudobulks	CC BY 4.0 source attribution retained	J. M. Replogle et al.	10.1016/j.cell.2022.05.013
-Norman	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE133344	CRISPRa pooled experiment	Public GEO record; consult original source terms	T. M. Norman et al.	10.1126/science.aax4438
-MIX-Seq	https://doi.org/10.6084/m9.figshare.10298696.v3	Drug and GPX4 response profiles; v3 includes DMSO expt10	CC BY 4.0; retain McFarland et al. attribution and describe derived filtering	J. M. McFarland et al.	10.1038/s41467-020-17440-w
-LARRY	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140802	Lineage and RNA recovery datasets	Public GEO record; consult original source terms	C. Weinreb et al.	10.1126/science.aaw3381
-MultiPerturb	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE277747	BT16 CRISPRi plus NIH3T3 non-targeting spike-in	Public GEO record; consult original source terms	R. E. Yan et al.	10.1038/s41587-024-02475-x
-CollecTRI	https://omnipathdb.org/interactions?datasets=collectri&genesymbols=1&format=tsv	Frozen signed regulatory prior	Original resource and contributing-database terms apply	S. Müller-Dott et al.	10.1093/nar/gkad841
-Norman_bulk_growth	https://github.com/thomasmaxwellnorman/Perturbseq_GI/tree/3b25109aeb9c0c2026bd70abd50304a0ad4e5395	Two filter15 AB/BA-averaged replicate phenotype matrices and exact chosen guides	Upstream LGPLv3; see LICENSE-NORMAN-GROWTH.txt	T. M. Norman et al.	10.1126/science.aax4438

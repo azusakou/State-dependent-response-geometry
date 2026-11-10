@@ -1,5 +1,0 @@
-split	method	n	positives	average_precision	auroc
-leave_gene	nonlinear_xgboost	131	8	0.10846827299976232	0.6869918699186992
-leave_gene	differential_expression_ranking	131	8	0.14952807114793637	0.7052845528455285
-leave_gene_family	nonlinear_xgboost	130	8	0.15394436718978854	0.7879098360655737
-leave_gene_family	differential_expression_ranking	130	8	0.16008966445691725	0.7305327868852459

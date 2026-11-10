@@ -1,5 +1,0 @@
-policy_space	status	reason
-same_drug_6_to_24h	evaluated	same context and intervention measured at both horizons
-switch_drug_A_to_B	abstain	no ordered switch observations
-order_Norman_pair	abstain	pair is simultaneous and order is unobserved
-commitment_lock	abstain	no washout or reversal endpoint

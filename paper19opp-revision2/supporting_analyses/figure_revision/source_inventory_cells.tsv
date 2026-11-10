@@ -1,7 +1,0 @@
-dataset_id	n_cells	evidence_role	dataset	role_group	label
-replogle_2022_k562_essential	310385	single-cell genetic response	Replogle K562	genetic	310k
-replogle_2022_rpe1_essential	247914	cell-line transfer	Replogle RPE1	genetic	248k
-norman_2019_combinatorial	111668	observed combinations	Norman combinations	combination	112k
-yan_2024_multiperturbseq	121651	joint RNA/ATAC control	MultiPerturb-seq	multiome	122k
-larry_cytokine	65075	lineage and time	LARRY cytokine	dynamics	65k
-larry_in_vitro	130887	lineage and time	LARRY in vitro	dynamics	131k

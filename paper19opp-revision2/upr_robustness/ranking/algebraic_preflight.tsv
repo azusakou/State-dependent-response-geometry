@@ -1,5 +1,0 @@
-check	passed
-ideal_linear_NDCG_equals_one	TRUE
-zero_relevance_NDCG_equals_zero	TRUE
-strict_positive_sign_not_nonnegative	TRUE
-paired_draws_and_fixed_source_lists	TRUE

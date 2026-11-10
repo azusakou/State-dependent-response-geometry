@@ -1,6 +1,0 @@
-source_cells 74325
-valid_lineage_cells 39011
-unique_assigned_lineages 3304
-paired_tasks 727
-paired_unique_lineages 510
-elapsed_seconds 6.58822298049927

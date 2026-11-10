@@ -1,9 +1,0 @@
-Source: independent patient-derived melanoma CRISPR-Cas9 screen, Frangieh et al. Nat Genet 2021, SCP1064; 218,331 published QC cells.
-Selected: all 51 perturbation genes overlapping source Replogle K562, plus every non-targeting/intergenic cell annotated control in harmonized object. Selection used labels/counts only.
-Inputs: unmodified integer count X, 23,712 unique gene symbols, CSC by gene. The metadata-locked 7,848 genes measured across Replogle, Norman, MIX-Seq, Adamson and Frangieh provide the common library denominator; frozen modules are restricted to these shared measured members.
-Primary per-cell normalization: log1p(1e4*count/library_size_common), positive-gene mean minus negative-gene mean. Original full-library normalization with the same matched module members is retained in score_full_library_* columns. Twelve axes include three matched original programs and nine metadata-frozen Hallmark programs. No validation-derived program, sign or gene selection.
-Controls are context matched. target_count/target_logcp10k is missing for control cells; per-target context-specific control reference expression is in a separate table.
-Guide labels nan or multiguide construct IDs remain explicit; simple_single_guide records known sgRNA==guide_id only. These are not biological replicate labels.
-No pretreatment expression is paired to perturbed cells. Control, IFNgamma and co-culture are experimental treatment contexts, not per-cell measured baseline states.
-External outcome interpretation is held until the candidate agent refreezes discovery ranking using the same 7,848-gene normalization; the original ranking is retained separately as a sensitivity result. Primary inferential units for external ranking are held-out genes; contexts share genes and source experiment. Surviving-cell transcriptomic scores do not directly measure killing, division or fate probabilities.
-Executed cells 71036 target genes 51

@@ -1,5 +1,0 @@
-All results are retrospective definition/mode sensitivity estimates; no new formal P-value family was added.
-Current lists and source-frozen alternative lists were evaluated on every specified readout/mode.
-Exact-primary real readouts have no exact-mode parent-null calibration; parent-specific null comparisons use fixed_L6780 only.
-Whole-gene NDCG-difference intervals condition on observed same-cohort IDCG; technical intervals keep controls/SDs fixed.
-Positive signs/linear-gain ranking do not establish biological benefit or a new mechanism.

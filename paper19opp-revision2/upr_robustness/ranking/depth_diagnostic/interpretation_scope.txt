@@ -1,5 +1,0 @@
-One retrospective depth diagnostic; original raw Precision/NDCG and source lists are unchanged.
-Outcome is the original Hallmark90 fixed_L6780 signed RPE1 contrast, not an exact-denominator or94-member substitute.
-Only the two recorded-UMI covariates enter the nuisance model; common-library depths are descriptive balance variables.
-All intervals resample whole genes and refit the same nuisance model; no P values or new inferential family.
-Post-treatment recorded UMI combines measurement depth and biological RNA-content variation; adjusted residuals do not estimate causal or functional benefit.

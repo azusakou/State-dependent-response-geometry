@@ -1,4 +1,0 @@
-This is a retrospective robustness analysis after prior RPE1 outcome evaluation.
-Holm7 is the only added inferential family; all other calibrations/sensitivities are descriptive.
-Whole-gene NDCG-difference intervals condition on observed IDCG.
-No new independent validation, prospective efficacy or functional benefit is established.

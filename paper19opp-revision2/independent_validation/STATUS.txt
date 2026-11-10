@@ -1,4 +1,0 @@
-Analysis complete. Primary independent ordering:417genes,rho0.40258,95%CI0.31270–0.48888,Holm5P0.00049995.
-Complete literal Top10/20primary utility remains unestimable becauseGBF1/ALG14have17/24cells.
-All438gene ten-cell sensitivity, all baseline/random comparisons and exact/fixed normalization results are retained.
-Actual count-level QA passed; source rankings/members unchanged; cumulative red baseline is final revision1.

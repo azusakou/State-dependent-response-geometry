@@ -1,5 +1,0 @@
-study	scorable_cells	controls	checked_cells	checked_real_axes	maximum_direct_cellscore_error	real_gene_mode_rows	maximum_GEM_reaggregation_error	same_target_support	passed
-K562	98052	9775	34	21	1.55431223447522e-15	19614	5.77315972805081e-15	TRUE	TRUE
-RPE1	97065	11485	36	21	1.55431223447522e-15	18396	7.105427357601e-15	TRUE	TRUE
-Adamson	27599	6284	35	21	7.7715611723761e-16	1260	5.32907051820075e-15	TRUE	TRUE
-Frangieh	64008	57605	35	21	9.99200722162641e-16	2310	5.55111512312578e-17	TRUE	TRUE

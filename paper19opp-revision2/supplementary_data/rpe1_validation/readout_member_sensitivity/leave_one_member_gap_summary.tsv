@@ -1,3 +1,0 @@
-context	readout_members	minimum_leave_one_gap	maximum_leave_one_gap	minimum_gap_member	maximum_gap_member	positive_leave_one_gaps	primary_gap
-K562	90	0.439471619024125	0.471347481076896	HSPA5	EIF4G1	90	0.45943678177017
-RPE1	90	0.304716771465649	0.34125244795946	HSPA5	EIF4G1	90	0.328763130337889

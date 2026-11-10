@@ -1,5 +1,0 @@
-study	cells	controls	canonical_members	additional_aliases	old90_cell_error_fixed	old90_cell_error_exact	old90_gene_effect_error	same_target_support	passed	elapsed_seconds
-K562	98052	9775	94	4	0	0	9.9031893796564e-14	TRUE	TRUE	21.4654848575592
-RPE1	97065	11485	94	4	0	0	1.94289029309402e-14	TRUE	TRUE	24.7006330490112
-Adamson	27599	6284	94	4	0	0	1.56541446472147e-14	TRUE	TRUE	0.980999946594238
-Frangieh	64008	57605	94	4	0	0	7.31359417471822e-15	TRUE	TRUE	4.60459899902344

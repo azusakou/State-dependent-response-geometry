@@ -1,3 +1,0 @@
-Identifier-coverage sensitivity only; original90 source ranks, groups and results remain unchanged.
-No94source reranking, new formal P family, parent-null calibration or new independent validation.
-Point metrics and conditional intervals use the same definitions and resampling units as the existing ranking extension.

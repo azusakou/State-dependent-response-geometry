@@ -1,4 +1,0 @@
-term	estimate	gene_bootstrap_low	gene_bootstrap_high	complete_case_genes	original_panel_genes	valid_draws	bootstrap_draws	model
-intercept	-20.5084141860727	-28.3856957103061	-12.6828881386937	438	438	2000	2000	original_Hallmark90_Y ~ intercept + sourceMeanLog1pRecordedUMI + RPE1MeanLog1pRecordedUMI
-sourceMeanLog1pRecordedUMI	1.45242128534142	0.836466014238883	2.19392322920975	438	438	2000	2000	original_Hallmark90_Y ~ intercept + sourceMeanLog1pRecordedUMI + RPE1MeanLog1pRecordedUMI
-RPE1MeanLog1pRecordedUMI	0.696591773659872	0.0745392547401821	1.33699525990841	438	438	2000	2000	original_Hallmark90_Y ~ intercept + sourceMeanLog1pRecordedUMI + RPE1MeanLog1pRecordedUMI

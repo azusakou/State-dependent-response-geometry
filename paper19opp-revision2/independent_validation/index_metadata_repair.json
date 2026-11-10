@@ -1,6 +1,0 @@
-{
-  "utc": "2026-11-06T09:45:37.058495+00:00",
-  "issue": "Repeated export included table_index.tsv as its own data table, creating inconsistent self row counts",
-  "repair": "Exclude the index itself; regenerate both relative-path indexes; rerun actual row/column checks",
-  "scientific_values_changed": false
-}

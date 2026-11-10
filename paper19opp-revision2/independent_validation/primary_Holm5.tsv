@@ -1,6 +1,0 @@
-endpoint	estimate	raw_p	estimable	Holm5
-signed_UPR_rho	0.402579647728266	9.99900009999e-05	TRUE	0.0004999500049995
-literal_Top10_signed_gap		1	FALSE	1
-weighted_minus_raw_NDCG10		1	FALSE	1
-literal_Top20_signed_gap		1	FALSE	1
-weighted_minus_raw_NDCG20		1	FALSE	1

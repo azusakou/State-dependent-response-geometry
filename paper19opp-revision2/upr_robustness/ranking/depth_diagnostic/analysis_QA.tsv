@@ -1,7 +1,0 @@
-check	passed
-source_cell_counts_match_frozen_metadata	TRUE
-RPE1_cell_counts_match_frozen_metadata	TRUE
-unadjusted_Top10_gap_matches_original	TRUE
-unadjusted_Top20_gap_matches_original	TRUE
-OLS_intercept_residual_mean_zero	TRUE
-single_prespecified_model_no_P_no_reranking	TRUE

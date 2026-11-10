@@ -1,1 +1,0 @@
-Vector PDF/SVG generated directly in R,183mm wide by162mm high. Helvetica body7pt/panel labels8pt. Native R150dpi actual-size and300dpi previews produced. Scientific scope: retrospective fixed-list transcriptional ranking; no new independent validation, causal pathway test or functional efficacy claim. Final visual inspection remains required before delivery.

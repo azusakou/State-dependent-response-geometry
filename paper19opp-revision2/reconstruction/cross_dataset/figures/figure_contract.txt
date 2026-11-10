@@ -1,5 +1,0 @@
-Figure 1: A common measurement definition supports a source-held-out response benchmark with independent context-state and response samples.
-Archetype: schematic-led composite; source units -> common genes/independent splits -> held-out study.
-Figure 2: Adding contemporaneous control-state features does not improve the prespecified cross-study pilot-response reconstruction.
-Archetype: asymmetric quantitative composite; hero paired error difference -> absolute matched baselines -> computational split sensitivity.
-Both use183mm width,7pt body and 8pt panel labels, editable PDF/SVG; no images or biological causal arrows.

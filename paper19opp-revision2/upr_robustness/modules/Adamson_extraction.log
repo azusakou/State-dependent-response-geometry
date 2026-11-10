@@ -1,8 +1,0 @@
-Warning messages:
-1: package ‘data.table’ was built under R version 4.4.3 
-2: package ‘digest’ was built under R version 4.4.3 
-Started Adamson 2026-11-06 05:50:27 UTC 
-Adamson cells through 2500 retained 1045 / 27599 elapsed 5.8 s
-Adamson cells through 27500 retained 11663 / 27599 elapsed 20.9 s
-Adamson cells through 52500 retained 22167 / 27599 elapsed 34 s
-Completed Adamson cells 27599 controls 6284 elapsed 45.16918 s

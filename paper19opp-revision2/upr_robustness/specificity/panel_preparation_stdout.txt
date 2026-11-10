@@ -1,7 +1,0 @@
-           comparison     N
-               <char> <int>
-1:            Adamson    30
-2: Frangieh_Coculture    17
-3:   Frangieh_Control    19
-4:      Frangieh_IFNg    19
-5:               RPE1   438

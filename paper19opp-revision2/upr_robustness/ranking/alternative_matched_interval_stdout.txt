@@ -1,1 +1,0 @@
-Predeclared conditional intervals for existing matched-gap estimates complete; no new tests.

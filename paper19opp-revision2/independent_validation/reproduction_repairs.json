@@ -1,9 +1,0 @@
-{
-  "utc": "2026-11-06T09:21:52.008696+00:00",
-  "changes": [
-    "Verify on-disk blocks before resume and clear stale completion marker",
-    "Runner waits for raw file and checks original pinned hash",
-    "Exact final revision1 baseline copied for portable cumulative marking"
-  ],
-  "scientific_choices_changed": false
-}

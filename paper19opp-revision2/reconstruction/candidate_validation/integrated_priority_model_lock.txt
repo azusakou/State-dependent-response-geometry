@@ -1,8 +1,0 @@
-Fixed secondary model: source-heldout Replogle pilot_plus_state ridge trained ONLY on Norman and MIX-Seq.
-All feature scaling and lambda selection use those two training studies, including training-study-only inner tuning.
-Only primary partition1 is used; no external response outcome is read by this script.
-Pool predicted matched-control deltas across eligible GEM/target units using treated-cell counts; standardize by harmonized global Replogle control SD.
-Candidate target program, sign and technical agreement remain fixed by Replogle discovery.
-Priority is max(fixed discovery sign * predicted target z,0) * max(fixed technical agreement,0)/(1+Euclidean norm of the other two predicted z values).
-Coverage restriction: at least one metadata-eligible GEM/target unit; do not infer values for uncovered genes.
-Primary magnitude/composite comparators must be restricted to the identical covered external genes.
