@@ -1,0 +1,85 @@
+mode	minimum_cells	cohort	method	K	cohort_genes	list_genes_available	estimable	Precision	NDCG	gap
+exact_Lminus_target	30	fixed_common_source_covariate_panel	UPR_priority	10	353	9	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	UPR_priority	20	353	18	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	raw_UPR	10	353	9	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	raw_UPR	20	353	18	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	generic_magnitude	10	353	9	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	generic_magnitude	20	353	19	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	DepMap	10	353	10	TRUE	0.1	0.0321593183862499	-0.46776670631687
+exact_Lminus_target	30	fixed_common_source_covariate_panel	DepMap	20	353	20	TRUE	0.05	0.0260112575452486	-0.453920246310744
+exact_Lminus_target	30	fixed_common_source_covariate_panel	expression	10	353	10	TRUE	0.2	0.0191388655242602	-0.103945366947059
+exact_Lminus_target	30	fixed_common_source_covariate_panel	expression	20	353	19	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	count	10	353	10	TRUE	0.4	0.0824084519232193	-0.176743081584285
+exact_Lminus_target	30	fixed_common_source_covariate_panel	count	20	353	20	TRUE	0.3	0.0914654110296658	-0.172428187696303
+exact_Lminus_target	30	fixed_common_source_covariate_panel	genomewide_annotation	10	353	8	FALSE			
+exact_Lminus_target	30	fixed_common_source_covariate_panel	genomewide_annotation	20	353	18	FALSE			
+exact_Lminus_target	10	fixed_common_source_covariate_panel	UPR_priority	10	370	10	TRUE	0.8	0.573546200999824	0.529084324100149
+exact_Lminus_target	10	fixed_common_source_covariate_panel	UPR_priority	20	370	20	TRUE	0.75	0.525126960779435	0.360451487396092
+exact_Lminus_target	10	fixed_common_source_covariate_panel	raw_UPR	10	370	10	TRUE	0.8	0.593687146055062	0.529084324100149
+exact_Lminus_target	10	fixed_common_source_covariate_panel	raw_UPR	20	370	20	TRUE	0.75	0.564744826346939	0.389442866563966
+exact_Lminus_target	10	fixed_common_source_covariate_panel	generic_magnitude	10	370	10	TRUE	0.1	0.0487241565473701	-0.231783143535566
+exact_Lminus_target	10	fixed_common_source_covariate_panel	generic_magnitude	20	370	20	TRUE	0.15	0.0646275537494734	-0.231744912022071
+exact_Lminus_target	10	fixed_common_source_covariate_panel	DepMap	10	370	10	TRUE	0.1	0.0307415200834094	-0.470623003892327
+exact_Lminus_target	10	fixed_common_source_covariate_panel	DepMap	20	370	20	TRUE	0.05	0.0246189048180985	-0.456252627955563
+exact_Lminus_target	10	fixed_common_source_covariate_panel	expression	10	370	10	TRUE	0.2	0.0182950960533814	-0.107288362883334
+exact_Lminus_target	10	fixed_common_source_covariate_panel	expression	20	370	20	TRUE	0.1	0.0146513649017389	-0.116190764664046
+exact_Lminus_target	10	fixed_common_source_covariate_panel	count	10	370	10	TRUE	0.4	0.078775335018403	-0.179988693105324
+exact_Lminus_target	10	fixed_common_source_covariate_panel	count	20	370	20	TRUE	0.3	0.0865693726791351	-0.175535213614119
+exact_Lminus_target	10	fixed_common_source_covariate_panel	genomewide_annotation	10	370	10	TRUE	0.3	0.0942349976130914	-0.253826686222114
+exact_Lminus_target	10	fixed_common_source_covariate_panel	genomewide_annotation	20	370	20	TRUE	0.15	0.0754667443404165	-0.16490085524829
+exact_Lminus_target	100	fixed_common_source_covariate_panel	UPR_priority	10	94	1	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	UPR_priority	20	94	4	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	raw_UPR	10	94	1	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	raw_UPR	20	94	2	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	generic_magnitude	10	94	7	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	generic_magnitude	20	94	12	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	DepMap	10	94	4	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	DepMap	20	94	7	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	expression	10	94	4	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	expression	20	94	4	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	count	10	94	6	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	count	20	94	14	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	genomewide_annotation	10	94	3	FALSE			
+exact_Lminus_target	100	fixed_common_source_covariate_panel	genomewide_annotation	20	94	6	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	UPR_priority	10	353	9	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	UPR_priority	20	353	18	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	raw_UPR	10	353	9	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	raw_UPR	20	353	18	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	generic_magnitude	10	353	9	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	generic_magnitude	20	353	19	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	DepMap	10	353	10	TRUE	0.1	0.032356909551697	-0.46644140856638
+fixed_L	30	fixed_common_source_covariate_panel	DepMap	20	353	20	TRUE	0.05	0.0261607931139714	-0.453414046847224
+fixed_L	30	fixed_common_source_covariate_panel	expression	10	353	10	TRUE	0.3	0.0224739545955807	-0.0958437342763913
+fixed_L	30	fixed_common_source_covariate_panel	expression	20	353	19	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	count	10	353	10	TRUE	0.4	0.0824860239888621	-0.177282681966614
+fixed_L	30	fixed_common_source_covariate_panel	count	20	353	20	TRUE	0.3	0.0915182939759593	-0.172966313856926
+fixed_L	30	fixed_common_source_covariate_panel	genomewide_annotation	10	353	8	FALSE			
+fixed_L	30	fixed_common_source_covariate_panel	genomewide_annotation	20	353	18	FALSE			
+fixed_L	10	fixed_common_source_covariate_panel	UPR_priority	10	370	10	TRUE	0.8	0.573633037710469	0.529777131770211
+fixed_L	10	fixed_common_source_covariate_panel	UPR_priority	20	370	20	TRUE	0.75	0.525923979734344	0.361687220091677
+fixed_L	10	fixed_common_source_covariate_panel	raw_UPR	10	370	10	TRUE	0.8	0.593773271716776	0.529777131770211
+fixed_L	10	fixed_common_source_covariate_panel	raw_UPR	20	370	20	TRUE	0.75	0.565064168051446	0.39027506310986
+fixed_L	10	fixed_common_source_covariate_panel	generic_magnitude	10	370	10	TRUE	0.1	0.0490242699039707	-0.228807850104834
+fixed_L	10	fixed_common_source_covariate_panel	generic_magnitude	20	370	20	TRUE	0.2	0.0652480700912366	-0.229138927576106
+fixed_L	10	fixed_common_source_covariate_panel	DepMap	10	370	10	TRUE	0.1	0.0309308705295328	-0.469286107290418
+fixed_L	10	fixed_common_source_covariate_panel	DepMap	20	370	20	TRUE	0.05	0.0247665012376455	-0.455734067708243
+fixed_L	10	fixed_common_source_covariate_panel	expression	10	370	10	TRUE	0.3	0.0214834787843961	-0.0991841963355665
+fixed_L	10	fixed_common_source_covariate_panel	expression	20	370	20	TRUE	0.2	0.0173375440323449	-0.110864909516417
+fixed_L	10	fixed_common_source_covariate_panel	count	10	370	10	TRUE	0.4	0.0788506864173505	-0.180514199887394
+fixed_L	10	fixed_common_source_covariate_panel	count	20	370	20	TRUE	0.3	0.0866406431620114	-0.176058105087971
+fixed_L	10	fixed_common_source_covariate_panel	genomewide_annotation	10	370	10	TRUE	0.3	0.094553529887091	-0.253429549528543
+fixed_L	10	fixed_common_source_covariate_panel	genomewide_annotation	20	370	20	TRUE	0.15	0.0757094797165981	-0.164836643590677
+fixed_L	100	fixed_common_source_covariate_panel	UPR_priority	10	94	1	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	UPR_priority	20	94	4	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	raw_UPR	10	94	1	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	raw_UPR	20	94	2	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	generic_magnitude	10	94	7	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	generic_magnitude	20	94	12	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	DepMap	10	94	4	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	DepMap	20	94	7	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	expression	10	94	4	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	expression	20	94	4	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	count	10	94	6	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	count	20	94	14	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	genomewide_annotation	10	94	3	FALSE			
+fixed_L	100	fixed_common_source_covariate_panel	genomewide_annotation	20	94	6	FALSE			

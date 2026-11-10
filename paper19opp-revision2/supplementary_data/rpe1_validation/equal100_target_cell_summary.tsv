@@ -1,0 +1,6 @@
+endpoint	median	resampling_low	resampling_high	draws	target_cells_each_context	positive_draw_fraction	note
+rho	0.352249438557028	0.313614575245926	0.389267986614911	200	100	1	without-replacement target-cell subsampling; original GEM-matched NTC references and global target-specific SD fixed; frozen lists
+Top20_matched_gap	0.328586608232183	0.302590052214638	0.352141673675394	200	100	1	without-replacement target-cell subsampling; original GEM-matched NTC references and global target-specific SD fixed; frozen lists
+Top10_matched_gap	0.572661424639263	0.540533210516106	0.604339451046955	200	100	1	without-replacement target-cell subsampling; original GEM-matched NTC references and global target-specific SD fixed; frozen lists
+Top20_mean	0.0441648176210948	0.0213369531595119	0.0647608856738647	200	100	1	without-replacement target-cell subsampling; original GEM-matched NTC references and global target-specific SD fixed; frozen lists
+Top10_mean	0.242714577732702	0.215229742945491	0.268412801049257	200	100	1	without-replacement target-cell subsampling; original GEM-matched NTC references and global target-specific SD fixed; frozen lists

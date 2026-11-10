@@ -1,0 +1,5 @@
+Pre-outcome source-only availability sensitivity authorized by root before RPE1 expression.
+All438 metadata-eligible genes remain the primary roster; source matching covariates are jointly complete for 370 genes.
+The complete-covariate candidate universe is applied uniformly to realUPR, all100 null modules and every comparator; rankings are recomputed only within that same fixed sensitivity universe.
+Primary full-roster ranks and matching failures remain unchanged and are reported; no missing expression or essentiality value is imputed.
+This sensitivity does not replace the Holm3 primary family and cannot be selected using RPE1 outcomes.

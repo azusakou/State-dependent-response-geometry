@@ -1,0 +1,13 @@
+first_treatment	second_treatment	lineage_rows	sampled_cells
+cis		526	1969
+cis	cis	67	1037
+cis	cocl2	136	2299
+cis	dabtram	131	1565
+cocl2		851	2902
+cocl2	cis	154	3175
+cocl2	cocl2	49	11634
+cocl2	dabtram	187	975
+dabtram		1184	1850
+dabtram	cis	274	4550
+dabtram	cocl2	405	3388
+dabtram	dabtram	370	3667

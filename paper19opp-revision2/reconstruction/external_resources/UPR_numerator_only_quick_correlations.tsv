@@ -1,0 +1,5 @@
+study	context	genes	spearman_numerator_only	self_target_genes
+Adamson2016	Adamson_K562_UPR	30	0.822914349276974	5
+Frangieh2021	Control	19	0.703508771929825	1
+Frangieh2021	IFNγ	19	-0.00701754385964912	1
+Frangieh2021	Co-culture	17	0.458333333333333	1

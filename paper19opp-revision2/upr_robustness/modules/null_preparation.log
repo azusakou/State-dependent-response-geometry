@@ -1,0 +1,30 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Scoring/null lock SHA256 a2619c819f2e22eb4d5008d9408844d031f93c4d3a6870673a08b124061cfac2 
+                     family random_sets readout_members member_draws
+                     <char>       <int>           <int>        <int>
+1:          ER_folding_full         100               9          900
+2:                ERAD_full         100              67         6700
+3:        ER_targeting_full         100              34         3400
+4:                 ISR_full         100              20         2000
+5:        Reactome_UPR_full         100              69         6900
+6:           GO_ER_UPR_full         100              41         4100
+7: Reactome_UPR_no_Hallmark         100              30         3000
+8:    GO_ER_UPR_no_Hallmark         100              32         3200
+   unique_sampled_genes nonexact_bin_draws max_bin_distance
+                  <int>              <int>            <int>
+1:                  741                  0                0
+2:                 4018                  0                0
+3:                 2429                  0                0
+4:                 1613                  0                0
+5:                 4275                  0                0
+6:                 2894                  0                0
+7:                 2352                  0                0
+8:                 2348                  0                0
+      study     N
+     <char> <int>
+1:     K562   467
+2:     RPE1   438
+3:  Adamson    30
+4: Frangieh    19

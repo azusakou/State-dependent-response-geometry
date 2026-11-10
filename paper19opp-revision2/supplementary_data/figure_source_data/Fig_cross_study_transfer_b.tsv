@@ -1,0 +1,13 @@
+dataset	axis_group	model	n_units	rmse	method
+MIX-Seq	core3	training_mean	527	0.242832531079274	Training mean
+MIX-Seq	core3	pilot_identity	527	0.0881311866106562	Pilot A unchanged
+MIX-Seq	core3	pilot_response	527	0.202050821742986	Pilot ridge
+MIX-Seq	core3	pilot_plus_state	527	0.229759782868411	Pilot + control state
+Norman	core3	training_mean	2180	0.115500478024364	Training mean
+Norman	core3	pilot_identity	2180	0.0972793452912389	Pilot A unchanged
+Norman	core3	pilot_response	2180	0.0887235495985022	Pilot ridge
+Norman	core3	pilot_plus_state	2180	0.0953607830851458	Pilot + control state
+Replogle	core3	training_mean	2151	0.153233455959106	Training mean
+Replogle	core3	pilot_identity	2151	0.176558911822404	Pilot A unchanged
+Replogle	core3	pilot_response	2151	0.146300622400152	Pilot ridge
+Replogle	core3	pilot_plus_state	2151	0.146976496040066	Pilot + control state

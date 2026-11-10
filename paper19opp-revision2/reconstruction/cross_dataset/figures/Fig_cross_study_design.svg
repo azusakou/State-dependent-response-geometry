@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='518.74pt' height='442.20pt' viewBox='0 0 518.74 442.20'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNzR8MC4wMHw0NDIuMjA='>
+    <rect x='0.00' y='0.00' width='518.74' height='442.20' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHw0NDIuMjA=)'>
+<text x='8.50' y='17.05' style='font-size: 8.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='4.45px' lengthAdjust='spacingAndGlyphs'>a</text>
+<text x='25.51' y='16.69' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='103.84px' lengthAdjust='spacingAndGlyphs'>Source-specific response units</text>
+<rect x='9.92' y='34.02' width='155.91' height='102.05' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F7F8FA;' />
+<polyline points='9.92,34.02 165.83,34.02 ' style='stroke-width: 1.27; stroke: #4C78A8;' />
+<text x='87.87' y='47.87' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='29.56px' lengthAdjust='spacingAndGlyphs'>Replogle</text>
+<text x='87.87' y='62.04' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='50.19px' lengthAdjust='spacingAndGlyphs'>K562 · CRISPRi</text>
+<text x='87.87' y='77.63' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='81.28px' lengthAdjust='spacingAndGlyphs'>276,108 QC-retained cells</text>
+<text x='87.87' y='94.65' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='78.34px' lengthAdjust='spacingAndGlyphs'>2,151 gene × GEM units</text>
+<text x='87.87' y='111.65' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='97.20px' lengthAdjust='spacingAndGlyphs'>358 genes · 48 technical GEMs</text>
+<text x='87.87' y='127.24' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='80.12px' lengthAdjust='spacingAndGlyphs'>one published experiment</text>
+<rect x='181.42' y='34.02' width='155.91' height='102.05' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F7F8FA;' />
+<polyline points='181.42,34.02 337.32,34.02 ' style='stroke-width: 1.27; stroke: #7B6BA8;' />
+<text x='259.37' y='47.87' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='26.45px' lengthAdjust='spacingAndGlyphs'>Norman</text>
+<text x='259.37' y='62.04' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='52.52px' lengthAdjust='spacingAndGlyphs'>K562 · CRISPRa</text>
+<text x='259.37' y='77.63' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='81.28px' lengthAdjust='spacingAndGlyphs'>104,507 QC-retained cells</text>
+<text x='259.37' y='94.65' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='93.50px' lengthAdjust='spacingAndGlyphs'>2,180 condition × GEM units</text>
+<text x='259.37' y='111.65' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='105.77px' lengthAdjust='spacingAndGlyphs'>280 conditions · 8 technical GEMs</text>
+<text x='259.37' y='127.24' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='80.12px' lengthAdjust='spacingAndGlyphs'>one published experiment</text>
+<rect x='352.91' y='34.02' width='155.91' height='102.05' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F7F8FA;' />
+<polyline points='352.91,34.02 508.82,34.02 ' style='stroke-width: 1.27; stroke: #B8873A;' />
+<text x='430.87' y='47.87' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='27.61px' lengthAdjust='spacingAndGlyphs'>MIX-Seq</text>
+<text x='430.87' y='62.04' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='71.95px' lengthAdjust='spacingAndGlyphs'>Chemical perturbations</text>
+<text x='430.87' y='77.63' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='70.80px' lengthAdjust='spacingAndGlyphs'>120,003 chemical cells</text>
+<text x='430.87' y='94.65' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='80.69px' lengthAdjust='spacingAndGlyphs'>527 drug × context units</text>
+<text x='430.87' y='111.65' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='73.50px' lengthAdjust='spacingAndGlyphs'>13 drugs · 109 cell lines</text>
+<text x='430.87' y='127.24' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='88.64px' lengthAdjust='spacingAndGlyphs'>169 matched assay contexts</text>
+<text x='259.37' y='151.33' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='236.81px' lengthAdjust='spacingAndGlyphs'>Three held-out studies; GEM partitions describe within-experiment sampling.</text>
+<text x='8.50' y='172.96' style='font-size: 8.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='4.89px' lengthAdjust='spacingAndGlyphs'>b</text>
+<text x='25.51' y='172.60' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='176.55px' lengthAdjust='spacingAndGlyphs'>Shared measurements and independent cell samples</text>
+<rect x='11.34' y='184.25' width='206.93' height='119.06' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F7F8FA;' />
+<text x='114.80' y='198.11' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='117.44px' lengthAdjust='spacingAndGlyphs'>Metadata-defined gene intersection</text>
+<text x='114.80' y='212.84' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='91.38px' lengthAdjust='spacingAndGlyphs'>Replogle · Norman · MIX-Seq</text>
+<text x='114.80' y='225.88' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='63.00px' lengthAdjust='spacingAndGlyphs'>Adamson · Frangieh</text>
+<text x='114.80' y='244.88' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='74.67px' lengthAdjust='spacingAndGlyphs'>7,848 measured genes</text>
+<text x='114.80' y='261.03' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='121.33px' lengthAdjust='spacingAndGlyphs'>Duplicate counts summed before log1p</text>
+<text x='114.80' y='274.64' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='134.92px' lengthAdjust='spacingAndGlyphs'>CP10k denominator: the same 7,848 genes</text>
+<text x='114.80' y='291.65' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='132.42px' lengthAdjust='spacingAndGlyphs'>3 signed modules + 9 Hallmark summaries</text>
+<text x='374.17' y='198.11' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='122.12px' lengthAdjust='spacingAndGlyphs'>Contemporaneous matched controls</text>
+<polyline points='365.67,206.93 283.46,221.10 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='285.86,219.11 283.46,221.10 286.39,222.18 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<polyline points='365.67,206.93 365.67,221.10 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='364.11,218.40 365.67,221.10 367.23,218.40 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<polyline points='365.67,206.93 447.87,221.10 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='444.95,222.18 447.87,221.10 445.48,219.11 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<rect x='248.03' y='222.52' width='70.87' height='25.51' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F1F1F1;' />
+<text x='283.46' y='237.79' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='27.23px' lengthAdjust='spacingAndGlyphs'>control A</text>
+<rect x='330.24' y='222.52' width='70.87' height='25.51' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F1F1F1;' />
+<text x='365.67' y='237.79' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='27.61px' lengthAdjust='spacingAndGlyphs'>control B</text>
+<rect x='412.44' y='222.52' width='70.87' height='25.51' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #E7EFF7;' />
+<text x='447.87' y='237.79' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='28.00px' lengthAdjust='spacingAndGlyphs'>control C</text>
+<rect x='248.03' y='257.95' width='70.87' height='42.52' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #FFFFFF;' />
+<rect x='330.24' y='257.95' width='70.87' height='42.52' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #FFFFFF;' />
+<text x='283.46' y='276.85' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='28.00px' lengthAdjust='spacingAndGlyphs'>treated A</text>
+<text x='283.46' y='286.60' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='33.27px' lengthAdjust='spacingAndGlyphs'>− control A</text>
+<text x='365.67' y='276.85' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='28.38px' lengthAdjust='spacingAndGlyphs'>treated B</text>
+<text x='365.67' y='286.60' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='33.64px' lengthAdjust='spacingAndGlyphs'>− control B</text>
+<polyline points='283.46,300.47 283.46,308.98 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='281.91,306.28 283.46,308.98 285.02,306.28 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<polyline points='365.67,300.47 365.67,308.98 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='364.11,306.28 365.67,308.98 367.23,306.28 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<text x='283.46' y='321.42' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='37.88px' lengthAdjust='spacingAndGlyphs'>response A</text>
+<text x='365.67' y='321.42' text-anchor='middle' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='38.12px' lengthAdjust='spacingAndGlyphs'>response B</text>
+<polyline points='283.46,248.03 283.46,256.54 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='281.91,253.84 283.46,256.54 285.02,253.84 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<polyline points='365.67,248.03 365.67,256.54 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='364.11,253.84 365.67,256.54 367.23,253.84 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<polyline points='447.87,248.03 447.87,265.04 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='446.31,262.34 447.87,265.04 449.43,262.34 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<rect x='412.44' y='266.46' width='70.87' height='39.69' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #E7EFF7;' />
+<text x='447.87' y='283.94' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='38.48px' lengthAdjust='spacingAndGlyphs'>control-state</text>
+<text x='447.87' y='293.68' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='32.27px' lengthAdjust='spacingAndGlyphs'>features C</text>
+<text x='371.34' y='341.25' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='61.47px' lengthAdjust='spacingAndGlyphs'>Disjoint cell subsets</text>
+<text x='8.50' y='348.71' style='font-size: 8.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='4.45px' lengthAdjust='spacingAndGlyphs'>c</text>
+<text x='25.51' y='348.35' style='font-size: 7.00px; font-weight: bold;fill: #282828; font-family: "Helvetica";' textLength='85.16px' lengthAdjust='spacingAndGlyphs'>Study-held-out prediction</text>
+<rect x='25.51' y='359.29' width='187.09' height='18.43' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F5F5F5;' />
+<text x='119.06' y='371.02' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='79.66px' lengthAdjust='spacingAndGlyphs'>Train: Norman + MIX-Seq</text>
+<polyline points='215.43,368.50 257.95,368.50 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='255.25,370.06 257.95,368.50 255.25,366.94 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<rect x='262.20' y='359.29' width='150.24' height='18.43' style='stroke-width: 0.41; stroke: #4C78A8; fill: #FFFFFF;' />
+<text x='337.32' y='371.02' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='44.34px' lengthAdjust='spacingAndGlyphs'>Test: Replogle</text>
+<rect x='25.51' y='381.97' width='187.09' height='18.43' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F5F5F5;' />
+<text x='119.06' y='393.69' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='82.41px' lengthAdjust='spacingAndGlyphs'>Train: Replogle + MIX-Seq</text>
+<polyline points='215.43,391.18 257.95,391.18 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='255.25,392.74 257.95,391.18 255.25,389.62 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<rect x='262.20' y='381.97' width='150.24' height='18.43' style='stroke-width: 0.41; stroke: #7B6BA8; fill: #FFFFFF;' />
+<text x='337.32' y='393.69' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='41.59px' lengthAdjust='spacingAndGlyphs'>Test: Norman</text>
+<rect x='25.51' y='404.65' width='187.09' height='18.43' style='stroke-width: 0.41; stroke: #C4CAD0; fill: #F5F5F5;' />
+<text x='119.06' y='416.37' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='80.08px' lengthAdjust='spacingAndGlyphs'>Train: Replogle + Norman</text>
+<polyline points='215.43,413.86 257.95,413.86 ' style='stroke-width: 0.45; stroke: #7B838B;' />
+<polygon points='255.25,415.42 257.95,413.86 255.25,412.30 ' style='stroke-width: 0.45; stroke: #7B838B; fill: #7B838B;' />
+<rect x='262.20' y='404.65' width='150.24' height='18.43' style='stroke-width: 0.41; stroke: #B8873A; fill: #FFFFFF;' />
+<text x='337.32' y='416.37' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='43.92px' lengthAdjust='spacingAndGlyphs'>Test: MIX-Seq</text>
+<text x='259.37' y='436.21' text-anchor='middle' style='font-size: 7.00px;fill: #282828; font-family: "Helvetica";' textLength='204.05px' lengthAdjust='spacingAndGlyphs'>Scaling, ridge penalties and model fitting use training studies only.</text>
+</g>
+</g>
+</svg>

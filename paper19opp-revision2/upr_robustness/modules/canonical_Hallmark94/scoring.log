@@ -1,0 +1,11 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Canonical94 scoring K562 2026-11-06 06:07:32 UTC 
+Canonical94 complete K562 reference90QAmax 9.903189e-14 elapsed 21.47 s
+Canonical94 scoring RPE1 2026-11-06 06:07:53 UTC 
+Canonical94 complete RPE1 reference90QAmax 1.94289e-14 elapsed 24.7 s
+Canonical94 scoring Adamson 2026-11-06 06:08:18 UTC 
+Canonical94 complete Adamson reference90QAmax 1.565414e-14 elapsed 0.98 s
+Canonical94 scoring Frangieh 2026-11-06 06:08:19 UTC 
+Canonical94 complete Frangieh reference90QAmax 7.313594e-15 elapsed 4.6 s

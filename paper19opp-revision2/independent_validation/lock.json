@@ -1,0 +1,214 @@
+{
+  "utc": "2026-11-06T08:03:36.608994+00:00",
+  "plan_sha256": "6f912519011c9bc2be3ee12780be8cb17f25f323a7328bae1a541edfc42436ed",
+  "frozen_files": [
+    {
+      "file": "independent_validation/frozen/all100_null_metric_calibration.tsv",
+      "sha256": "d5d3d529746ec0fed14f23df76724718990fbc9026a102fedaa6ce70f2e2ae0d"
+    },
+    {
+      "file": "independent_validation/frozen/exact_denominator_sensitivity_endpoints.tsv",
+      "sha256": "8491af196b06a42a99716616b380cc90e413287f8a4a6d09c333dc1e78489bf3"
+    },
+    {
+      "file": "independent_validation/frozen/metadata_eligibility_accounting.tsv",
+      "sha256": "08c9281abf2828c6a017fdacfd8e6313d988c7b7ba978ae8b2be262dc5424291"
+    },
+    {
+      "file": "independent_validation/frozen/all_source_comparator_rankings.tsv",
+      "sha256": "186d86996616e05f8cd6fe141ed26f0ece173d8ce2cd9d456abfa06dd64709ea"
+    },
+    {
+      "file": "independent_validation/frozen/RPE1_phase2_measurement_accounting.tsv",
+      "sha256": "753983e0138a80f05871e90616bb6bae03af764a7a19c4f9beba3be92b96ef0d"
+    },
+    {
+      "file": "independent_validation/frozen/primary_all100_module_controls.tsv",
+      "sha256": "9468f07c4e7a262147bcdde7676236cc2ab33d31d377a5bcdbc2eafb952a3983"
+    },
+    {
+      "file": "independent_validation/frozen/exact_denominator_CC100_utility_calibration.tsv",
+      "sha256": "b0509d8ece50b2a3c3e4cf44d01288dd94c01454e69fd9dd18bd424e55d8fa67"
+    },
+    {
+      "file": "independent_validation/frozen/strict_RPE_GEM_support_sensitivity.tsv",
+      "sha256": "cf6b03fe8853ff144f4bd803c76730384a50a38cca024c417b6ca9214402d5cd"
+    },
+    {
+      "file": "independent_validation/frozen/matching_estimability_before_RPE1.tsv",
+      "sha256": "72c56728690cead680e2aa0d2b9a2248b3d17cae59147616b11ebbdcc11f400f"
+    },
+    {
+      "file": "independent_validation/frozen/all100_fixed_null_ranking_metrics.tsv",
+      "sha256": "765c84322b7dad5fcfdef1f9889a2af38b695e0b7c4b443addf74ea988f3796e"
+    },
+    {
+      "file": "independent_validation/frozen/null100_source_rankings.tsv.gz",
+      "sha256": "7ceb65a1d9efd5a11a181d55ef4b70822ad4ebe546f879d24c5730aadf608098"
+    },
+    {
+      "file": "independent_validation/frozen/rpe1_UPR_exact_denominator_gene_effects.tsv",
+      "sha256": "950f23e1b22fb9be281907bfa4457c6a88a0ea067077f6ee09331fef946041b9"
+    },
+    {
+      "file": "independent_validation/frozen/source_UPR_exact_denominator_gene_effects.tsv",
+      "sha256": "45a667911510e7166c49223c87d36fa27d9ac21fa40d6130cb4175aba6662c7f"
+    },
+    {
+      "file": "independent_validation/frozen/quintile_group_summaries.tsv",
+      "sha256": "40958f6a2aa91c6ba8836feea1b375b1a7e2114eee0555a96fc1de092942d8bd"
+    },
+    {
+      "file": "independent_validation/frozen/source_rank_inputs.tsv",
+      "sha256": "c15ded173f7dcc4ff2e693343a4be96c3fb495a32003b2279287f9c9dd58a3cb"
+    },
+    {
+      "file": "independent_validation/frozen/primary_module_specificity_calibration.tsv",
+      "sha256": "a75e9aed1c2f7ceebe475ce58852a75841df5453cd06ef402ecf2db822d3c107"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_ranking_metrics.tsv",
+      "sha256": "2c9ed5aa8c567d99b5a567e77c9e1ca59cffbedb447f6df49142c59668b2a1f0"
+    },
+    {
+      "file": "independent_validation/frozen/quintile_trend_estimates.tsv",
+      "sha256": "520790f75cf555df62e75192ad6ae0f386a8b2bc3af6b493d7ad1b5c53bc9d37"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_source_rankings.tsv",
+      "sha256": "cbb247f951ef00973000bea5a1ac16d44f6a9b66e664570a0ebf27f7e7b5c02b"
+    },
+    {
+      "file": "independent_validation/frozen/primary_quintile_projection_trend_estimates.tsv",
+      "sha256": "6774267cb9ef8e70ca7062428ff12d98424c657ee2eea22246caf6dc5d68af22"
+    },
+    {
+      "file": "independent_validation/frozen/manuscript_revised_red.tex",
+      "sha256": "187b738bf110ffe48885c7f93e815f47b541ca080f72fe6acf20023b0b8b1c5f"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_module_specificity_calibration.tsv",
+      "sha256": "dca7e32f2f46006e03a9ff944a712b791f910bc7e94cc1b63b3d5fcef157db76"
+    },
+    {
+      "file": "independent_validation/frozen/matching_covariate_availability.tsv",
+      "sha256": "c75d0760ceb6252ac54b09ac5cd2540eda7e49bfc5f6fefe4860a61b0eeb56c7"
+    },
+    {
+      "file": "independent_validation/frozen/exact_denominator_baseline_utility.tsv",
+      "sha256": "6bebe17ab43d05f454de31219b370c7d8bd2d45ad6d11040f4f27f10f8a8136d"
+    },
+    {
+      "file": "independent_validation/frozen/primary_Holm3_endpoints.tsv",
+      "sha256": "c752535c5cacaa85c1c666b4205850c04e1de5ec9142acac7b8838690242cc6a"
+    },
+    {
+      "file": "independent_validation/frozen/equal100_fixed_baseline_sensitivity.tsv",
+      "sha256": "b6030d955d8cf894a0e29570095a50ecdcaa1c6d295216d9a96cfccebc00d40b"
+    },
+    {
+      "file": "independent_validation/frozen/ranking_exact_equal100_sensitivities.tsv",
+      "sha256": "6ceed530cd2752771c46ed26a785b970551dbbf37eef5ab6d666803319e81403"
+    },
+    {
+      "file": "independent_validation/frozen/supplementary_revised_red.tex",
+      "sha256": "48439ea6bc76e07f3805f3806452ff6a200442f7c549f2a9701e9e001ce3ebd8"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_background_positive_enrichment.tsv",
+      "sha256": "e722efcd0f433d5f29e8cf5e35644f6186980ad9f9535e48b16be948a1ea66d6"
+    },
+    {
+      "file": "independent_validation/frozen/frozen_background_matches.tsv",
+      "sha256": "bbd7097555938436d5acd49ebb0356639c21fd85cf6f83ffa6ade4085720abd1"
+    },
+    {
+      "file": "independent_validation/frozen/joint_Holm7_tests.tsv",
+      "sha256": "f49a80040ca0808bc1430d3cc81ca4c08f8e4e1e68da6103e52339b0e06c6751"
+    },
+    {
+      "file": "independent_validation/frozen/quintile_ordered_draw_fractions.tsv",
+      "sha256": "af9aa9dc478f5103e24b7ece4c18634edc74c74805ab741d72f92374515295bd"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_list_direction_absolute_summaries.tsv",
+      "sha256": "838832626e96cbafe8f1b9198722d0d3a8835309b7528025995f3bbae63836e3"
+    },
+    {
+      "file": "independent_validation/frozen/uniform_random_ranking_reference.tsv",
+      "sha256": "5e045a74a29193ac44e7d1336b9b3da84133dea3f54712b2cb766e9d6320614f"
+    },
+    {
+      "file": "independent_validation/frozen/all438_gene_UPR_response_and_fixed_rank.tsv",
+      "sha256": "f1f1626eda6fe508f8c209dd9d4569f3cfeef26296abbdb5657cbbbabb0b08b0"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_null100_list_membership.tsv.gz",
+      "sha256": "1e959ee81f42f1a5258b63118bbcb8ae17679aeb7adc324b04627bf94a8e3407"
+    },
+    {
+      "file": "independent_validation/frozen/complete_case_baseline_utility.tsv",
+      "sha256": "921a703d0e583c12d42a14315927bc26426284718cf412e5da6565afd50387a3"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_matching_estimability.tsv",
+      "sha256": "87b02c45432eb39aa5967d4693515bc1365c3684a8e44996a417bb598e5fda57"
+    },
+    {
+      "file": "independent_validation/frozen/source_quintile_membership.tsv",
+      "sha256": "9fbe0fc459e271cf24c398bc77db2e2ca844844fc7762223f370d5a347461a9a"
+    },
+    {
+      "file": "independent_validation/frozen/quintile_exact_equal100_sensitivities.tsv",
+      "sha256": "f0c0bf47f4668eefa4d14f2014e7971a5a552a5088861882e87a7a7db499ab09"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_background_matches.tsv",
+      "sha256": "eef0245e1964e736d09329a6e774bd68a4e7d49c650a9d3d8eec790d977f5578"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_direction_agreement.tsv",
+      "sha256": "cfea272bc38edc35aa59eb0dd7a70f8de3f687db242ecbd9ee054985c71e9182"
+    },
+    {
+      "file": "independent_validation/frozen/quintile_adjacent_simultaneous_intervals.tsv",
+      "sha256": "ddecba6b343b9aa80048666584f80b60727333f4ec13f0a010ceb1c8ac4f6750"
+    },
+    {
+      "file": "independent_validation/frozen/equal100_target_cell_summary.tsv",
+      "sha256": "e8701389112ac0ead43032719440ebed5cde9027eef3663ee832cd0a5993fc46"
+    },
+    {
+      "file": "independent_validation/frozen/matching_balance_before_RPE1.tsv",
+      "sha256": "99c5d9c672c2f63c5aee2803f7814ad7cdfbb18eae5aff8f009329b89dd02c88"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_list_leave_one_matched_set_out.tsv",
+      "sha256": "75eef46148b4d32ac7f4db76f6395a090817a485178de7b8b060f090fe6e59da"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_all100_module_controls.tsv",
+      "sha256": "ff7f728dcddb1d6761bc9d57cd649a3398efc62272af843f57a0a20fd572f232"
+    },
+    {
+      "file": "independent_validation/frozen/paired_method_differences.tsv",
+      "sha256": "f6d6cbfb2fadfe7548ec0d4249463d9d43e7211ed8cd4090774a3bb6dadfecdd"
+    },
+    {
+      "file": "independent_validation/frozen/complete_covariate_sensitivity_endpoints.tsv",
+      "sha256": "6c03c5635b0190e4a238a0089259e37c47efccb81bead100e1434c6b4e9ffbe4"
+    },
+    {
+      "file": "independent_validation/frozen/RPE1_gene_effects_all105.tsv.gz",
+      "sha256": "f9bfd506bf9b85326aa586b961c5725a247bf988c4b3872b2fccd80fcad84b10"
+    },
+    {
+      "file": "independent_validation/frozen/exact_denominator_CC100_fixed_null_utility.tsv",
+      "sha256": "0dbbb257a972cb45e8def46fb025c02391cf0fa4a9abe80f94d7613bec2a054e"
+    },
+    {
+      "file": "independent_validation/frozen/fixed_Top20_gene_responses.tsv",
+      "sha256": "d647abcda1703f307989bcf1836032a5650c89c3dd216a88ec86d1949c614c64"
+    }
+  ]
+}

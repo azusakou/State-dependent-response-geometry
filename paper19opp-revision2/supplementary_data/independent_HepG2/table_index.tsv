@@ -1,0 +1,19 @@
+file	rows	columns	description
+all_fixed_baseline_metrics.tsv	84	11	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+all_ordering_results.tsv	6	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+all100_module_priority_metrics.tsv	1200	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+assayed_frozen_universe.tsv	6523	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+figure_panel_a_source.tsv	438	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+figure_panel_b_source.tsv	20	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+figure_panel_c_source.tsv	14	11	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+figure_panel_d_source.tsv	200	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+frozen_metadata_cohorts.tsv	438	5	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+frozen_source_rankings.tsv	3066	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+frozen_UPR90_members.tsv	90	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+HepG2_gene_effects.tsv	876	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+literal_list_intervals_with_parameter_bounds.tsv	48	9	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+matched_module_priority_calibration.tsv	36	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+primary_Holm5.tsv	5	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+shared_GEM_intervals.tsv	18	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+unavailable_library_members.tsv	257	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+uniform_reference_summaries.tsv	12	13	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified

@@ -1,0 +1,7 @@
+cohort	source_groups	observed_means_nondecreasing	resampling	draws	all_five_means_ordered_fraction
+complete370	fixed_primary438	FALSE	whole_gene	2000	0.184
+complete370	fixed_primary438	FALSE	shared_GEM_wild	2000	5e-04
+complete370	fixed_primary438	FALSE	equal100	200	0
+strict390	fixed_primary438	FALSE	whole_gene	2000	0.1685
+strict390	fixed_primary438	FALSE	shared_GEM_wild	2000	0
+strict390	fixed_primary438	FALSE	equal100	200	0

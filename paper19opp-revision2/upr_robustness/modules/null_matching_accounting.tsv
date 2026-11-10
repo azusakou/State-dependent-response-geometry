@@ -1,0 +1,9 @@
+family	random_sets	readout_members	member_draws	unique_sampled_genes	nonexact_bin_draws	max_bin_distance
+ER_folding_full	100	9	900	741	0	0
+ERAD_full	100	67	6700	4018	0	0
+ER_targeting_full	100	34	3400	2429	0	0
+ISR_full	100	20	2000	1613	0	0
+Reactome_UPR_full	100	69	6900	4275	0	0
+GO_ER_UPR_full	100	41	4100	2894	0	0
+Reactome_UPR_no_Hallmark	100	30	3000	2352	0	0
+GO_ER_UPR_no_Hallmark	100	32	3200	2348	0	0

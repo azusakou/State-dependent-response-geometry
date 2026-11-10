@@ -1,0 +1,18 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Started K562 2026-11-06 05:45:15 UTC 
+K562 cells through 2500 retained 816 / 98052 elapsed 2.6 s
+K562 cells through 27500 retained 8588 / 98052 elapsed 11.2 s
+K562 cells through 52500 retained 16454 / 98052 elapsed 17.9 s
+K562 cells through 77500 retained 24361 / 98052 elapsed 25 s
+K562 cells through 102500 retained 32033 / 98052 elapsed 32.1 s
+K562 cells through 127500 retained 39982 / 98052 elapsed 38.7 s
+K562 cells through 152500 retained 47867 / 98052 elapsed 45.2 s
+K562 cells through 177500 retained 55892 / 98052 elapsed 52.7 s
+K562 cells through 202500 retained 63778 / 98052 elapsed 58.9 s
+K562 cells through 227500 retained 71751 / 98052 elapsed 65.9 s
+K562 cells through 252500 retained 79585 / 98052 elapsed 72.8 s
+K562 cells through 277500 retained 87545 / 98052 elapsed 79.2 s
+K562 cells through 302500 retained 95515 / 98052 elapsed 86.5 s
+Completed K562 cells 98052 controls 9775 elapsed 106.7515 s

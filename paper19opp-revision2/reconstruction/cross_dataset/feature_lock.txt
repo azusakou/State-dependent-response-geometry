@@ -1,0 +1,5 @@
+metadata-only feature lock; no validation effects inspected
+Hallmark source: /Users/wang/Documents/paper6yhn/resource/networks/hallmark_human.tsv.gz
+Measured external symbols: /Users/wang/Documents/paper19opp/paper19opp-revision2/reconstruction/candidate_validation/adamson_measured_gene_symbols.txt
+Measured external symbols: /Users/wang/Documents/paper19opp/paper19opp-revision2/reconstruction/external_resources/frangieh_measured_gene_symbols.txt
+Frozen axes: apoptosis, proliferation, stress, hallmark_UNFOLDED_PROTEIN_RESPONSE, hallmark_E2F_TARGETS, hallmark_G2M_CHECKPOINT, hallmark_P53_PATHWAY, hallmark_TNFA_SIGNALING_VIA_NFKB, hallmark_INTERFERON_GAMMA_RESPONSE, hallmark_MTORC1_SIGNALING, hallmark_OXIDATIVE_PHOSPHORYLATION, hallmark_HYPOXIA

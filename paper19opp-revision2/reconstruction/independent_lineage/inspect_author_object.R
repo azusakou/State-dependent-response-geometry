@@ -1,0 +1,17 @@
+#!/usr/bin/env Rscript
+suppressPackageStartupMessages({library(data.table);library(Matrix);library(SeuratObject)})
+out<-'paper19opp-revision2/reconstruction/independent_lineage';dir.create(out,showWarnings=FALSE,recursive=TRUE)
+started<-Sys.time();cat('Started',format(started,tz='UTC'),'UTC\n');flush.console()
+env<-new.env();objects<-load('/Volumes/wang/paper8ikk/data/raw/GSE253739_FIGSHARE/all_data_final_lineages.RData',envir=env)
+writeLines(objects,file.path(out,'primary_object_names.txt'));cat('Loaded',paste(objects,collapse=','),'elapsed',as.numeric(difftime(Sys.time(),started,units='secs')),'seconds\n');flush.console()
+x<-env[['all_data']];writeLines(c(paste('Class',paste(class(x),collapse=',')),paste('Slots',paste(slotNames(x),collapse=','))),file.path(out,'primary_object_schema.txt'))
+meta<-as.data.table(x@meta.data,keep.rownames='cell_id');fwrite(data.table(column=names(meta),class=vapply(meta,function(v)class(v)[1],character(1)),unique_values=vapply(meta,uniqueN,integer(1))),file.path(out,'primary_metadata_schema.tsv'),sep='\t')
+fwrite(meta,file.path(out,'primary_cell_metadata.tsv.gz'),sep='\t')
+audit<-list();for(nm in names(meta)){v<-meta[[nm]];if(uniqueN(v)<=1000L && (is.factor(v)||is.character(v)||is.logical(v))){z<-as.data.table(table(as.character(v),useNA='ifany'));setnames(z,c('value','cells'));z[,column:=nm];audit[[nm]]<-z}}
+fwrite(rbindlist(audit,fill=TRUE),file.path(out,'primary_metadata_levels.tsv'),sep='\t')
+assay<-x@assays[['RNA']];writeLines(c(paste('Assay class',paste(class(assay),collapse=',')),paste('Assay slots',paste(slotNames(assay),collapse=','))),file.path(out,'primary_count_schema.txt'))
+counts<-if('counts'%in%slotNames(assay))assay@counts else SeuratObject::LayerData(x,assay='RNA',layer='counts')
+writeLines(c(paste('Cells',ncol(counts)),paste('Features',nrow(counts)),paste('Class',class(counts)),paste('Duplicate symbols',sum(duplicated(rownames(counts))))),file.path(out,'primary_count_dimensions.txt'))
+writeLines(rownames(counts),file.path(out,'primary_measured_gene_symbols.txt'))
+saveRDS(counts,file.path(out,'primary_counts.rds'),compress=FALSE)
+cat('Inspection complete; counts cached; elapsed',as.numeric(difftime(Sys.time(),started,units='secs')),'seconds\n')

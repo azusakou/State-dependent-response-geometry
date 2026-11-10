@@ -1,0 +1,6 @@
+Metadata-only overlap:454 genes under weak source>=100cells/3GEM-label rule.
+Prespecified source support:>=3GEMs each>=5targetcells excludes16 of those genes, leaving438.
+No RNA effect, sign, significance or target-expression gate was used.
+390 is a separate stricter RPE1>=3GEMs each>=5targetcells sensitivity, not the primary panel.
+The author RPE1 roster has no QC/doublet flag; finite positive recorded UMI metadata is retained without a fitted classifier.
+Source cell ordering and gene/GEM annotations were verified against the raw source object.

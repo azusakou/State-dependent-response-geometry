@@ -1,0 +1,11 @@
+Secondary integration-specific candidate score fixed before external response-effect evaluation:
+
+Norman and MIX-Seq train the source-held-out response models; Replogle supplies the discovery pilot and control state only. External Adamson and Frangieh observations never enter model training, tuning, score construction or target choice.
+
+Use the harmonized Replogle-selected program and sign and its fixed median GEM response cosine. For each discovery gene covered by the source-held-out predictions, pool predicted program deltas with the predeclared treated-cell weights and express them in global Replogle control-SD units. Define integrated_score = max(discovery_sign * predicted_target_delta_z, 0) * max(Replogle_GEM_cosine, 0) / (1 + Euclidean norm of the other two predicted program deltas_z).
+
+Apply the identical transformation to the pilot-response-only comparator. Compare integrated priority, pilot-only priority, measured Replogle composite and simple magnitude rankings on the SAME genes covered by both prediction models and the external assay's metadata gates. No missing prediction is filled or extrapolated. Report gene coverage and omit Top10 comparisons if the covered universe is too small for a selected/rest contrast.
+
+The measured Replogle composite remains the primary prioritization analysis. This secondary score tests whether integration supplies incremental independent-study response ranking within its evaluable coverage. The use of measured Replogle agreement is shared by all secondary variants and is not a claim that discovery measurements can be replaced by a small pilot.
+
+The formula is exploratory and was specified during revision before reading external response effects, not preregistered before data generation. All models and fixed score variants are reported, whether they improve performance or not.

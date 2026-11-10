@@ -1,0 +1,9 @@
+{
+  "time_utc": "2026-11-06T05:33:56.836054+00:00",
+  "protocol": "inference_protocol.txt",
+  "sha256": "c093d504c9bba1300130fe20a06a5cd643edce717c6330253662071728d9b23a",
+  "initial_protocol_sha256": "e8cff07d1c4023b4dd359ac32bf6179a3ccde4b0aa3defb92c7903a8711cf3d2",
+  "prior_outcomes_previously_observed": true,
+  "new_signature_response_files_loaded": false,
+  "clarification_basis": "Authoritative sixteen-readout specification, unchanged6780 measurement basis, sign-marginal controls and normalization-matched null assay before new summaries."
+}

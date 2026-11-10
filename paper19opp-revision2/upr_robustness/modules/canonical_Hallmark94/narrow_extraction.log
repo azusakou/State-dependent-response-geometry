@@ -1,0 +1,11 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Narrow four-gene extraction K562 2026-11-06 06:03:53 UTC 
+Complete K562 elapsed 84.42 s; overlapQAerror 0 
+Narrow four-gene extraction RPE1 2026-11-06 06:05:17 UTC 
+Complete RPE1 elapsed 69.19 s; overlapQAerror 0 
+Narrow four-gene extraction Adamson 2026-11-06 06:06:27 UTC 
+Complete Adamson elapsed 17.25 s; overlapQAerror 0 
+Narrow four-gene extraction Frangieh 2026-11-06 06:06:44 UTC 
+Complete Frangieh elapsed 1.66 s; overlapQAerror NA 

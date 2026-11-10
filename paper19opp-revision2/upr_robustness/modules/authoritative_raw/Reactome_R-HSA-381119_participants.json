@@ -1,0 +1,3335 @@
+[
+  {
+    "peDbId": 381168,
+    "displayName": "ATF6:BiP [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      },
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 381062,
+    "displayName": "BiP:Unfolded Protein [endoplasmic reticulum lumen]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 381222,
+    "displayName": "ATF6 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 381131,
+    "displayName": "MBTPS2 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 59577,
+        "stId": "uniprot:O43462",
+        "identifier": "O43462",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43462 MBTPS2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43462"
+      }
+    ]
+  },
+  {
+    "peDbId": 420815,
+    "displayName": "ATF6(1-419) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 381075,
+    "displayName": "ATF6(1-380) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 420817,
+    "displayName": "ATF6(380-419) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 381000,
+    "displayName": "ATF6 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 381211,
+    "displayName": "ATF6(1-380) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 381108,
+    "displayName": "MBTPS1 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 59573,
+        "stId": "uniprot:Q14703",
+        "identifier": "Q14703",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q14703 MBTPS1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q14703"
+      }
+    ]
+  },
+  {
+    "peDbId": 420814,
+    "displayName": "ATF6(420-670) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50425,
+        "stId": "uniprot:P18850",
+        "identifier": "P18850",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18850 ATF6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18850"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642304,
+    "displayName": "HSP90B1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642263,
+        "stId": "ensembl:ENSG00000166598",
+        "identifier": "ENSG00000166598",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000166598 HSP90B1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000166598"
+      }
+    ]
+  },
+  {
+    "peDbId": 981545,
+    "displayName": "HSP90B1 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54332,
+        "stId": "uniprot:P14625",
+        "identifier": "P14625",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P14625 HSP90B1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P14625"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642250,
+    "displayName": "CALR gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642282,
+        "stId": "ensembl:ENSG00000179218",
+        "identifier": "ENSG00000179218",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000179218 CALR",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000179218"
+      }
+    ]
+  },
+  {
+    "peDbId": 195905,
+    "displayName": "CALR [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 52824,
+        "stId": "uniprot:P27797",
+        "identifier": "P27797",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P27797 CALR",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P27797"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642261,
+    "displayName": "HSPA5 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642283,
+        "stId": "ensembl:ENSG00000044574",
+        "identifier": "ENSG00000044574",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000044574 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000044574"
+      }
+    ]
+  },
+  {
+    "peDbId": 351315,
+    "displayName": "HSPA5 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 381204,
+    "displayName": "NF-Y [nucleoplasm]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 403380,
+        "stId": "uniprot:P23511",
+        "identifier": "P23511",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P23511 NFYA",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P23511"
+      },
+      {
+        "dbId": 51472,
+        "stId": "uniprot:P25208",
+        "identifier": "P25208",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P25208 NFYB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P25208"
+      },
+      {
+        "dbId": 405676,
+        "stId": "uniprot:Q13952",
+        "identifier": "Q13952",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q13952 NFYC",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q13952"
+      }
+    ]
+  },
+  {
+    "peDbId": 381016,
+    "displayName": "ATF4 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50471,
+        "stId": "uniprot:P18848",
+        "identifier": "P18848",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18848 ATF4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18848"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642256,
+    "displayName": "DDIT3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642209,
+        "stId": "ensembl:ENSG00000175197",
+        "identifier": "ENSG00000175197",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000175197 DDIT3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000175197"
+      }
+    ]
+  },
+  {
+    "peDbId": 381110,
+    "displayName": "DDIT3 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 55236,
+        "stId": "uniprot:P35638",
+        "identifier": "P35638",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P35638 DDIT3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P35638"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642223,
+    "displayName": "XBP1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642274,
+        "stId": "ensembl:ENSG00000100219",
+        "identifier": "ENSG00000100219",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000100219 XBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000100219"
+      }
+    ]
+  },
+  {
+    "peDbId": 381096,
+    "displayName": "XBP1-2 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 254865,
+        "stId": "uniprot:P17861-2",
+        "identifier": "P17861-2",
+        "schemaClass": "ReferenceIsoform",
+        "displayName": "UniProt:P17861-2 XBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P17861-2"
+      }
+    ]
+  },
+  {
+    "peDbId": 381076,
+    "displayName": "ERN1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 147032,
+        "stId": "uniprot:O75460",
+        "identifier": "O75460",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O75460 ERN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O75460"
+      }
+    ]
+  },
+  {
+    "peDbId": 381200,
+    "displayName": "IRE1 dimer [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 147032,
+        "stId": "uniprot:O75460",
+        "identifier": "O75460",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O75460 ERN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O75460"
+      }
+    ]
+  },
+  {
+    "peDbId": 381202,
+    "displayName": "IRE1:BiP [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 147032,
+        "stId": "uniprot:O75460",
+        "identifier": "O75460",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O75460 ERN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O75460"
+      },
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 381078,
+    "displayName": "p-S724-IRE1 dimer:ADP [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 8869367,
+        "stId": "chebi:456216",
+        "identifier": "456216",
+        "schemaClass": "ReferenceMolecule",
+        "displayName": "ADP(3-) [ChEBI:456216]",
+        "icon": "SimpleEntity",
+        "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:456216"
+      },
+      {
+        "dbId": 147032,
+        "stId": "uniprot:O75460",
+        "identifier": "O75460",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O75460 ERN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O75460"
+      }
+    ]
+  },
+  {
+    "peDbId": 425921,
+    "displayName": "Xbp1 mRNA (unspliced) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 380996,
+        "stId": "ensembl:ENST00000216037",
+        "identifier": "ENST00000216037",
+        "schemaClass": "ReferenceRNASequence",
+        "displayName": "ENSEMBL:ENST00000216037 XBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENST00000216037"
+      }
+    ]
+  },
+  {
+    "peDbId": 425925,
+    "displayName": "Xbp1 mRNA (spliced) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 381165,
+        "stId": "ensembl:ENST00000344347",
+        "identifier": "ENST00000344347",
+        "schemaClass": "ReferenceRNASequence",
+        "displayName": "ENSEMBL:ENST00000344347 XBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENST00000344347"
+      }
+    ]
+  },
+  {
+    "peDbId": 113592,
+    "displayName": "ATP [cytosol]",
+    "schemaClass": "SimpleEntity",
+    "refEntities": [
+      {
+        "dbId": 8869364,
+        "stId": "chebi:30616",
+        "identifier": "30616",
+        "schemaClass": "ReferenceMolecule",
+        "displayName": "ATP(4-) [ChEBI:30616]",
+        "icon": "SimpleEntity",
+        "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30616"
+      }
+    ]
+  },
+  {
+    "peDbId": 381154,
+    "displayName": "p-S724-IRE1 dimer [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 147032,
+        "stId": "uniprot:O75460",
+        "identifier": "O75460",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O75460 ERN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O75460"
+      }
+    ]
+  },
+  {
+    "peDbId": 29370,
+    "displayName": "ADP [cytosol]",
+    "schemaClass": "SimpleEntity",
+    "refEntities": [
+      {
+        "dbId": 8869367,
+        "stId": "chebi:456216",
+        "identifier": "456216",
+        "schemaClass": "ReferenceMolecule",
+        "displayName": "ADP(3-) [ChEBI:456216]",
+        "icon": "SimpleEntity",
+        "url": "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:456216"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642279,
+    "displayName": "ADD1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642310,
+        "stId": "ensembl:ENSG00000087274",
+        "identifier": "ENSG00000087274",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000087274 ADD1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000087274"
+      }
+    ]
+  },
+  {
+    "peDbId": 201623,
+    "displayName": "ADD1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 49704,
+        "stId": "uniprot:P35611",
+        "identifier": "P35611",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P35611 ADD1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P35611"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642286,
+    "displayName": "YIF1A gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642294,
+        "stId": "ensembl:ENSG00000174851",
+        "identifier": "ENSG00000174851",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000174851 YIF1A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000174851"
+      }
+    ]
+  },
+  {
+    "peDbId": 535599,
+    "displayName": "YIF1A [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 255989,
+        "stId": "uniprot:O95070",
+        "identifier": "O95070",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O95070 YIF1A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O95070"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642243,
+    "displayName": "TLN1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642254,
+        "stId": "ensembl:ENSG00000137076",
+        "identifier": "ENSG00000137076",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000137076 TLN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000137076"
+      }
+    ]
+  },
+  {
+    "peDbId": 350713,
+    "displayName": "TLN1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 66093,
+        "stId": "uniprot:Q9Y490",
+        "identifier": "Q9Y490",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y490 TLN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y490"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642252,
+    "displayName": "TPP1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642219,
+        "stId": "ensembl:ENSG00000166340",
+        "identifier": "ENSG00000166340",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000166340 TPP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000166340"
+      }
+    ]
+  },
+  {
+    "peDbId": 535504,
+    "displayName": "TPP1 [lysosomal lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 66313,
+        "stId": "uniprot:O14773",
+        "identifier": "O14773",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O14773 TPP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O14773"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642266,
+    "displayName": "SRPR gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642301,
+        "stId": "ensembl:ENSG00000182934",
+        "identifier": "ENSG00000182934",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000182934 SRPRA",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000182934"
+      }
+    ]
+  },
+  {
+    "peDbId": 264970,
+    "displayName": "SRPR [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 65060,
+        "stId": "uniprot:P08240",
+        "identifier": "P08240",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P08240 SRPRA",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P08240"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642247,
+    "displayName": "DNAJB11 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642269,
+        "stId": "ensembl:ENSG00000090520",
+        "identifier": "ENSG00000090520",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000090520 DNAJB11",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000090520"
+      }
+    ]
+  },
+  {
+    "peDbId": 381040,
+    "displayName": "DNAJB11 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 53692,
+        "stId": "uniprot:Q9UBS4",
+        "identifier": "Q9UBS4",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9UBS4 DNAJB11",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9UBS4"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642262,
+    "displayName": "SYVN1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642217,
+        "stId": "ensembl:ENSG00000162298",
+        "identifier": "ENSG00000162298",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000162298 SYVN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000162298"
+      }
+    ]
+  },
+  {
+    "peDbId": 535496,
+    "displayName": "SYVN1(1-617) [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 250155,
+        "stId": "uniprot:Q86TM6",
+        "identifier": "Q86TM6",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q86TM6 SYVN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q86TM6"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642277,
+    "displayName": "EXTL3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642229,
+        "stId": "ensembl:ENSG00000012232",
+        "identifier": "ENSG00000012232",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000012232 EXTL3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000012232"
+      }
+    ]
+  },
+  {
+    "peDbId": 535476,
+    "displayName": "EXTL3 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54540,
+        "stId": "uniprot:O43909",
+        "identifier": "O43909",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43909 EXTL3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43909"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642257,
+    "displayName": "PREB gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642239,
+        "stId": "ensembl:ENSG00000138073",
+        "identifier": "ENSG00000138073",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000138073 PREB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000138073"
+      }
+    ]
+  },
+  {
+    "peDbId": 203984,
+    "displayName": "PREB [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 62140,
+        "stId": "uniprot:Q9HCU5",
+        "identifier": "Q9HCU5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9HCU5 PREB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9HCU5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8953370,
+    "displayName": "EXTL1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 8953368,
+        "stId": "ensembl:ENSG00000158008",
+        "identifier": "ENSG00000158008",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000158008 EXTL1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000158008"
+      }
+    ]
+  },
+  {
+    "peDbId": 8953369,
+    "displayName": "EXTL1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54536,
+        "stId": "uniprot:Q92935",
+        "identifier": "Q92935",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q92935 EXTL1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q92935"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642210,
+    "displayName": "TATDN2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642233,
+        "stId": "ensembl:ENSG00000157014",
+        "identifier": "ENSG00000157014",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000157014 TATDN2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000157014"
+      }
+    ]
+  },
+  {
+    "peDbId": 535508,
+    "displayName": "TATDN2 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67542,
+        "stId": "uniprot:Q93075",
+        "identifier": "Q93075",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q93075 TATDN2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q93075"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642226,
+    "displayName": "DCTN1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642268,
+        "stId": "ensembl:ENSG00000204843",
+        "identifier": "ENSG00000204843",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000204843 DCTN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000204843"
+      }
+    ]
+  },
+  {
+    "peDbId": 535580,
+    "displayName": "DCTN1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 405704,
+        "stId": "uniprot:Q14203",
+        "identifier": "Q14203",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q14203 DCTN1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q14203"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642211,
+    "displayName": "DNAJC3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642272,
+        "stId": "ensembl:ENSG00000102580",
+        "identifier": "ENSG00000102580",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000102580 DNAJC3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000102580"
+      }
+    ]
+  },
+  {
+    "peDbId": 448201,
+    "displayName": "DNAJC3 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 405575,
+        "stId": "uniprot:Q13217",
+        "identifier": "Q13217",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q13217 DNAJC3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q13217"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642305,
+    "displayName": "CXXC1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642205,
+        "stId": "ensembl:ENSG00000154832",
+        "identifier": "ENSG00000154832",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000154832 CXXC1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000154832"
+      }
+    ]
+  },
+  {
+    "peDbId": 535610,
+    "displayName": "CXXC1 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 51970,
+        "stId": "uniprot:Q9P0U4",
+        "identifier": "Q9P0U4",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9P0U4 CXXC1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9P0U4"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642312,
+    "displayName": "GFPT1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642242,
+        "stId": "ensembl:ENSG00000198380",
+        "identifier": "ENSG00000198380",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000198380 GFPT1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000198380"
+      }
+    ]
+  },
+  {
+    "peDbId": 532216,
+    "displayName": "GFPT1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 55576,
+        "stId": "uniprot:Q06210",
+        "identifier": "Q06210",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q06210 GFPT1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q06210"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642202,
+    "displayName": "GOSR2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642204,
+        "stId": "ensembl:ENSG00000108433",
+        "identifier": "ENSG00000108433",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000108433 GOSR2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000108433"
+      }
+    ]
+  },
+  {
+    "peDbId": 535472,
+    "displayName": "GOSR2 [endoplasmic reticulum-Golgi intermediate compartment membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 55980,
+        "stId": "uniprot:O14653",
+        "identifier": "O14653",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O14653 GOSR2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O14653"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642260,
+    "displayName": "EDEM1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642253,
+        "stId": "ensembl:ENSG00000134109",
+        "identifier": "ENSG00000134109",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000134109 EDEM1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000134109"
+      }
+    ]
+  },
+  {
+    "peDbId": 381083,
+    "displayName": "EDEM1 [endoplasmic reticulum quality control compartment]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67540,
+        "stId": "uniprot:Q92611",
+        "identifier": "Q92611",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q92611 EDEM1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q92611"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642230,
+    "displayName": "SSR1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642271,
+        "stId": "ensembl:ENSG00000124783",
+        "identifier": "ENSG00000124783",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000124783 SSR1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000124783"
+      }
+    ]
+  },
+  {
+    "peDbId": 444588,
+    "displayName": "SSR1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 404056,
+        "stId": "uniprot:P43307",
+        "identifier": "P43307",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P43307 SSR1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P43307"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642292,
+    "displayName": "C19orf10 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642280,
+        "stId": "ensembl:ENSG00000074842",
+        "identifier": "ENSG00000074842",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000074842 MYDGF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000074842"
+      }
+    ]
+  },
+  {
+    "peDbId": 535584,
+    "displayName": "C19orf10 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145959,
+        "stId": "uniprot:Q969H8",
+        "identifier": "Q969H8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q969H8 MYDGF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q969H8"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642299,
+    "displayName": "SERP1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642214,
+        "stId": "ensembl:ENSG00000120742",
+        "identifier": "ENSG00000120742",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000120742 SERP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000120742"
+      }
+    ]
+  },
+  {
+    "peDbId": 381045,
+    "displayName": "SERP1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 247925,
+        "stId": "uniprot:Q9Y6X1",
+        "identifier": "Q9Y6X1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y6X1 SERP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y6X1"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642207,
+    "displayName": "PPP2R5B gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642206,
+        "stId": "ensembl:ENSG00000068971",
+        "identifier": "ENSG00000068971",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000068971 PPP2R5B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000068971"
+      }
+    ]
+  },
+  {
+    "peDbId": 535469,
+    "displayName": "PPP2R5B [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 405832,
+        "stId": "uniprot:Q15173",
+        "identifier": "Q15173",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q15173 PPP2R5B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q15173"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642246,
+    "displayName": "WIPI1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642225,
+        "stId": "ensembl:ENSG00000070540",
+        "identifier": "ENSG00000070540",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000070540 WIPI1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000070540"
+      }
+    ]
+  },
+  {
+    "peDbId": 535609,
+    "displayName": "WIPI1 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 254770,
+        "stId": "uniprot:Q5MNZ9",
+        "identifier": "Q5MNZ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q5MNZ9 WIPI1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q5MNZ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642296,
+    "displayName": "SULT1A3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642309,
+        "stId": "ensembl:ENSG00000261052",
+        "identifier": "ENSG00000261052",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000261052 SULT1A4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000261052"
+      }
+    ]
+  },
+  {
+    "peDbId": 5634741,
+    "displayName": "SULT1A3 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5634269,
+        "stId": "uniprot:P0DMM9",
+        "identifier": "P0DMM9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P0DMM9 SULT1A3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P0DMM9"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642303,
+    "displayName": "WFS1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642297,
+        "stId": "ensembl:ENSG00000109501",
+        "identifier": "ENSG00000109501",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000109501 WFS1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000109501"
+      }
+    ]
+  },
+  {
+    "peDbId": 535474,
+    "displayName": "WFS1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67342,
+        "stId": "uniprot:O76024",
+        "identifier": "O76024",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O76024 WFS1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O76024"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642245,
+    "displayName": "DDX11 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642284,
+        "stId": "ensembl:ENSG00000013573",
+        "identifier": "ENSG00000013573",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000013573 DDX11",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000013573"
+      }
+    ]
+  },
+  {
+    "peDbId": 535492,
+    "displayName": "DDX11 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 226678,
+        "stId": "uniprot:Q96FC9",
+        "identifier": "Q96FC9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96FC9 DDX11",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96FC9"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642288,
+    "displayName": "GSK3A gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642241,
+        "stId": "ensembl:ENSG00000105723",
+        "identifier": "ENSG00000105723",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000105723 GSK3A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000105723"
+      }
+    ]
+  },
+  {
+    "peDbId": 198326,
+    "displayName": "GSK3A [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 69666,
+        "stId": "uniprot:P49840",
+        "identifier": "P49840",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P49840 GSK3A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P49840"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642236,
+    "displayName": "HDGF gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642228,
+        "stId": "ensembl:ENSG00000143321",
+        "identifier": "ENSG00000143321",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000143321 HDGF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000143321"
+      }
+    ]
+  },
+  {
+    "peDbId": 535593,
+    "displayName": "HDGF [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 56422,
+        "stId": "uniprot:P51858",
+        "identifier": "P51858",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P51858 HDGF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P51858"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642295,
+    "displayName": "KLHDC3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642281,
+        "stId": "ensembl:ENSG00000124702",
+        "identifier": "ENSG00000124702",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000124702 KLHDC3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000124702"
+      }
+    ]
+  },
+  {
+    "peDbId": 535552,
+    "displayName": "KLHDC3 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 234468,
+        "stId": "uniprot:Q9BQ90",
+        "identifier": "Q9BQ90",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9BQ90 KLHDC3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9BQ90"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642302,
+    "displayName": "FKBP14 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642311,
+        "stId": "ensembl:ENSG00000106080",
+        "identifier": "ENSG00000106080",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000106080 FKBP14",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000106080"
+      }
+    ]
+  },
+  {
+    "peDbId": 535607,
+    "displayName": "FKBP14 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54858,
+        "stId": "uniprot:Q9NWM8",
+        "identifier": "Q9NWM8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NWM8 FKBP14",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NWM8"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642306,
+    "displayName": "SRPRB gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642227,
+        "stId": "ensembl:ENSG00000144867",
+        "identifier": "ENSG00000144867",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000144867 SRPRB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000144867"
+      }
+    ]
+  },
+  {
+    "peDbId": 265002,
+    "displayName": "SRPRB [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 65058,
+        "stId": "uniprot:Q9Y5M8",
+        "identifier": "Q9Y5M8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y5M8 SRPRB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y5M8"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642289,
+    "displayName": "DNAJB9 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642208,
+        "stId": "ensembl:ENSG00000128590",
+        "identifier": "ENSG00000128590",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000128590 DNAJB9",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000128590"
+      }
+    ]
+  },
+  {
+    "peDbId": 381010,
+    "displayName": "DNAJB9 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 53690,
+        "stId": "uniprot:Q9UBS3",
+        "identifier": "Q9UBS3",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9UBS3 DNAJB9",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9UBS3"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642224,
+    "displayName": "ATP6V0D1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642293,
+        "stId": "ensembl:ENSG00000159720",
+        "identifier": "ENSG00000159720",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000159720 ATP6V0D1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000159720"
+      }
+    ]
+  },
+  {
+    "peDbId": 912592,
+    "displayName": "ATP6V0D1 [endosome membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67070,
+        "stId": "uniprot:P61421",
+        "identifier": "P61421",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P61421 ATP6V0D1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P61421"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642212,
+    "displayName": "TSPYL2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642276,
+        "stId": "ensembl:ENSG00000184205",
+        "identifier": "ENSG00000184205",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000184205 TSPYL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000184205"
+      }
+    ]
+  },
+  {
+    "peDbId": 535540,
+    "displayName": "TSPYL2 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 252944,
+        "stId": "uniprot:Q9H2G4",
+        "identifier": "Q9H2G4",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9H2G4 TSPYL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9H2G4"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642251,
+    "displayName": "ZBTB17 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642231,
+        "stId": "ensembl:ENSG00000116809",
+        "identifier": "ENSG00000116809",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000116809 ZBTB17",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000116809"
+      }
+    ]
+  },
+  {
+    "peDbId": 535577,
+    "displayName": "ZBTB17 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67866,
+        "stId": "uniprot:Q13105",
+        "identifier": "Q13105",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q13105 ZBTB17",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q13105"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642244,
+    "displayName": "PDIA5 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642308,
+        "stId": "ensembl:ENSG00000065485",
+        "identifier": "ENSG00000065485",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000065485 PDIA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000065485"
+      }
+    ]
+  },
+  {
+    "peDbId": 535514,
+    "displayName": "PDIA5 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 61426,
+        "stId": "uniprot:Q14554",
+        "identifier": "Q14554",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q14554 PDIA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q14554"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642255,
+    "displayName": "CUL7 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642220,
+        "stId": "ensembl:ENSG00000044090",
+        "identifier": "ENSG00000044090",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000044090 CUL7",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000044090"
+      }
+    ]
+  },
+  {
+    "peDbId": 535534,
+    "displayName": "CUL7 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 67478,
+        "stId": "uniprot:Q14999",
+        "identifier": "Q14999",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q14999 CUL7",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q14999"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642222,
+    "displayName": "KDELR3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642264,
+        "stId": "ensembl:ENSG00000100196",
+        "identifier": "ENSG00000100196",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000100196 KDELR3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000100196"
+      }
+    ]
+  },
+  {
+    "peDbId": 535518,
+    "displayName": "KDELR3 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54410,
+        "stId": "uniprot:O43731",
+        "identifier": "O43731",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43731 KDELR3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43731"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642285,
+    "displayName": "SEC31A gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642291,
+        "stId": "ensembl:ENSG00000138674",
+        "identifier": "ENSG00000138674",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000138674 SEC31A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000138674"
+      }
+    ]
+  },
+  {
+    "peDbId": 204000,
+    "displayName": "SEC31A [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 203970,
+        "stId": "uniprot:O94979",
+        "identifier": "O94979",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O94979 SEC31A",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O94979"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642270,
+    "displayName": "ACADVL gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642313,
+        "stId": "ensembl:ENSG00000072778",
+        "identifier": "ENSG00000072778",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000072778 ACADVL",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000072778"
+      }
+    ]
+  },
+  {
+    "peDbId": 49495,
+    "displayName": "ACADVL [mitochondrial matrix]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 49496,
+        "stId": "uniprot:P49748",
+        "identifier": "P49748",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P49748 ACADVL",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P49748"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642218,
+    "displayName": "SHC1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642201,
+        "stId": "ensembl:ENSG00000160691",
+        "identifier": "ENSG00000160691",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000160691 SHC1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000160691"
+      }
+    ]
+  },
+  {
+    "peDbId": 74680,
+    "displayName": "SHC1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 64430,
+        "stId": "uniprot:P29353",
+        "identifier": "P29353",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P29353 SHC1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P29353"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642267,
+    "displayName": "PLA2G4B gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642216,
+        "stId": "ensembl:ENSG00000243708",
+        "identifier": "ENSG00000243708",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000243708 PLA2G4B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000243708"
+      }
+    ]
+  },
+  {
+    "peDbId": 535541,
+    "displayName": "PLA2G4B [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 385773,
+        "stId": "uniprot:P0C869",
+        "identifier": "P0C869",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P0C869 PLA2G4B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P0C869"
+      }
+    ]
+  },
+  {
+    "peDbId": 8953371,
+    "displayName": "EXTL2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 8953343,
+        "stId": "ensembl:ENSG00000162694",
+        "identifier": "ENSG00000162694",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000162694 EXTL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000162694"
+      }
+    ]
+  },
+  {
+    "peDbId": 8953372,
+    "displayName": "EXTL2 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 54538,
+        "stId": "uniprot:Q9UBQ6",
+        "identifier": "Q9UBQ6",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9UBQ6 EXTL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9UBQ6"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642300,
+    "displayName": "LMNA gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642235,
+        "stId": "ensembl:ENSG00000160789",
+        "identifier": "ENSG00000160789",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000160789 LMNA",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000160789"
+      }
+    ]
+  },
+  {
+    "peDbId": 535479,
+    "displayName": "LMNA(1-646) [nuclear envelope]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 402286,
+        "stId": "uniprot:P02545",
+        "identifier": "P02545",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P02545 LMNA",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P02545"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642287,
+    "displayName": "ARFGAP1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642275,
+        "stId": "ensembl:ENSG00000101199",
+        "identifier": "ENSG00000101199",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000101199 ARFGAP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000101199"
+      }
+    ]
+  },
+  {
+    "peDbId": 200464,
+    "displayName": "ARFGAP1 [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50251,
+        "stId": "uniprot:Q8N6T3",
+        "identifier": "Q8N6T3",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8N6T3 ARFGAP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8N6T3"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642278,
+    "displayName": "HYOU1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642221,
+        "stId": "ensembl:ENSG00000149428",
+        "identifier": "ENSG00000149428",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000149428 HYOU1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000149428"
+      }
+    ]
+  },
+  {
+    "peDbId": 535542,
+    "displayName": "HYOU1 [endoplasmic reticulum lumen]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 61060,
+        "stId": "uniprot:Q9Y4L1",
+        "identifier": "Q9Y4L1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y4L1 HYOU1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y4L1"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642237,
+    "displayName": "CTDSP2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642258,
+        "stId": "ensembl:ENSG00000175215",
+        "identifier": "ENSG00000175215",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000175215 CTDSP2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000175215"
+      }
+    ]
+  },
+  {
+    "peDbId": 535488,
+    "displayName": "CTDSP2 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 60201,
+        "stId": "uniprot:O14595",
+        "identifier": "O14595",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O14595 CTDSP2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O14595"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642213,
+    "displayName": "PDIA6 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642265,
+        "stId": "ensembl:ENSG00000143870",
+        "identifier": "ENSG00000143870",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000143870 PDIA6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000143870"
+      }
+    ]
+  },
+  {
+    "peDbId": 535530,
+    "displayName": "PDIA6 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 405822,
+        "stId": "uniprot:Q15084",
+        "identifier": "Q15084",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q15084 PDIA6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q15084"
+      }
+    ]
+  },
+  {
+    "peDbId": 381126,
+    "displayName": "PERK dimer [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 69643,
+        "stId": "uniprot:Q9NZJ5",
+        "identifier": "Q9NZJ5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NZJ5 EIF2AK3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NZJ5"
+      }
+    ]
+  },
+  {
+    "peDbId": 72515,
+    "displayName": "EIF2S1:EIF2S2:EIF2S3 [cytosol]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 72511,
+        "stId": "uniprot:P20042",
+        "identifier": "P20042",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P20042 EIF2S2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P20042"
+      },
+      {
+        "dbId": 72513,
+        "stId": "uniprot:P41091",
+        "identifier": "P41091",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P41091 EIF2S3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P41091"
+      },
+      {
+        "dbId": 72509,
+        "stId": "uniprot:P05198",
+        "identifier": "P05198",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P05198 EIF2S1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P05198"
+      }
+    ]
+  },
+  {
+    "peDbId": 9633006,
+    "displayName": "p-S52-EIF2S1:EIF2S2:EIF2S3 [cytosol]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 72511,
+        "stId": "uniprot:P20042",
+        "identifier": "P20042",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P20042 EIF2S2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P20042"
+      },
+      {
+        "dbId": 72509,
+        "stId": "uniprot:P05198",
+        "identifier": "P05198",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P05198 EIF2S1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P05198"
+      },
+      {
+        "dbId": 72513,
+        "stId": "uniprot:P41091",
+        "identifier": "P41091",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P41091 EIF2S3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P41091"
+      }
+    ]
+  },
+  {
+    "peDbId": 3788737,
+    "displayName": "IL8 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 3788735,
+        "stId": "ensembl:ENSG00000169429",
+        "identifier": "ENSG00000169429",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000169429 CXCL8",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000169429"
+      }
+    ]
+  },
+  {
+    "peDbId": 447095,
+    "displayName": "IL8 [extracellular region]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 402743,
+        "stId": "uniprot:P10145",
+        "identifier": "P10145",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P10145 CXCL8",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P10145"
+      }
+    ]
+  },
+  {
+    "peDbId": 450479,
+    "displayName": "KSRP:mRNA Degradation Complex [cytosol]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 72233,
+        "stId": "uniprot:Q9NQT5",
+        "identifier": "Q9NQT5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NQT5 EXOSC3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NQT5"
+      },
+      {
+        "dbId": 72316,
+        "stId": "uniprot:Q9Y3B2",
+        "identifier": "Q9Y3B2",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y3B2 EXOSC1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y3B2"
+      },
+      {
+        "dbId": 72236,
+        "stId": "uniprot:Q06265",
+        "identifier": "Q06265",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q06265 EXOSC9",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q06265"
+      },
+      {
+        "dbId": 228625,
+        "stId": "uniprot:Q5RKV6",
+        "identifier": "Q5RKV6",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q5RKV6 EXOSC6",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q5RKV6"
+      },
+      {
+        "dbId": 72247,
+        "stId": "uniprot:Q9NQT4",
+        "identifier": "Q9NQT4",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NQT4 EXOSC5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NQT4"
+      },
+      {
+        "dbId": 72241,
+        "stId": "uniprot:Q15024",
+        "identifier": "Q15024",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q15024 EXOSC7",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q15024"
+      },
+      {
+        "dbId": 72239,
+        "stId": "uniprot:Q9NPD3",
+        "identifier": "Q9NPD3",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NPD3 EXOSC4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NPD3"
+      },
+      {
+        "dbId": 72243,
+        "stId": "uniprot:Q96B26",
+        "identifier": "Q96B26",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96B26 EXOSC8",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96B26"
+      },
+      {
+        "dbId": 72245,
+        "stId": "uniprot:Q9Y2L1",
+        "identifier": "Q9Y2L1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9Y2L1 DIS3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9Y2L1"
+      },
+      {
+        "dbId": 72259,
+        "stId": "uniprot:Q13868",
+        "identifier": "Q13868",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q13868 EXOSC2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q13868"
+      },
+      {
+        "dbId": 90633,
+        "stId": "uniprot:Q92945",
+        "identifier": "Q92945",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q92945 KHSRP",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q92945"
+      },
+      {
+        "dbId": 226577,
+        "stId": "uniprot:Q8IU60",
+        "identifier": "Q8IU60",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8IU60 DCP2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8IU60"
+      },
+      {
+        "dbId": 241708,
+        "stId": "uniprot:O95453",
+        "identifier": "O95453",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O95453 PARN",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O95453"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642307,
+    "displayName": "ASNS gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642298,
+        "stId": "ensembl:ENSG00000070669",
+        "identifier": "ENSG00000070669",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000070669 ASNS",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000070669"
+      }
+    ]
+  },
+  {
+    "peDbId": 70597,
+    "displayName": "ASNS [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50399,
+        "stId": "uniprot:P08243",
+        "identifier": "P08243",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P08243 ASNS",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P08243"
+      }
+    ]
+  },
+  {
+    "peDbId": 9635898,
+    "displayName": "ATF4:CEBPB,CEBPG:ASNS gene [nucleoplasm]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 5642298,
+        "stId": "ensembl:ENSG00000070669",
+        "identifier": "ENSG00000070669",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000070669 ASNS",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000070669"
+      },
+      {
+        "dbId": 51872,
+        "stId": "uniprot:P53567",
+        "identifier": "P53567",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P53567 CEBPG",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P53567"
+      },
+      {
+        "dbId": 51866,
+        "stId": "uniprot:P17676",
+        "identifier": "P17676",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P17676 CEBPB",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P17676"
+      },
+      {
+        "dbId": 50471,
+        "stId": "uniprot:P18848",
+        "identifier": "P18848",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18848 ATF4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18848"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642259,
+    "displayName": "IGFPB1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642215,
+        "stId": "ensembl:ENSG00000146678",
+        "identifier": "ENSG00000146678",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000146678 IGFBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000146678"
+      }
+    ]
+  },
+  {
+    "peDbId": 381513,
+    "displayName": "IGFBP1 [extracellular region]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 381403,
+        "stId": "uniprot:P08833",
+        "identifier": "P08833",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P08833 IGFBP1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P08833"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642238,
+    "displayName": "CCL2 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642240,
+        "stId": "ensembl:ENSG00000108691",
+        "identifier": "ENSG00000108691",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000108691 CCL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000108691"
+      }
+    ]
+  },
+  {
+    "peDbId": 443967,
+    "displayName": "CCL2 [extracellular region]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 65344,
+        "stId": "uniprot:P13500",
+        "identifier": "P13500",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P13500 CCL2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P13500"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642249,
+    "displayName": "HERPUD1 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642248,
+        "stId": "ensembl:ENSG00000051108",
+        "identifier": "ENSG00000051108",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000051108 HERPUD1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000051108"
+      }
+    ]
+  },
+  {
+    "peDbId": 535608,
+    "displayName": "HERPUD1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 405807,
+        "stId": "uniprot:Q15011",
+        "identifier": "Q15011",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q15011 HERPUD1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q15011"
+      }
+    ]
+  },
+  {
+    "peDbId": 5642232,
+    "displayName": "ATF3 gene [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642273,
+        "stId": "ensembl:ENSG00000162772",
+        "identifier": "ENSG00000162772",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000162772 ATF3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000162772"
+      }
+    ]
+  },
+  {
+    "peDbId": 535543,
+    "displayName": "ATF3 [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 403169,
+        "stId": "uniprot:P18847",
+        "identifier": "P18847",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18847 ATF3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18847"
+      }
+    ]
+  },
+  {
+    "peDbId": 9635905,
+    "displayName": "ATF4:ATF3 gene [nucleoplasm]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 50471,
+        "stId": "uniprot:P18848",
+        "identifier": "P18848",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P18848 ATF4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P18848"
+      },
+      {
+        "dbId": 5642273,
+        "stId": "ensembl:ENSG00000162772",
+        "identifier": "ENSG00000162772",
+        "schemaClass": "ReferenceDNASequence",
+        "displayName": "ENSEMBL:ENSG00000162772 ATF3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENSG00000162772"
+      }
+    ]
+  },
+  {
+    "peDbId": 381046,
+    "displayName": "EIF2AK3 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 69643,
+        "stId": "uniprot:Q9NZJ5",
+        "identifier": "Q9NZJ5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NZJ5 EIF2AK3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NZJ5"
+      }
+    ]
+  },
+  {
+    "peDbId": 381216,
+    "displayName": "PERK:BiP [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 69643,
+        "stId": "uniprot:Q9NZJ5",
+        "identifier": "Q9NZJ5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9NZJ5 EIF2AK3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9NZJ5"
+      },
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 9661812,
+    "displayName": "ATF4 mRNA [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 5642314,
+        "stId": "ensembl:ENST00000404241",
+        "identifier": "ENST00000404241",
+        "schemaClass": "ReferenceRNASequence",
+        "displayName": "ENSEMBL:ENST00000404241 ATF4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "https://www.ensembl.org/id/ENST00000404241"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874151,
+    "displayName": "ATP6B:BiP [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      },
+      {
+        "dbId": 55906,
+        "stId": "uniprot:P11021",
+        "identifier": "P11021",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:P11021 HSPA5",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/P11021"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874179,
+    "displayName": "ATF6B [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874154,
+    "displayName": "ATF6B [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874148,
+    "displayName": "ATF6B(2-440) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874147,
+    "displayName": "ATF6B(441-703) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874143,
+    "displayName": "ATF6B(2-398) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874171,
+    "displayName": "ATF6B(399-440) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874178,
+    "displayName": "ATF6B(2-398) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 50427,
+        "stId": "uniprot:Q99941",
+        "identifier": "Q99941",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q99941 ATF6B",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q99941"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874155,
+    "displayName": "CREB3L1 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874139,
+    "displayName": "CREB3L1(427-519) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874153,
+    "displayName": "CREB3L1(1-426) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874848,
+    "displayName": "CREBRF [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 222706,
+        "stId": "uniprot:Q8IUR6",
+        "identifier": "Q8IUR6",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8IUR6 CREBRF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8IUR6"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874190,
+    "displayName": "CREB3(1-256) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874847,
+    "displayName": "CREB3:CREBRF [nucleoplasm]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 222706,
+        "stId": "uniprot:Q8IUR6",
+        "identifier": "Q8IUR6",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8IUR6 CREBRF",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8IUR6"
+      },
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874168,
+    "displayName": "CREB3L4 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874128,
+    "displayName": "CREB3L4 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 6784669,
+    "displayName": "CREB3L3 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874144,
+    "displayName": "CREB3L3 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874185,
+    "displayName": "CREB3L2(1-379) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874203,
+    "displayName": "CREB3L2(1-379) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874210,
+    "displayName": "CREB3L2(1-430) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874216,
+    "displayName": "CREB3L2(380-430) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874180,
+    "displayName": "CREB3L4(1-338) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874140,
+    "displayName": "CREB3L4(339-395) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874188,
+    "displayName": "CREB3L4(1-297) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874220,
+    "displayName": "CREB3L4(1-297) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874157,
+    "displayName": "CREB3L1 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874129,
+    "displayName": "CREB3L2 [endoplasmic reticulum membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874219,
+    "displayName": "CREB3L2 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874135,
+    "displayName": "CREB3(1-256) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874221,
+    "displayName": "CREB3L4(298-338) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225457,
+        "stId": "uniprot:Q8TEY5",
+        "identifier": "Q8TEY5",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q8TEY5 CREB3L4",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q8TEY5"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874215,
+    "displayName": "CREB3L1(1-375) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874213,
+    "displayName": "CREB3L1(376-426) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874222,
+    "displayName": "CREB3L1(1-375) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225441,
+        "stId": "uniprot:Q96BA8",
+        "identifier": "Q96BA8",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q96BA8 CREB3L1",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q96BA8"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874181,
+    "displayName": "CREB3(1-291) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874207,
+    "displayName": "CREB3(257-291) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874130,
+    "displayName": "CREB3L3(365-461) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874158,
+    "displayName": "CREB3L3(1-364) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874196,
+    "displayName": "CREB3L2(431-520) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225446,
+        "stId": "uniprot:Q70SY1",
+        "identifier": "Q70SY1",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q70SY1 CREB3L2",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q70SY1"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874123,
+    "displayName": "CREB3 [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874173,
+    "displayName": "CREB3(292-371) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874214,
+    "displayName": "CREB3L3(1-323) [cytosol]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874217,
+    "displayName": "CREB3L3(1-323) [nucleoplasm]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874183,
+    "displayName": "CREB3L3(324-364) [Golgi membrane]",
+    "schemaClass": "EntityWithAccessionedSequence",
+    "refEntities": [
+      {
+        "dbId": 225452,
+        "stId": "uniprot:Q68CJ9",
+        "identifier": "Q68CJ9",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q68CJ9 CREB3L3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q68CJ9"
+      }
+    ]
+  },
+  {
+    "peDbId": 8874383,
+    "displayName": "DCSTAMP:CREB3 [endoplasmic reticulum membrane]",
+    "schemaClass": "Complex",
+    "refEntities": [
+      {
+        "dbId": 145918,
+        "stId": "uniprot:O43889",
+        "identifier": "O43889",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:O43889 CREB3",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/O43889"
+      },
+      {
+        "dbId": 251809,
+        "stId": "uniprot:Q9H295",
+        "identifier": "Q9H295",
+        "schemaClass": "ReferenceGeneProduct",
+        "displayName": "UniProt:Q9H295 DCSTAMP",
+        "icon": "EntityWithAccessionedSequence",
+        "url": "http://purl.uniprot.org/uniprot/Q9H295"
+      }
+    ]
+  }
+]

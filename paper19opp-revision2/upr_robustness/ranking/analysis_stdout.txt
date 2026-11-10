@@ -1,0 +1,13 @@
+Analysis started:  2026-11-06 05:34:32 UTC 
+Plan verified; input hashes written before reading effects.
+Inputs read; cohorts and dimensions verified.
+Fixed source groups and list identities exported.
+Quintile estimates/whole-gene and shared-GEM intervals complete.
+Paired method differences complete.
+Permutation 2000 of 10000 
+Permutation 4000 of 10000 
+Permutation 6000 of 10000 
+Permutation 8000 of 10000 
+Permutation 10000 of 10000 
+Uniform and expression/detection-matched ranking controls complete.
+Analysis completed:  2026-11-06 05:35:05 UTC 

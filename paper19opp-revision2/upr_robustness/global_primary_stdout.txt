@@ -1,0 +1,12 @@
+Completed globalBH87 sensitivity; all original family corrections retained.
+{'family': 'quintile_and_ranking7', 'hypothesis': 'Q5_Q1_mean', 'cohort': 'all438', 'axis': 'Hallmark90', 'p': 9.99900009999e-05, 'declared_family_q': 0.0006999300069993, 'global_BH87': 0.0003954545454545455}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'Kendall_tau', 'cohort': 'all438', 'axis': 'Hallmark90', 'p': 9.99900009999e-05, 'declared_family_q': 0.0006999300069993, 'global_BH87': 0.0003954545454545455}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'ordinal_slope', 'cohort': 'all438', 'axis': 'Hallmark90', 'p': 9.99900009999e-05, 'declared_family_q': 0.0006999300069993, 'global_BH87': 0.0003954545454545455}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'Precision10', 'cohort': 'complete370', 'axis': 'Hallmark90', 'p': 1.0, 'declared_family_q': 1.0, 'global_BH87': 1.0}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'Precision20', 'cohort': 'complete370', 'axis': 'Hallmark90', 'p': 0.0462953704629537, 'declared_family_q': 0.138886111388861, 'global_BH87': 0.10327428795581979}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'NDCG10', 'cohort': 'complete370', 'axis': 'Hallmark90', 'p': 0.0327967203279672, 'declared_family_q': 0.131186881311869, 'global_BH87': 0.0792587407925874}
+{'family': 'quintile_and_ranking7', 'hypothesis': 'NDCG20', 'cohort': 'complete370', 'axis': 'Hallmark90', 'p': 0.16008399160084, 'declared_family_q': 0.32016798320168, 'global_BH87': 0.28423076059740976}
+{'family': 'curated_signature80', 'hypothesis': 'signed_Spearman', 'cohort': 'RPE1', 'axis': 'Reactome_UPR_full', 'p': 0.0003, 'declared_family_q': 0.00104347826086957, 'global_BH87': 0.0010038461538461538}
+{'family': 'curated_signature80', 'hypothesis': 'signed_Spearman', 'cohort': 'RPE1', 'axis': 'Reactome_UPR_no_Hallmark', 'p': 0.6274, 'declared_family_q': 0.760484848484849, 'global_BH87': 0.7581083333333333}
+{'family': 'curated_signature80', 'hypothesis': 'signed_Spearman', 'cohort': 'RPE1', 'axis': 'GO_ER_UPR_full', 'p': 0.0002, 'declared_family_q': 0.000761904761904762, 'global_BH87': 0.0007250000000000001}
+{'family': 'curated_signature80', 'hypothesis': 'signed_Spearman', 'cohort': 'RPE1', 'axis': 'GO_ER_UPR_no_Hallmark', 'p': 5e-05, 'declared_family_q': 0.000235294117647059, 'global_BH87': 0.00025588235294117653}

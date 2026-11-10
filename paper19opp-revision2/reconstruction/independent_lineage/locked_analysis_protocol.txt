@@ -1,0 +1,24 @@
+Independent measured-clone-state validation: analysis plan
+Frozen before new expression scoring or model evaluation, 6 November 2026.
+
+Question: Does a clone's measured RNA state after a first treatment predict the RNA state of subsequently sampled relatives under a known second treatment beyond treatment history, parent abundance and sampling/technical support? This is a study-specific prediction test, not a causal state mechanism, functional death classifier, treatment-order policy or optimization of treatment duration.
+
+Primary source: author all_data object from GSE253739 / Schaff et al., Cell Systems 2024. The existing local centroid, PCA and fate results will not supply biological features or model results. Metadata from the author object will define source cells, lineage labels and first/second treatment assignments. Counts and metadata will be checked together before scoring.
+
+Features: three existing apoptosis/proliferation/stress modules and the nine already frozen Hallmark axes, using the exact final_axis_membership.tsv definitions. Normalization uses the intersection of the existing 7,848-gene universe with explicitly measured symbols in the author object. Any duplicate symbols are summed before log1p CP10k. Missing genes are recorded, not imputed as measured zeros. No learned PCA or response-dependent feature selection. Each clone-condition state is the mean of its measured per-cell program scores. Baseline predictors are exclusively cells sampled after the first treatment and before the second intervention.
+
+Eligibility: primary >=3 measured parent cells and >=2 measured descendant cells for a lineage-by-first-by-second-treatment task. Fixed sensitivity >=10 parent and >=5 descendant cells. Only observed transcriptomic descendants are modeled; missing capture is not treated as death. All eligible treatment contexts are retained and their denominators reported.
+
+Primary targets: descendant apoptosis, proliferation and stress program levels, jointly evaluated after scaling by outer-training outcome SD. Program shifts (descendant minus parent) may be supplied as descriptive quantities but are not the primary target, because shared measurement noise in parent predictors and subtracted targets can generate apparent prediction. The calibrated parent-persistence baseline below explicitly addresses this mathematical coupling.
+
+Simple baselines: (1) training-only mean descendant state within each of nine first-by-second treatment groups; (2) ridge regression using treatment-group indicators, log1p parent and descendant cell counts, parent mean log library size and parent mean detected-gene count; (3) parent program level plus training-only mean shift within the treatment group. For an absent training treatment group, the corresponding pooled training mean is used. The best simple baseline is chosen by inner validation, not outer-test performance.
+
+State model: the same treatment/count/technical variables as baseline(2), plus all twelve measured parent program means, with ridge regression. All scaling is fitted in each training split. Shared ridge penalty is selected over 17 fixed values 10^seq(-4,4,length.out=17), minimizing weighted mean squared error across the three training-standardized targets. The same grid and tuning procedure apply to the count baseline.
+
+Validation: five outer folds, grouping every task and history of the same ancestral lineage together; four lineage-grouped inner folds select ridge penalties and the simple comparator. Fixed seed20261106, with inner seeds offset by outer fold. Each lineage has total evaluation weight one across its eligible exposure tasks. No cell-level random splitting, no descendant-derived baseline representation, no outcome-defined grouping.
+
+Primary comparison: state-model minus training-selected-simple-comparator held-out RMSE on the identical eligible tasks. Lower is better. All simple methods are reported to reveal a failure to beat persistence or treatment/count information. Unscaled per-program RMSE and lineage/task denominators are also reported.
+
+Uncertainty: 249 lineage-cluster bootstrap draws reweight complete lineages and repeat outer training, feature/outcome scaling, inner penalty selection and simple-comparator selection on the same preassigned grouped fold structure. Percentile intervals characterize fitted-workflow variability conditional on the observed study design and captured population. They do not quantify between-experiment biological replication or guarantee extrapolation to unobserved clones/cultures.
+
+Interpretation: A gain is evidence for measured pre-second-treatment state information within this independent lineage study. It does not establish a universal baseline-state principle, an intrinsic number of reachable fates, or intervention benefit. A failure to improve on strong simple baselines will be reported and will narrow the manuscript's central claim.

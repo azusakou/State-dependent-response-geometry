@@ -1,8 +1,36 @@
-# State-dependent response geometry across public single-cell perturbation resources
+# Cross-context ordering and prioritization of UPR-associated transcriptional responses
+
+Code, compact results and manuscript sources for **reproducible ordering of transcriptional program responses across experimental contexts and candidate perturbation prioritization**. The current manuscript and revision analyses are in [`paper19opp-revision2/`](paper19opp-revision2/). The earlier analysis workflow remains available at the repository root.
+
+## Current manuscript and results
+
+- [Manuscript PDF](paper19opp-revision2/manuscript_revised_red.pdf) and [LaTeX source](paper19opp-revision2/manuscript_revised_red.tex).
+- [Supplementary PDF](paper19opp-revision2/supplementary_revised_red.pdf), [source](paper19opp-revision2/supplementary_revised_red.tex) and [indexed numerical tables](paper19opp-revision2/supplementary_data/table_index.tsv).
+- [Revision analysis guide](paper19opp-revision2/README.md), including public-data access, frozen ranking inputs, independent HepG2 evaluation, baselines and negative controls.
+
+K562 source effects retained signed UPR-associated response ordering in the 438-gene RPE1 holdout (Spearman rho=0.378) and in 417 sufficiently supported perturbations from a separately generated HepG2 screen (rho=0.403; 95% gene interval 0.313–0.489). The HepG2 study has overlapping investigators and is not independent-laboratory replication. Candidate-selection results are conditional on a specified RNA readout. Simple source-UPR-effect ranking remained competitive; neither a uniquely conserved UPR mechanism nor an advantage from agreement weighting was established.
+
+The complete frozen Top10/20 lists **remain unestimable under the primary HepG2 support rule** because GBF1/ALG14 have17/24 cells. The >=10-cell analysis is a separately specified sensitivity and does not replace the >=30-cell primary threshold. A later metadata-only search did not find a context supporting both unchanged lists: Jurkat had8 GBF1 cells and only88/90 readout genes; X-Atlas HCT116 had25 POLRMT/27 RPL7 guide-filtered cells, and HEK293T had29 RPS13 cells. No additional RNA outcomes were read, lists refilled, contexts pooled or standards relaxed.
+
+The former curated-readout main section and figure are retained in Supplementary NoteS13/FigureS15; the independent HepG2 evaluation is main section3.5/Figure4. Manuscript changes remain cumulatively red relative to the final first-revision sources. The manuscript PDFs are the previously compiled and checked17/57-page delivery; this repository update does not change numerical findings or manuscript text.
+
+## Repository contents and verification
+
+Revision2 preserves the existing relative analysis paths and compact frozen inputs. Large public matrices, source-derived caches and large metadata downloads are not committed. [`LARGE_INPUTS.tsv`](paper19opp-revision2/LARGE_INPUTS.tsv) records their exact sizes and SHA256 identities; adjacent reconstruction scripts and source metadata document acquisition. Some downstream analyses require regenerating these inputs or obtaining the full research archive distributed with the manuscript. The repository is not claimed to reproduce every analysis offline without them.
+
+```sh
+python3 tools/verify_revision2.py
+```
+
+This verifies the distributed revision files against their checksums. For numerical reproduction and compilation, follow the [revision guide](paper19opp-revision2/README.md). Dataset terms and the original investigators' attribution continue to apply; the earlier workflow's source licences are retained below. The `paper19opp-revision1/GitHub` symlink resolves historical source paths to the unchanged legacy inputs/code at this repository root.
+
+## Earlier analysis workflow
+
+The following instructions describe the earlier task-catalogue and response-geometry workflow. They are retained for reproducibility; the current paper's supported contribution and validation scope are given above.
 
 Code and compact data for the task catalogue, perturbation-response models, genetic interactions, lineage associations, multiome agreement and gene-level evidence described in the manuscript.
 
-## Run the analysis
+### Run the analysis
 
 Install R with `data.table`, `cluster`, `glmnet`, `nnet`, `igraph`, `xgboost`, `BiocNeighbors`, `R.utils` and `Matrix`. `BiocNeighbors` is available through Bioconductor. Dependency information is in `reference/`.
 
@@ -14,7 +42,7 @@ Rscript run_all.R
 
 This command refits the models and computes the statistics from the supplied inputs without network access or a GPU. It writes results to `results/`, refreshes the compressed tables and checks them against numerical references. `Rscript run_all.R --quick` skips the 200-draw lineage bootstrap and descendant-depth sensitivity. Both commands evaluate the endpoint-rate network under the 600- and 6,000-iteration settings.
 
-## Data and tables
+### Data and tables
 
 `inputs/` contains source-derived cell scores, condition/GEM expression profiles, lineage branch counts and state axes, guide-level RNA/ATAC summaries and fold-specific baseline coordinates. The complete 3,591-gene Norman profiles support interaction reorientation and normalization checks. All 32,738 measured genes are retained in the RNA-baseline profiles so feature selection can be repeated within training folds. Reference objects are used for verification rather than model fitting.
 
@@ -37,7 +65,7 @@ Compressed TSVs in `tables/` can be read without running the analysis:
 
 `NA` denotes an unavailable value. Criterion states distinguish an unmeasured assay, insufficient support, an evaluated criterion not met and a met rule. The 715-task primary catalogue and the 705-task non-targeting-control sensitivity are retained separately.
 
-## Count-level scVI training
+### Count-level scVI training
 
 Use Python 3.12 in an isolated environment:
 
@@ -58,7 +86,7 @@ The R stage selects scaling, endpoint-specific elastic-net penalties and uncerta
 
 The default R workflow uses `inputs/mixseq_nested_scvi.rds` to refit predictors from the measured fold-specific coordinates. This 375 KB input also retains the selected genes, epoch records and fit audits. The count-level route repeats representation training and supports matching-checkpoint recovery. Numerical differences across CPUs and libraries can affect independently retrained values; the tested runtime is recorded in `reference/`.
 
-## Source reconstruction and figures
+### Source reconstruction and figures
 
 Public accessions and source terms are in `upstream/sources.tsv`. `upstream/fetch_public.py` retrieves an explicitly selected source. The MultiPerturb extractor can reconstruct its count subset from the deposited object:
 
@@ -70,7 +98,7 @@ Rscript upstream/extract_multiome_counts.R downloaded_sources/GSM8528725_MPS.RDS
 
 This extraction needs `SingleCellExperiment` and its dependencies. H5AD extraction scripts also need `HDF5Array`, `DelayedMatrixStats`, `hdf5r` and `Matrix`. After the numerical run, `Rscript upstream/plot_panels.R` draws the combination, duration and evidence panels using `ggplot2` and `patchwork`; `ragg` optionally produces previews.
 
-## Interpretation
+### Interpretation
 
 The calculations describe conditional response and lineage associations. Transcriptional program tails are not direct death, division or stable-fate measurements. Technical GEM groups are partitions of one pooled experiment. Multiome guide agreement and its negative controls are reported together. The evidence table distinguishes missing measurements from an evaluated criterion not met.
 
@@ -78,7 +106,7 @@ The nested prediction evaluation fixes the archived QC mask, gene availability, 
 
 The bulk-growth assay is a separate ten-day measurement from the Norman study. Its RNA combinations were selected from that screen, so the basin association applies to an ascertained panel. Export identifiers such as `synergistic` and `minimum_local_control_energy` refer to a transcriptomic projection class and a regularized inverse-variance diagnostic.
 
-## Sources and reuse
+### Sources and reuse
 
 Credit the investigators listed in `upstream/sources.tsv`. Code is covered by `LICENSE-CODE`; data retain their source-specific terms. The CollecTRI prior incorporates resources with their own reuse conditions.
 

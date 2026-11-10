@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/wang/Documents/paper19opp/paper19opp-revision2/independent_validation/download_parallel.py", line 24, in <module>
+    with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:list(pool.map(fetch,range(int(os.environ.get('UPR_START_CHUNK','0')),(size+chunk-1)//chunk)))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 608, in result_iterator
+    yield fs.pop().result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 445, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/wang/Documents/paper19opp/paper19opp-revision2/independent_validation/download_parallel.py", line 23, in fetch
+    raise RuntimeError(i)
+RuntimeError: 84

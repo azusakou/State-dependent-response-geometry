@@ -1,0 +1,15 @@
+study	context	assignment	cells_per_target	genes	control_cells
+Adamson2016	Adamson_K562_UPR	original_assignments	30	30	6284
+Adamson2016	Adamson_K562_UPR	original_assignments	15	30	6284
+Frangieh2021	Control	original_assignments	30	19	15361
+Frangieh2021	Control	original_assignments	15	19	15361
+Frangieh2021	Control	single_guide_assignments	30	14	3770
+Frangieh2021	Control	single_guide_assignments	15	18	3770
+Frangieh2021	IFNγ	original_assignments	30	19	23910
+Frangieh2021	IFNγ	original_assignments	15	19	23910
+Frangieh2021	IFNγ	single_guide_assignments	30	18	6144
+Frangieh2021	IFNγ	single_guide_assignments	15	18	6144
+Frangieh2021	Co-culture	original_assignments	30	17	18334
+Frangieh2021	Co-culture	original_assignments	15	19	18334
+Frangieh2021	Co-culture	single_guide_assignments	30	15	5707
+Frangieh2021	Co-culture	single_guide_assignments	15	18	5707

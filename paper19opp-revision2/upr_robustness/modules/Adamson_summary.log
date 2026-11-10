@@ -1,0 +1,5 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Summarizing Adamson 2026-11-06 05:52:23 UTC 
+Completed Adamson effectrows 25260 GEMrows 12600 memberrows 25320 elapsed 5.490057 s

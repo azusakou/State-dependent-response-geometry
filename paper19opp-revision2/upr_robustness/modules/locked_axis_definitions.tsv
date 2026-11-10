@@ -1,0 +1,17 @@
+axis	parent_module	variant	source_id	official_label	full_canonical_members	measured_members	source_url
+ER_folding_full	ER_folding	full	GO:0034975	protein folding in endoplasmic reticulum	13	9	https://amigo.geneontology.org/amigo/term/GO:0034975
+ER_folding_no_Hallmark	ER_folding	Hallmark_disjoint	GO:0034975	protein folding in endoplasmic reticulum	8	5	https://amigo.geneontology.org/amigo/term/GO:0034975
+ER_folding_unique	ER_folding	between_functional_module_unique	GO:0034975	protein folding in endoplasmic reticulum	8	4	https://amigo.geneontology.org/amigo/term/GO:0034975
+ERAD_full	ERAD	full	GO:0036503	ERAD quality control pathway	96	67	https://amigo.geneontology.org/amigo/term/GO:0036503
+ERAD_no_Hallmark	ERAD	Hallmark_disjoint	GO:0036503	ERAD quality control pathway	87	59	https://amigo.geneontology.org/amigo/term/GO:0036503
+ERAD_unique	ERAD	between_functional_module_unique	GO:0036503	ERAD quality control pathway	84	56	https://amigo.geneontology.org/amigo/term/GO:0036503
+ER_targeting_full	ER_targeting	full	GO:0045047	protein targeting to ER	38	34	https://amigo.geneontology.org/amigo/term/GO:0045047
+ER_targeting_no_Hallmark	ER_targeting	Hallmark_disjoint	GO:0045047	protein targeting to ER	30	27	https://amigo.geneontology.org/amigo/term/GO:0045047
+ER_targeting_unique	ER_targeting	between_functional_module_unique	GO:0045047	protein targeting to ER	30	27	https://amigo.geneontology.org/amigo/term/GO:0045047
+ISR_full	ISR	full	GO:0140467	integrated stress response signaling	37	20	https://amigo.geneontology.org/amigo/term/GO:0140467
+ISR_no_Hallmark	ISR	Hallmark_disjoint	GO:0140467	integrated stress response signaling	32	16	https://amigo.geneontology.org/amigo/term/GO:0140467
+ISR_unique	ISR	between_functional_module_unique	GO:0140467	integrated stress response signaling	37	20	https://amigo.geneontology.org/amigo/term/GO:0140467
+Reactome_UPR_full	Reactome_UPR	full	R-HSA-381119.4	Unfolded Protein Response (UPR)	92	69	https://reactome.org/content/detail/R-HSA-381119
+Reactome_UPR_no_Hallmark	Reactome_UPR	Hallmark_disjoint	R-HSA-381119.4	Unfolded Protein Response (UPR)	41	30	https://reactome.org/content/detail/R-HSA-381119
+GO_ER_UPR_full	GO_ER_UPR	full	GO:0030968	endoplasmic reticulum unfolded protein response	64	41	https://amigo.geneontology.org/amigo/term/GO:0030968
+GO_ER_UPR_no_Hallmark	GO_ER_UPR	Hallmark_disjoint	GO:0030968	endoplasmic reticulum unfolded protein response	50	32	https://amigo.geneontology.org/amigo/term/GO:0030968

@@ -1,0 +1,189 @@
+file	rows	columns	description
+external_validation/UPR_exact_composition_correlation_sensitivity.tsv	4	12	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/UPR_exact_numerator_denominator_moments.tsv	136	14	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/candidate_choice.tsv.gz	70	13	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_choice_sensitivity.tsv.gz	278	13	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_comparator_availability.tsv	3	3	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_contrast.tsv.gz	18	10	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_contrast_sensitivity.tsv.gz	50	8	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_gene.tsv.gz	108	31	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_gene_sensitivity.tsv.gz	389	31	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_metric.tsv.gz	58	10	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_metric_sensitivity.tsv.gz	210	10	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_null.tsv.gz	12	12	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_null_sensitivity.tsv.gz	50	12	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/candidate_secondary_integrated_ranking.tsv	358	3	Original fixed aggregate-priority test; primary or declared sensitivity as filename indicates
+external_validation/exploratory_UPR_direction_agreement.tsv	4	8	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_all_gene_axis_effects.tsv.gz	1020	8	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_axis_conservation.tsv	48	9	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_axis_leave_one_gene_out_summary.tsv	48	5	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_axis_minimal_covariate_sensitivities.tsv	288	11	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_equal_cell_axis_summary.tsv	168	11	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_equal_cell_metadata_counts.tsv	14	6	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_paired_context_correlation_differences.tsv	24	11	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/exploratory_vector_prediction.tsv	24	14	Exploratory complete48-test family or explicitly named fixed-cohort robustness control
+external_validation/source_frozen_adamson_candidates.tsv	30	21	Discovery-only candidate rankings fixed before external response evaluation
+external_validation/source_frozen_discovery_ranking.tsv	2057	16	Discovery-only candidate rankings fixed before external response evaluation
+external_validation/source_frozen_frangieh_candidates.tsv	19	21	Discovery-only candidate rankings fixed before external response evaluation
+figure_source_data/Fig_UPR_RPE1_validation_a.tsv	438	4	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_RPE1_validation_b.tsv	20	7	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_RPE1_validation_c.tsv	4	6	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_RPE1_validation_d.tsv	4	17	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_RPE1_validation_e_nulls.tsv	200	2	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_RPE1_validation_e_observed.tsv	2	3	Exact numerical source for the named final figure panel
+figure_source_data/Fig_UPR_external_validation_all48_source.tsv	48	12	Exact numerical source for the named final external-validation figure panel
+figure_source_data/Fig_UPR_external_validation_composition_source.tsv	8	9	Exact numerical source for the named final external-validation figure panel
+figure_source_data/Fig_UPR_external_validation_scatter_source.tsv	85	8	Exact numerical source for the named final external-validation figure panel
+figure_source_data/Fig_cross_study_design_cohorts.tsv	3	6	Exact numerical source for the named final figure panel
+figure_source_data/Fig_cross_study_design_coverage.tsv	14	4	Exact numerical source for the named final figure panel
+figure_source_data/Fig_cross_study_transfer_a.tsv	3	17	Exact numerical source for the named final figure panel
+figure_source_data/Fig_cross_study_transfer_b.tsv	12	6	Exact numerical source for the named final figure panel
+figure_source_data/Fig_cross_study_transfer_c.tsv	30	6	Exact numerical source for the named final figure panel
+figure_source_data/Fig_independent_candidate_validation_forest_data.tsv	8	11	Exact numerical source for the named final external-validation figure panel
+figure_source_data/Fig_independent_candidate_validation_scatter_data.tsv	49	8	Exact numerical source for the named final external-validation figure panel
+figure_source_data/independent_lineage_figure_source_data.tsv	6	9	Exact numerical source for final lineage prediction figure
+lineage_prediction/eligible_unit_accounting.tsv	18	5	Measured parent/descendant lineage prediction; primary and stricter support, full-refitting conditional intervals
+lineage_prediction/heldout_metrics.tsv	10	8	Measured parent/descendant lineage prediction; primary and stricter support, full-refitting conditional intervals
+lineage_prediction/paired_model_comparisons.tsv	8	7	Measured parent/descendant lineage prediction; primary and stricter support, full-refitting conditional intervals
+measurement/RPE1_UPR_members.tsv	90	1	Targeted K562/RPE1 measurement definitions; earlier five-study universe remains separate
+measurement/RPE1_all105_axis_membership.tsv	9307	3	Exact positive/negative memberships for UPR, all100 null modules, short modules and E2F
+measurement/RPE1_gene_universe.tsv	6780	1	Targeted K562/RPE1 measurement definitions; earlier five-study universe remains separate
+measurement/analysis_denominators.tsv	3	5	Five-study common measurement definitions and dataset-specific accounting
+measurement/final_axis_membership.tsv	1210	4	Five-study common measurement definitions and dataset-specific accounting
+measurement/final_gene_universe.tsv	7848	1	Five-study common measurement definitions and dataset-specific accounting
+measurement/final_module_gene_coverage.tsv	1759	4	Five-study common measurement definitions and dataset-specific accounting
+measurement/final_source_inventory.tsv	32	4	Measured feature counts and duplicate-symbol accounting per source object; local locations are omitted
+rpe1_validation/RPE1_gene_effects_all105.tsv.gz	45990	9	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/RPE1_phase2_measurement_accounting.tsv	439	8	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/all438_gene_UPR_response_and_fixed_rank.tsv	438	11	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/all_source_comparator_rankings.tsv	3066	6	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/complete_case_baseline_utility.tsv	14	15	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/complete_covariate_all100_module_controls.tsv	100	7	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/complete_covariate_background_matches.tsv	10100	6	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/complete_covariate_matching_estimability.tsv	101	4	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/complete_covariate_module_specificity_calibration.tsv	2	9	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/complete_covariate_null100_list_membership.tsv.gz	37000	5	Uniform370-gene sensitivity ranks; source effect/score values are in the full438-gene null100 source table
+rpe1_validation/complete_covariate_sensitivity_endpoints.tsv	3	14	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/complete_covariate_source_rankings.tsv	2590	9	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/equal100_fixed_baseline_sensitivity.tsv	14	6	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/equal100_target_cell_summary.tsv	5	8	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/exact_denominator_CC100_fixed_null_utility.tsv	100	2	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/exact_denominator_CC100_utility_calibration.tsv	1	4	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/exact_denominator_baseline_utility.tsv	14	15	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/exact_denominator_sensitivity_endpoints.tsv	3	14	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/fixed_Top20_gene_responses.tsv	20	11	Nested fixed Top20/Top10 source and held-out signed UPR effects
+rpe1_validation/fixed_direction_agreement.tsv	4	5	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/fixed_list_direction_absolute_summaries.tsv	2	21	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/fixed_list_leave_one_matched_set_out.tsv	30	4	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/frozen_background_matches.tsv	1700	6	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/matching_balance_before_RPE1.tsv	136	6	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/matching_covariate_availability.tsv	438	6	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/matching_estimability_before_RPE1.tsv	101	4	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/metadata_eligibility_accounting.tsv	2055	10	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/null100_source_rankings.tsv.gz	43800	8	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/primary_Holm3_endpoints.tsv	3	14	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/primary_all100_module_controls.tsv	100	7	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/primary_module_specificity_calibration.tsv	2	9	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+rpe1_validation/readout_member_sensitivity/UPR90_control_member_expression.tsv	180	6	Post-outcome descriptive readout-member diagnostic; fixed lists and matches, no reranking
+rpe1_validation/readout_member_sensitivity/fixed_Top20_UPR90_member_contrasts.tsv.gz	3600	13	Post-outcome descriptive readout-member diagnostic; fixed lists and matches, no reranking
+rpe1_validation/readout_member_sensitivity/fixed_Top20_background_gene_effects.tsv	240	5	Post-outcome descriptive readout-member diagnostic; fixed lists and matches, no reranking
+rpe1_validation/readout_member_sensitivity/fixed_Top20_leave_one_member_gaps.tsv	180	5	Post-outcome descriptive readout-member diagnostic; fixed lists and matches, no reranking
+rpe1_validation/readout_member_sensitivity/leave_one_member_gap_summary.tsv	2	8	Post-outcome descriptive readout-member diagnostic; fixed lists and matches, no reranking
+rpe1_validation/rpe1_UPR_exact_denominator_gene_effects.tsv	438	14	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/source_UPR_exact_denominator_gene_effects.tsv	438	14	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/source_rank_inputs.tsv	438	32	Frozen source inputs, list membership/availability or exact raw-count sensitivity effects
+rpe1_validation/strict_RPE_GEM_support_sensitivity.tsv	1	4	Source-frozen438-gene RPE1 test; conditional uncertainty and declared or labelled descriptive sensitivity
+study_transfer/conditional_model_comparisons.tsv	45	12	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/direct_state_value_cluster_comparisons.tsv	48	16	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/paired_partition_reliability_sensitivity.tsv	30	5	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/paired_partition_response_sensitivity.tsv	30	5	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/partition_sensitivity.tsv	51	8	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/primary_response_rmse_by_axis_group.tsv	81	5	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+study_transfer/response_metrics_by_axis.tsv	3240	6	Fixed study-held-out model errors or paired conditional cluster/partition sensitivities
+upr_readout_robustness/fixed_target_panels.tsv	523	4	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/all_fixed_panel_signature_effects.tsv.gz	8368	35	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/primary80_rank_associations.tsv	80	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/secondary160_direction_consistency.tsv	160	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/chance_adjusted_direction_agreement.tsv	160	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/all320_minimal_covariate_sensitivities.tsv	320	13	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/study_balanced_signed_effect_summary.tsv	16	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/paired_full_disjoint_unique_specification_differences.tsv	50	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/paired_Frangieh_context_differences.tsv	32	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/readout_specificity_availability.tsv	16	11	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/all_fixed_library_real_null_readout_metrics.tsv.gz	4045	8	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/fixed_library_readout_specificity_calibration.tsv	80	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/equal_depth_signature_summaries.tsv	432	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/shared_GEM_technical_signature_intervals.tsv	400	7	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/Hallmark94_identifier_sensitivity.tsv	60	12	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/Hallmark90_94_paired_gene_effects.tsv.gz	1046	7	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/sequencing_depth_covariates.tsv	990	12	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/sequencing_depth_covariate_schema.tsv	12	2	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/sequencing_depth_schema_availability.tsv	4	6	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/sequencing_depth170_conditional_associations.tsv	170	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/sequencing_depth_model_inputs.tsv.gz	8891	16	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+upr_readout_robustness/definitions/locked_axis_definitions.tsv	16	8	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/locked_memberships.tsv	747	6	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/hierarchy_and_overlap.tsv	49	9	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/target_functional_annotations.tsv	3960	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/target_functional_stratum_counts.tsv	24	4	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/original_Hallmark_UPR_full.tsv	113	2	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/Hallmark_disjoint_measured_exclusion.tsv	94	1	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/null100_per_readout_memberships.tsv.gz	30200	8	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/null_matching_accounting.tsv	8	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/source_NTC_expression_detection_bins.tsv	6780	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+upr_readout_robustness/definitions/fixed_canonical_members.tsv	94	3	Deterministic identifier-only94-member sensitivity; original90 assays/ranks remain unchanged
+upr_readout_robustness/figure_source_data/Fig_UPR_readout_robustness_a.tsv	30	25	Exact plotted final readout robustness values
+upr_readout_robustness/figure_source_data/Fig_UPR_readout_robustness_b.tsv	40	13	Exact plotted final readout robustness values
+upr_readout_robustness/figure_source_data/Fig_UPR_readout_robustness_c.tsv	20	26	Exact plotted final readout robustness values
+upr_readout_robustness/ranking/source_quintile_membership.tsv	1198	5	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/quintile_group_summaries.tsv	15	18	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/quintile_trend_estimates.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/joint_Holm7_tests.tsv	7	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/quintile_adjacent_simultaneous_intervals.tsv	24	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/quintile_ordered_draw_fractions.tsv	9	5	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/fixed_ranking_metrics.tsv	42	11	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/paired_method_differences.tsv	96	12	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/all100_null_metric_calibration.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/all100_fixed_null_ranking_metrics.tsv	600	11	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/fixed_background_positive_enrichment.tsv	4	16	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/uniform_random_ranking_reference.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/ranking_exact_equal100_sensitivities.tsv	280	9	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/quintile_exact_equal100_sensitivities.tsv	24	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/primary_quintile_projection_trend_estimates.tsv	8	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+upr_readout_robustness/ranking/alternative_definitions/source_alternative_Top10_Top20.tsv	640	12	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/source_rank_stability_vs_current.tsv	64	11	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/source_alternative_matching_coverage.tsv	32	4	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/alternative_readout_fixed_list_metrics.tsv	288	21	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/alternative_priority_paired_comparisons.tsv	512	14	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/alternative_fixed_background_gap_intervals.tsv	288	19	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/parent_specific_fixed_mode_null_calibration.tsv	144	10	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/parent_specific_null_list_metrics.tsv	1600	8	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/alternative_definitions/alternative_readout_current_quintile_projection.tsv	80	9	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+upr_readout_robustness/ranking/canonical94_projection/canonical94_current_fixed_list_metrics.tsv	56	18	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+upr_readout_robustness/ranking/canonical94_projection/canonical94_paired_current_method_comparisons.tsv	96	12	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+upr_readout_robustness/ranking/canonical94_projection/canonical94_current_quintile_groups.tsv	20	10	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+upr_readout_robustness/ranking/canonical94_projection/canonical94_current_quintile_trends.tsv	16	9	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+upr_readout_robustness/ranking/canonical94_projection/canonical94_current_matched_gap_intervals.tsv	24	11	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+upr_readout_robustness/ranking/depth_diagnostic/depth_adjusted_fixed_matched_gaps.tsv	2	12	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+upr_readout_robustness/ranking/depth_diagnostic/fixed_list_depth_balance.tsv	8	15	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+upr_readout_robustness/ranking/depth_diagnostic/depth_model_coefficients.tsv	3	9	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+upr_readout_robustness/figure_source_data/ranking_figure_random_reference_source.tsv	8	6	Exact uniform and matched-null reference summaries in the ranking robustness figure
+upr_readout_robustness/all87_additional_primary_tests.tsv	87	7	Additional globalBH87 sensitivity across the unchanged Holm7 and BH80 primary families; not a replacement family
+independent_HepG2/all_fixed_baseline_metrics.tsv	84	11	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/all_ordering_results.tsv	6	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/all100_module_priority_metrics.tsv	1200	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/assayed_frozen_universe.tsv	6523	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/figure_panel_a_source.tsv	438	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/figure_panel_b_source.tsv	20	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/figure_panel_c_source.tsv	14	11	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/figure_panel_d_source.tsv	200	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/frozen_metadata_cohorts.tsv	438	5	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/frozen_source_rankings.tsv	3066	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/frozen_UPR90_members.tsv	90	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/HepG2_gene_effects.tsv	876	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/literal_list_intervals_with_parameter_bounds.tsv	48	9	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/matched_module_priority_calibration.tsv	36	8	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/primary_Holm5.tsv	5	7	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/shared_GEM_intervals.tsv	18	6	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/unavailable_library_members.tsv	257	1	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified
+independent_HepG2/uniform_reference_summaries.tsv	12	13	Frozen independent HepG2 evaluation; primary versus low-support/normalization/strict sensitivity explicitly identified

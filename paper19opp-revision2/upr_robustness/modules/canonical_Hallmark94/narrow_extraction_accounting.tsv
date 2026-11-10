@@ -1,0 +1,17 @@
+study	gene	raw_feature_rows	native_cells	retained_cells	shared_control_target_check	max_shared_control_error	source_path	source_bytes	elapsed_seconds
+K562	H2AFX	4894	310385	98052	TRUE	0	/Volumes/wang/paper6yhn/raw/replogle_k562_essential/K562_essential_raw_singlecell_01.h5ad	10661879995	84.4236550331116
+K562	IARS	3916	310385	98052	FALSE	0	/Volumes/wang/paper6yhn/raw/replogle_k562_essential/K562_essential_raw_singlecell_01.h5ad	10661879995	84.4236550331116
+K562	TARS	2294	310385	98052	TRUE	0	/Volumes/wang/paper6yhn/raw/replogle_k562_essential/K562_essential_raw_singlecell_01.h5ad	10661879995	84.4236550331116
+K562	TTC37	2420	310385	98052	FALSE	0	/Volumes/wang/paper6yhn/raw/replogle_k562_essential/K562_essential_raw_singlecell_01.h5ad	10661879995	84.4236550331116
+RPE1	H2AFX	5146	247914	97065	TRUE	0	/Volumes/wang/paper6yhn/raw/replogle_rpe1/rpe1_raw_singlecell_01.h5ad	8700873216	69.1888871192932
+RPE1	IARS	4088	247914	97065	FALSE	0	/Volumes/wang/paper6yhn/raw/replogle_rpe1/rpe1_raw_singlecell_01.h5ad	8700873216	69.1888871192932
+RPE1	TARS	2382	247914	97065	FALSE	0	/Volumes/wang/paper6yhn/raw/replogle_rpe1/rpe1_raw_singlecell_01.h5ad	8700873216	69.1888871192932
+RPE1	TTC37	2526	247914	97065	FALSE	0	/Volumes/wang/paper6yhn/raw/replogle_rpe1/rpe1_raw_singlecell_01.h5ad	8700873216	69.1888871192932
+Adamson	H2AFX	19837	65337	27599	FALSE	0	/Volumes/wang/paper4rfv/data/processed/h5ad/core_unpacked/adamson_2016_upr__GSM2406681_10X010.h5ad	555280802	17.2465589046478
+Adamson	IARS	16204	65337	27599	FALSE	0	/Volumes/wang/paper4rfv/data/processed/h5ad/core_unpacked/adamson_2016_upr__GSM2406681_10X010.h5ad	555280802	17.2465589046478
+Adamson	TARS	8742	65337	27599	TRUE	0	/Volumes/wang/paper4rfv/data/processed/h5ad/core_unpacked/adamson_2016_upr__GSM2406681_10X010.h5ad	555280802	17.2465589046478
+Adamson	TTC37	9226	65337	27599	FALSE	0	/Volumes/wang/paper4rfv/data/processed/h5ad/core_unpacked/adamson_2016_upr__GSM2406681_10X010.h5ad	555280802	17.2465589046478
+Frangieh	H2AFX	11390	218331	64008	FALSE		/Volumes/wang/paper13/raw/perturbation/SCP1064/FrangiehIzar2021_RNA.h5ad	1458928348	1.66212511062622
+Frangieh	IARS	11952	218331	64008	FALSE		/Volumes/wang/paper13/raw/perturbation/SCP1064/FrangiehIzar2021_RNA.h5ad	1458928348	1.66212511062622
+Frangieh	TARS	20762	218331	64008	FALSE		/Volumes/wang/paper13/raw/perturbation/SCP1064/FrangiehIzar2021_RNA.h5ad	1458928348	1.66212511062622
+Frangieh	TTC37	21988	218331	64008	FALSE		/Volumes/wang/paper13/raw/perturbation/SCP1064/FrangiehIzar2021_RNA.h5ad	1458928348	1.66212511062622

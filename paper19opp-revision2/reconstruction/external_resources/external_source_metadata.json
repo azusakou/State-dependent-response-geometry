@@ -1,0 +1,12 @@
+{
+  "study": "Frangieh et al. 2021",
+  "doi": "10.1038/s41588-021-00779-1",
+  "source_object": "/Volumes/wang/paper13/raw/perturbation/SCP1064/FrangiehIzar2021_RNA.h5ad",
+  "expected_zenodo_bytes": 1458928348,
+  "local_bytes": 1458928348,
+  "expected_zenodo_checksum": "md5:dc438f53c476a3dd562898654d48ed15",
+  "full_checksum_verified": false,
+  "metadata_verification": "Observed source cells218331 and source bytes match publication / live Zenodo7041849 record; full source checksum was not recomputed.",
+  "final_gene_universe.tsv_sha256": "f8924241124f458219e12183948aa7916c86d659bcdb80d4d2460030f5dc884a",
+  "final_axis_membership.tsv_sha256": "5bad744c5841c10d1863a8061d1865f430e8d650ee8b0c0483aa0c70a0b8d903"
+}

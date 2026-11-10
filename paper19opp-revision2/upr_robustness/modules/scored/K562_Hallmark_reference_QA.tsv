@@ -1,0 +1,3 @@
+study	mode	reference_genes	max_abs_effect_difference	max_abs_common_library_difference	same_target_counts	passed
+K562	fixed_L6780	438	3.89910326248355e-13	0	TRUE	TRUE
+K562	exact_Lminus_target	438	6.50146603220492e-13	0	TRUE	TRUE

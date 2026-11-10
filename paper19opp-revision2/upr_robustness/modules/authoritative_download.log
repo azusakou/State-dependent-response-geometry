@@ -1,0 +1,61 @@
+GO:0034975 page 1 hits 69
+GO:0036503 page 1 hits 553
+GO:0036503 page 2 hits 553
+GO:0036503 page 3 hits 553
+GO:0045047 page 1 hits 2193
+GO:0045047 page 2 hits 2193
+GO:0045047 page 3 hits 2193
+GO:0045047 page 4 hits 2193
+GO:0045047 page 5 hits 2193
+GO:0045047 page 6 hits 2193
+GO:0045047 page 7 hits 2193
+GO:0045047 page 8 hits 2193
+GO:0045047 page 9 hits 2193
+GO:0045047 page 10 hits 2193
+GO:0045047 page 11 hits 2193
+GO:0140467 page 1 hits 104
+GO:0030968 page 1 hits 308
+GO:0030968 page 2 hits 308
+Traceback (most recent call last):
+  File "/Users/wang/Documents/paper19opp/paper19opp-revision2/upr_robustness/modules/fetch_authoritative.py", line 88, in <module>
+    body = get('https://rest.uniprot.org/uniprotkb/stream?' + params,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wang/Documents/paper19opp/paper19opp-revision2/upr_robustness/modules/fetch_authoritative.py", line 27, in get
+    with urllib.request.urlopen(request, timeout=60) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 1428, in getresponse
+    response.begin()
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

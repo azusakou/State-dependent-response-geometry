@@ -1,0 +1,26 @@
+{
+  "primary_target_cell_minimum": 30,
+  "primary_control_cell_minimum": 60,
+  "frozen_UPR_members": 90,
+  "freeze_source": "independent_validation/locked_plan.txt and original source ranks",
+  "additional_expression_outcomes_accessed": false,
+  "Jurkat_GBF1": 8,
+  "Jurkat_UPR_measured": 88,
+  "HCT116_GBF1_ALG14": [
+    133,
+    229
+  ],
+  "HCT116_below30": {
+    "POLRMT": 25,
+    "RPL7": 27
+  },
+  "HEK293T_GBF1_ALG14": [
+    103,
+    341
+  ],
+  "HEK293T_below30": {
+    "RPS13": 29
+  },
+  "XAtlas_counts": "guide-filtered upper bounds before RNA QC",
+  "decision": "no context supports both literal frozen lists; preserve HepG2 secondary results and primary unavailable flags; do not pool or refill"
+}

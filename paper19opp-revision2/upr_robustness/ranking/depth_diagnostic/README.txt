@@ -1,0 +1,8 @@
+Retrospective recorded-UMI ranking diagnostic
+
+The locked plan specifies one unpenalized OLS model with intercept: original Hallmark90 fixed_L6780 RPE1 signed effect ~ K562 treated-cell meanlog1p(recorded UMI) + RPE1 treated-cell meanlog1p(recorded UMI). All 438 genes had complete depth values and unchanged frozen target-cell support. Source Top 10/Top 20 and their 50/100 backgrounds remain fixed. All 2,000 whole-gene bootstrap draws refitted this same model and recomputed residual-group means with shared gene weights; all fits were valid. No P value, adjusted Precision/NDCG, reranking or causal-benefit interpretation is introduced.
+
+From the directory containing paper19opp-revision2:
+Rscript paper19opp-revision2/upr_robustness/ranking/depth_diagnostic/analyze_depth_diagnostic.R paper19opp-revision2 > paper19opp-revision2/upr_robustness/ranking/depth_diagnostic/attempt1_stdout.txt 2> paper19opp-revision2/upr_robustness/ranking/depth_diagnostic/attempt1_stderr.txt
+
+Seed 2026110610; R 4.4.2; base R only. The first-read timestamp, locked-plan/code/input hashes, actual successful stdout/stderr, sessionInfo, draw-level coefficients/gaps and joint gene weights are preserved. Compact results: depth_adjusted_fixed_matched_gaps.tsv, fixed_list_depth_balance.tsv and depth_model_coefficients.tsv. Gene depth coverage/residuals andQA remain in the reproducibility archive. The 6,780-gene common-library depth is descriptive balance only and never enters the two-covariate model. Recorded UMI combines measurement depth and biological RNA content in treated cells, so residualization is a conditional diagnostic. The original raw metrics and inferential families are unchanged.

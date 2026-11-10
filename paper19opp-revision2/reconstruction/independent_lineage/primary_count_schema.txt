@@ -1,0 +1,2 @@
+Assay class Assay
+Assay slots counts,data,scale.data,assay.orig,var.features,meta.features,misc,key

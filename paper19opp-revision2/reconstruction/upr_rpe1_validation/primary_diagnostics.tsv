@@ -1,0 +1,2 @@
+genes	source_positive	source_score_positive	score_spearman	source_GEMs	validation_GEMs	Top20_mean	Top20_background_mean	Top10_mean	Top10_background_mean
+438	165	163	0.24512670117046	48	56	0.0442276879046701	-0.28453544243322	0.243003077797055	-0.330092023706622

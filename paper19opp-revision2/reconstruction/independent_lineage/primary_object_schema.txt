@@ -1,0 +1,2 @@
+Class Seurat
+Slots assays,meta.data,active.assay,active.ident,graphs,neighbors,reductions,images,project.name,misc,version,commands,tools

@@ -1,0 +1,4 @@
+Annotation-derived comparator uses the existing gene-level Bonferroni/BH aggregation of deposited transcript energy-test P values; it is not mislabeled as an untouched original author FDR.
+QARS is resolved through the author feature Ensembl identifier and raw DepMap Entrez5859 column, avoiding an ambiguous QARS alias.
+No absent DepMap value or unmeasured source expression is imputed as a known negative.
+Primary shared roster remains438 regardless of comparator availability; fair complete-comparator analyses have separately recorded coverage.

@@ -1,0 +1,15 @@
+{
+  "input_sha256": "cc81662e9bf2e6e0a6c343839500b2fe7476dd5912e05f0705bd39a9e48d2ed9",
+  "seed": 20261106,
+  "bootstrap_draws": 10000,
+  "analysis_status": "exploratory post-review analysis of frozen retrospective OOF predictions",
+  "candidate_rule": "same recorded baseline_context; at least two kernel-accepted interventions; identical candidates for elastic net",
+  "objectives": {
+    "apoptosis": "maximize transcriptional tail fraction",
+    "proliferation": "minimize transcriptional tail fraction"
+  },
+  "regret": "best observed desired transcriptomic fraction among accepted candidates minus observed desired fraction for selected intervention",
+  "tie_rule": "alphabetic perturbation identity, independent of outcomes",
+  "aggregation": "equal weight per eligible context; line-cluster bootstrap preserves multiple contexts per line",
+  "interpretation": "does not measure viability benefit, death, division, pretreatment-only policy utility or full candidate-panel utility; candidate support and original QC/program/task definitions remain fixed"
+}

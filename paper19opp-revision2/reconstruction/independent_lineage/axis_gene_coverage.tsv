@@ -1,0 +1,13 @@
+axis	positive_genes	negative_genes
+apoptosis	10	4
+proliferation	12	3
+stress	11	0
+hallmark_UNFOLDED_PROTEIN_RESPONSE	91	0
+hallmark_E2F_TARGETS	187	0
+hallmark_G2M_CHECKPOINT	176	0
+hallmark_P53_PATHWAY	116	0
+hallmark_TNFA_SIGNALING_VIA_NFKB	82	0
+hallmark_INTERFERON_GAMMA_RESPONSE	79	0
+hallmark_MTORC1_SIGNALING	175	0
+hallmark_OXIDATIVE_PHOSPHORYLATION	178	0
+hallmark_HYPOXIA	86	0

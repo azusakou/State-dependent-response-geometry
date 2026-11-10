@@ -1,0 +1,70 @@
+file	rows	columns	description
+fixed_target_panels.tsv	523	4	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+all_fixed_panel_signature_effects.tsv.gz	8368	35	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+primary80_rank_associations.tsv	80	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+secondary160_direction_consistency.tsv	160	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+chance_adjusted_direction_agreement.tsv	160	22	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+all320_minimal_covariate_sensitivities.tsv	320	13	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+study_balanced_signed_effect_summary.tsv	16	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+paired_full_disjoint_unique_specification_differences.tsv	50	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+paired_Frangieh_context_differences.tsv	32	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+readout_specificity_availability.tsv	16	11	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+all_fixed_library_real_null_readout_metrics.tsv.gz	4045	8	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+fixed_library_readout_specificity_calibration.tsv	80	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+equal_depth_signature_summaries.tsv	432	10	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+shared_GEM_technical_signature_intervals.tsv	400	7	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+Hallmark94_identifier_sensitivity.tsv	60	12	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+Hallmark90_94_paired_gene_effects.tsv.gz	1046	7	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+sequencing_depth_covariates.tsv	990	12	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+sequencing_depth_covariate_schema.tsv	12	2	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+sequencing_depth_schema_availability.tsv	4	6	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+sequencing_depth170_conditional_associations.tsv	170	15	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+sequencing_depth_model_inputs.tsv.gz	8891	16	Complete fixed-panel curated-readout result or explicitly named conditional sensitivity; no post-outcome reselected target list
+definitions/locked_axis_definitions.tsv	16	8	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/locked_memberships.tsv	747	6	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/hierarchy_and_overlap.tsv	49	9	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/target_functional_annotations.tsv	3960	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/target_functional_stratum_counts.tsv	24	4	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/original_Hallmark_UPR_full.tsv	113	2	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/Hallmark_disjoint_measured_exclusion.tsv	94	1	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/null100_per_readout_memberships.tsv.gz	30200	8	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/null_matching_accounting.tsv	8	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/source_NTC_expression_detection_bins.tsv	6780	7	Authoritative full/disjoint/unique gene membership or source-only negative-control definition and availability
+definitions/fixed_canonical_members.tsv	94	3	Deterministic identifier-only94-member sensitivity; original90 assays/ranks remain unchanged
+figure_source_data/Fig_UPR_readout_robustness_a.tsv	30	25	Exact plotted final readout robustness values
+figure_source_data/Fig_UPR_readout_robustness_b.tsv	40	13	Exact plotted final readout robustness values
+figure_source_data/Fig_UPR_readout_robustness_c.tsv	20	26	Exact plotted final readout robustness values
+ranking/source_quintile_membership.tsv	1198	5	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/quintile_group_summaries.tsv	15	18	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/quintile_trend_estimates.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/joint_Holm7_tests.tsv	7	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/quintile_adjacent_simultaneous_intervals.tsv	24	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/quintile_ordered_draw_fractions.tsv	9	5	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/fixed_ranking_metrics.tsv	42	11	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/paired_method_differences.tsv	96	12	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/all100_null_metric_calibration.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/all100_fixed_null_ranking_metrics.tsv	600	11	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/fixed_background_positive_enrichment.tsv	4	16	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/uniform_random_ranking_reference.tsv	12	7	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/ranking_exact_equal100_sensitivities.tsv	280	9	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/quintile_exact_equal100_sensitivities.tsv	24	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/primary_quintile_projection_trend_estimates.tsv	8	8	Previously fixed source groups/lists; retrospective quintile or ranking robustness with no validation-guided reranking
+ranking/alternative_definitions/source_alternative_Top10_Top20.tsv	640	12	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/source_rank_stability_vs_current.tsv	64	11	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/source_alternative_matching_coverage.tsv	32	4	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/alternative_readout_fixed_list_metrics.tsv	288	21	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/alternative_priority_paired_comparisons.tsv	512	14	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/alternative_fixed_background_gap_intervals.tsv	288	19	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/parent_specific_fixed_mode_null_calibration.tsv	144	10	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/parent_specific_null_list_metrics.tsv	1600	8	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/alternative_definitions/alternative_readout_current_quintile_projection.tsv	80	9	Source-only alternate definition rankings frozen before corresponding scored RPE1 summaries; descriptive comparison, no additional P family
+ranking/canonical94_projection/canonical94_current_fixed_list_metrics.tsv	56	18	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+ranking/canonical94_projection/canonical94_paired_current_method_comparisons.tsv	96	12	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+ranking/canonical94_projection/canonical94_current_quintile_groups.tsv	20	10	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+ranking/canonical94_projection/canonical94_current_quintile_trends.tsv	16	9	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+ranking/canonical94_projection/canonical94_current_matched_gap_intervals.tsv	24	11	Identifier-only94 outcome projection of original90 source groups/lists; no94 ranking or new formal test
+ranking/depth_diagnostic/depth_adjusted_fixed_matched_gaps.tsv	2	12	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+ranking/depth_diagnostic/fixed_list_depth_balance.tsv	8	15	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+ranking/depth_diagnostic/depth_model_coefficients.tsv	3	9	Descriptive recorded-UMI conditional continuous fixed-list matched gaps; no new P value, adjusted Precision or reranking
+figure_source_data/ranking_figure_random_reference_source.tsv	8	6	Exact uniform and matched-null reference summaries in the ranking robustness figure
+all87_additional_primary_tests.tsv	87	7	Additional globalBH87 sensitivity across the unchanged Holm7 and BH80 primary families; not a replacement family

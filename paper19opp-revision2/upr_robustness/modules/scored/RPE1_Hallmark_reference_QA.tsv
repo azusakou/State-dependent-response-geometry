@@ -1,0 +1,3 @@
+study	mode	reference_genes	max_abs_effect_difference	max_abs_common_library_difference	same_target_counts	passed
+RPE1	fixed_L6780	438	7.29860616388578e-13	0	TRUE	TRUE
+RPE1	exact_Lminus_target	438	7.40074668215129e-13	0	TRUE	TRUE

@@ -1,0 +1,9 @@
+study	context	outcome	method	genes	spearman	conditional_gene_bootstrap_low	conditional_gene_bootstrap_high	partial_rank_correlation	partial_rank_correlation_plus_magnitude	cohort
+Adamson2016	Adamson_K562_UPR	directional_effect	Composite priority	30	0.249388209121246	-0.106385202226449	0.551541245383372	0.280423458495152	0.0760759879032635	K562 / Adamson (30)
+Adamson2016	Adamson_K562_UPR	directional_effect	Dominant-program magnitude	30	0.25650723025584	-0.110332915111287	0.580154587039664	0.271240392382844		K562 / Adamson (30)
+Frangieh2021	Control	directional_effect	Composite priority	19	-0.245614035087719	-0.679044141832774	0.284896860908597	-0.234565468061655	-0.00934730082676829	Melanoma / control (19)
+Frangieh2021	Control	directional_effect	Dominant-program magnitude	19	-0.228070175438597	-0.643429348744625	0.266936467702888	-0.258742960352653		Melanoma / control (19)
+Frangieh2021	IFNγ	directional_effect	Composite priority	19	-0.128070175438597	-0.568974014196817	0.374370425152653	0.0777912939157073	0.615622407909662	Melanoma / IFNγ (19)
+Frangieh2021	IFNγ	directional_effect	Dominant-program magnitude	19	-0.314035087719298	-0.664308332278882	0.191935269713502	-0.223268571802126		Melanoma / IFNγ (19)
+Frangieh2021	Co-culture	directional_effect	Composite priority	17	0.137254901960784	-0.343268918781114	0.633214593627456	0.389588260736402	0.453213730949714	Melanoma / co-culture (17)
+Frangieh2021	Co-culture	directional_effect	Dominant-program magnitude	17	0.0637254901960784	-0.388165182803294	0.554240826479908	0.210548230685326		Melanoma / co-culture (17)

@@ -1,0 +1,6 @@
+UTC 2026-11-06T04:24:33Z
+manifest_sha256 b6d91784f8dd623acfc5e11fdc27730b6f205fed6f8c3448649d10695eb14c52
+locked_files 51
+RPE1 expression matrix and expression summaries have not been accessed before this lock.
+Source roster438, UPR90, denominator6780, null100, all source ranks, literalTop10/20, all matches and370-gene uniform sensitivity were locked together.
+No missing selected-UPR matching covariates; all20 original members retained. No RPE1-based scoring, matching, cutoff or model choice is permitted.

@@ -1,0 +1,16 @@
+minimum_parent_cells	eligible_parent_history_units	eligible_parent_unique_lineages	minimum_descendant_cells	observed_paired_tasks	paired_unique_lineages
+1	2561	2441	1	727	510
+1	2561	2441	2	465	334
+1	2561	2441	5	278	208
+2	571	556	1	463	294
+2	571	556	2	332	221
+2	571	556	5	206	145
+3	290	284	1	342	203
+3	290	284	2	257	166
+3	290	284	5	167	117
+5	184	183	1	255	146
+5	184	183	2	197	122
+5	184	183	5	125	83
+10	94	94	1	162	82
+10	94	94	2	123	69
+10	94	94	5	85	52

@@ -1,0 +1,212 @@
+[
+  {
+    "file": "authoritative_raw/QuickGO_terms.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0034975,GO:0036503,GO:0045047,GO:0140467,GO:0030968",
+    "accessed_utc": "2026-11-06T05:34:03.155723+00:00",
+    "bytes": 6204,
+    "sha256": "c7ac05abfb3d508cf18778112f30cdd0e71c3c488c8dd94d1a796affdae490ab",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_ontology_about.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/ontology/go/about",
+    "accessed_utc": "2026-11-06T05:34:03.155815+00:00",
+    "bytes": 122,
+    "sha256": "77187a3d27290af2040f41f6d561521454ee480ea500bf4e3b66622303a051a2",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_annotation_about.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/about",
+    "accessed_utc": "2026-11-06T05:34:03.155848+00:00",
+    "bytes": 47,
+    "sha256": "fd99bf841fe96e7086c823ee8c78fdfa35db4b6318aa3985380e000349b10908",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0034975_page1.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0034975&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=1",
+    "accessed_utc": "2026-11-06T05:34:03.155907+00:00",
+    "bytes": 32892,
+    "sha256": "ef2a71a88c7ad0797d08760a52fee8dfb9d62d4f5763dd4b5b97c20a5cd40878",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0036503_page1.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0036503&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=1",
+    "accessed_utc": "2026-11-06T05:34:03.156146+00:00",
+    "bytes": 98452,
+    "sha256": "aedd19bea6a68ddd900f9afb0922c055e9974664ce1cef2494b52592e940f698",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0036503_page2.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0036503&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=2",
+    "accessed_utc": "2026-11-06T05:34:03.156665+00:00",
+    "bytes": 97618,
+    "sha256": "2e03e747785d0911e0096cee7489f219da7356e60012cf31d5e0a8f086444ba6",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0036503_page3.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0036503&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=3",
+    "accessed_utc": "2026-11-06T05:34:03.157171+00:00",
+    "bytes": 76191,
+    "sha256": "165ab40adc85c9714255d3ddb652c9d7e6c450d3c422dd48ae406039e640bb48",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page1.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=1",
+    "accessed_utc": "2026-11-06T05:34:03.157787+00:00",
+    "bytes": 102320,
+    "sha256": "9106a91f3e9c5a9e34b9abf97ade23ac42a658fea7dfbb1c02757bd8fb16ed4f",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page2.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=2",
+    "accessed_utc": "2026-11-06T05:34:03.158316+00:00",
+    "bytes": 106062,
+    "sha256": "a320e3e94524f90b32e2255a29ddb5106940bbe54712578662727e11d406a77f",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page3.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=3",
+    "accessed_utc": "2026-11-06T05:34:03.158813+00:00",
+    "bytes": 106996,
+    "sha256": "91d498d977962b3213e825ec41b2ee13e6314e86acb1aa4f72b754802938e82f",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page4.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=4",
+    "accessed_utc": "2026-11-06T05:34:03.159295+00:00",
+    "bytes": 107003,
+    "sha256": "cbfc9a8e8c55629bb9cec92df0b5591a22edf27bae60c6d014e748896bd43b4b",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page5.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=5",
+    "accessed_utc": "2026-11-06T05:34:03.159797+00:00",
+    "bytes": 107009,
+    "sha256": "dc2d523ca9b7d1358f7ebb47495fcc85cc2a48534d65203e061bf63bdc56b142",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page6.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=6",
+    "accessed_utc": "2026-11-06T05:34:03.160271+00:00",
+    "bytes": 109074,
+    "sha256": "4051e3d1f22f9789afeacb11ae90e49a1b9cf4c5c156bab6fba452434cabaa12",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page7.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=7",
+    "accessed_utc": "2026-11-06T05:34:03.160898+00:00",
+    "bytes": 106199,
+    "sha256": "6a1980691d7199a0e9d84c4e9c8806e01f4f5111eec8403eb1ac50a3675c4908",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page8.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=8",
+    "accessed_utc": "2026-11-06T05:34:03.161404+00:00",
+    "bytes": 103090,
+    "sha256": "a09c3da435a564158bd5f553b4d77b7b398d2ff8fd12083f2c4b957cc8fe503e",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page9.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=9",
+    "accessed_utc": "2026-11-06T05:34:03.162164+00:00",
+    "bytes": 103530,
+    "sha256": "a1692016921030e9ebfcfe6ecdf5eb401f60780e12f99281444d35b95e029ee3",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page10.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=10",
+    "accessed_utc": "2026-11-06T05:34:03.162650+00:00",
+    "bytes": 103309,
+    "sha256": "fdfeeb6c8247b2ec8a53636d82fc304a747f6bc681b5f12a6bff5e7c977db306",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0045047_page11.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0045047&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=11",
+    "accessed_utc": "2026-11-06T05:34:03.163148+00:00",
+    "bytes": 100656,
+    "sha256": "0e0d2d68c9e81a21cbbd059a575c688e7f98809b9194e37e15c1adbdaa5b76a0",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0140467_page1.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0140467&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=1",
+    "accessed_utc": "2026-11-06T05:34:03.163617+00:00",
+    "bytes": 46336,
+    "sha256": "4d1c3ef395f130557fa86d5004b9134f42ecf7fddd031a250da4e22246906691",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0030968_page1.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0030968&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=1",
+    "accessed_utc": "2026-11-06T05:34:03.163877+00:00",
+    "bytes": 100935,
+    "sha256": "89b3463495b5dedca29616f580fe0adfedac9e2d5512c30a932817eec9631d12",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  },
+  {
+    "file": "authoritative_raw/QuickGO_GO0030968_page2.json",
+    "url": "https://www.ebi.ac.uk/QuickGO/services/annotation/search?taxonId=9606&goId=GO%3A0030968&goUsage=descendants&goUsageRelationships=is_a%2Cpart_of&limit=200&page=2",
+    "accessed_utc": "2026-11-06T05:34:03.164446+00:00",
+    "bytes": 53454,
+    "sha256": "dc9e640f999c5c5c5248f0d2928d12ae7c24003ed7373836b78b73536ab68b93",
+    "response_headers": {
+      "cache_reuse": "existing exact response"
+    }
+  }
+]

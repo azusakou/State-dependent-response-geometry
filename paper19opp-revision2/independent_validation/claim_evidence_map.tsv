@@ -1,0 +1,9 @@
+claim	table	row_selector	values
+primary ordering	primary_Holm5.tsv	signed_UPR_rho	rho0.40258;Holm0.00049995
+gene uncertainty	all_ordering_results.tsv	exact_Lminus_target;minimum_cells30	CI0.312698,0.488875
+candidate support	figure_panel_b_source.tsv	GBF1;ALG14	17;24cells;primaryunestimable
+lower support precision	all_fixed_baseline_metrics.tsv	exact;minimum10;UPR_priority	0.80/0.75
+fair NDCG comparison	all_fixed_baseline_metrics.tsv	exact;minimum10;UPR_priority/raw_UPR	0.57355/0.52513vs0.59369/0.56474
+literal signed gap intervals	literal_list_gene_intervals.tsv	exact;minimum10;gap	0.51053[0.28208,0.73351];0.34061[0.19147,0.49283]
+matched random rankings	supplementary_data/independent_HepG2/matched_module_priority_calibration.tsv	exact;minimum10	allPrecision/NDCG tails1/101
+technical sensitivity	shared_GEM_intervals.tsv	exact;minimum10;gap10/20	0.430..0.591;0.290..0.393

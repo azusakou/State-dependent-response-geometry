@@ -1,0 +1,2 @@
+source	bytes	sha256	release	role	source_dataset_url	method_doi	statistic	reuse
+/Volumes/wang/paper4rfv/data/raw/depmap/24Q4/CRISPRGeneEffect.csv	428678699	3d8f3ec6dbf2db7ff834b79b508622ec0b226f3518003fe96ecf5a4fcf167e3b	DepMap24Q4	Simple generic essentiality comparator; not an external response endpoint	https://doi.org/10.25452/figshare.plus.27993248.v1	10.1186/s13059-021-02540-7	Negative mean CRISPRGeneEffect across all available cellline profiles(up to1178)	Source terms apply; derived comparator vector only redistributed

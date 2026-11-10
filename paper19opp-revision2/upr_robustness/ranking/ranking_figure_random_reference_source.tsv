@@ -1,0 +1,9 @@
+reference	K	endpoint	estimate	low	high
+Matched random modules	10	Precision	0.2	0	0.4
+Uniform random ordering	10	Precision	0.305220000000003	0	0.6
+Matched random modules	10	NDCG	0.0424376505742699	0	0.130583799220323
+Uniform random ordering	10	NDCG	0.0590477241350157	0	0.22747490261367
+Matched random modules	20	Precision	0.3	0.15	0.42625
+Uniform random ordering	20	Precision	0.305375	0.1	0.5
+Matched random modules	20	NDCG	0.0547560809085785	0.0132038090828905	0.137586803542229
+Uniform random ordering	20	NDCG	0.0727958883964081	0.00740184286728823	0.214211096187538

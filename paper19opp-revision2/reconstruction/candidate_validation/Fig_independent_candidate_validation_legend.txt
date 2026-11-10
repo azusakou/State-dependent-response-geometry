@@ -1,0 +1,11 @@
+Gene priorities and response programs transfer differently across independent studies.
+
+a,b, The Replogle K562 discovery priority versus the independently measured shift along each gene's discovery-selected program and direction, standardized by the matched-control SD. All 30 metadata-qualified Adamson K562 genes and all 19 Frangieh melanoma genes in the unstimulated context are shown. Blue points and labels identify the top 10 priorities fixed without external response information; grey points are other assayed genes. The composite combines dominant-program magnitude, agreement across technical GEM groups and a penalty for movement on the other two programs.
+
+c, All-gene Spearman correlations for composite and magnitude-only priorities. Points show estimates; bars show 95% percentile intervals from 2,000 gene-bootstrap draws conditional on the fixed scores and measured responses. Frangieh co-culture retains 17 of the 19 genes under the 30-cell support rule; the other melanoma contexts retain 19. Comparisons of combined-source and pilot-only scores cover 12 of 30 Adamson genes and 4 of 19 melanoma genes. The four-gene subset cannot support a top-10 test; in the 12-gene Adamson subset, the top-10 sets coincide across combined-source, pilot-only, measured-composite and magnitude scores.
+
+d, Exploratory correlations between Replogle and external gene effects for all 12 predefined transcriptomic axes, separately within each validation context. Values are Spearman correlations; an asterisk denotes BH q < 0.05 after joint correction of all 48 two-sided gene-permutation tests with 10,000 draws each. Gene membership and CP10k normalization use the same 7,848-gene universe across all five sources, with duplicate raw symbols summed before scoring.
+
+Intervals describe conditional gene-sampling uncertainty within the assayed panels, rather than independent biological experiments. The three melanoma contexts belong to the same Frangieh study. Transcriptional-program changes do not measure cell death, division, durable fate attainment or therapeutic benefit.
+
+UPR, unfolded protein response; OXPHOS, oxidative phosphorylation.

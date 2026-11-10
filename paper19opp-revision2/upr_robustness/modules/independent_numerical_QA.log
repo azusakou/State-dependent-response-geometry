@@ -1,0 +1,25 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Independent raw-score checks K562 
+Independent raw-score checks RPE1 
+Independent raw-score checks Adamson 
+Independent raw-score checks Frangieh 
+      study scorable_cells controls checked_cells checked_real_axes
+     <char>          <int>    <int>         <int>             <int>
+1:     K562          98052     9775            34                21
+2:     RPE1          97065    11485            36                21
+3:  Adamson          27599     6284            35                21
+4: Frangieh          64008    57605            35                21
+   maximum_direct_cellscore_error real_gene_mode_rows
+                            <num>               <int>
+1:                   1.554312e-15               19614
+2:                   1.554312e-15               18396
+3:                   7.771561e-16                1260
+4:                   9.992007e-16                2310
+   maximum_GEM_reaggregation_error same_target_support passed
+                             <num>              <lgcl> <lgcl>
+1:                    5.773160e-15                TRUE   TRUE
+2:                    7.105427e-15                TRUE   TRUE
+3:                    5.329071e-15                TRUE   TRUE
+4:                    5.551115e-17                TRUE   TRUE

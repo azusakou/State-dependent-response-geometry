@@ -1,0 +1,136 @@
+            comparison                mode     metric     estimate
+                <char>              <char>     <char>        <num>
+ 1:            Adamson exact_Lminus_target      rho90  0.838932147
+ 2:            Adamson exact_Lminus_target      rho94  0.830033370
+ 3:            Adamson exact_Lminus_target difference -0.008898776
+ 4:            Adamson         fixed_L6780      rho90  0.837152392
+ 5:            Adamson         fixed_L6780      rho94  0.830033370
+ 6:            Adamson         fixed_L6780 difference -0.007119021
+ 7: Frangieh_Coculture exact_Lminus_target      rho90  0.426470588
+ 8: Frangieh_Coculture exact_Lminus_target      rho94  0.475490196
+ 9: Frangieh_Coculture exact_Lminus_target difference  0.049019608
+10: Frangieh_Coculture         fixed_L6780      rho90  0.399509804
+11: Frangieh_Coculture         fixed_L6780      rho94  0.475490196
+12: Frangieh_Coculture         fixed_L6780 difference  0.075980392
+13:   Frangieh_Control exact_Lminus_target      rho90  0.670175439
+14:   Frangieh_Control exact_Lminus_target      rho94  0.615789474
+15:   Frangieh_Control exact_Lminus_target difference -0.054385965
+16:   Frangieh_Control         fixed_L6780      rho90  0.677192982
+17:   Frangieh_Control         fixed_L6780      rho94  0.603508772
+18:   Frangieh_Control         fixed_L6780 difference -0.073684211
+19:      Frangieh_IFNg exact_Lminus_target      rho90 -0.017543860
+20:      Frangieh_IFNg exact_Lminus_target      rho94  0.052631579
+21:      Frangieh_IFNg exact_Lminus_target difference  0.070175439
+22:      Frangieh_IFNg         fixed_L6780      rho90 -0.059649123
+23:      Frangieh_IFNg         fixed_L6780      rho94  0.052631579
+24:      Frangieh_IFNg         fixed_L6780 difference  0.112280702
+25:               RPE1 exact_Lminus_target      rho90  0.378447231
+26:               RPE1 exact_Lminus_target      rho94  0.391962706
+27:               RPE1 exact_Lminus_target difference  0.013515475
+28:               RPE1         fixed_L6780      rho90  0.377505393
+29:               RPE1         fixed_L6780      rho94  0.390080030
+30:               RPE1         fixed_L6780 difference  0.012574637
+            comparison                mode     metric     estimate
+                <char>              <char>     <char>        <num>
+    gene_bootstrap_low gene_bootstrap_high fixed_target_genes paired_genes
+                 <num>               <num>              <int>        <int>
+ 1:       0.6421822521          0.93159336                 30           30
+ 2:       0.6342379602          0.92000090                 30           30
+ 3:      -0.0603406668          0.04105539                 30           30
+ 4:       0.6435725410          0.93114395                 30           30
+ 5:       0.6365908955          0.92283413                 30           30
+ 6:      -0.0577068895          0.04427855                 30           30
+ 7:      -0.1058928954          0.85396040                 17           17
+ 8:      -0.0374521052          0.85624290                 17           17
+ 9:      -0.0596310374          0.20074396                 17           17
+10:      -0.1308917010          0.83292811                 17           17
+11:      -0.0490913358          0.85768678                 17           17
+12:      -0.0521124177          0.23982713                 17           17
+13:       0.2592526632          0.88642413                 19           19
+14:       0.1740544212          0.89894511                 19           19
+15:      -0.2371127898          0.12584670                 19           19
+16:       0.2941693845          0.88540734                 19           19
+17:       0.1630185011          0.88772545                 19           19
+18:      -0.2684444444          0.12074477                 19           19
+19:      -0.5089421534          0.48176838                 19           19
+20:      -0.4629147405          0.55921086                 19           19
+21:      -0.0618511731          0.26018062                 19           19
+22:      -0.5407062081          0.45535759                 19           19
+23:      -0.4553575867          0.55934162                 19           19
+24:      -0.0564872021          0.35943959                 19           19
+25:       0.2859934887          0.46606308                438          438
+26:       0.3015812449          0.47810475                438          438
+27:       0.0003023581          0.02729379                438          438
+28:       0.2825759891          0.46461644                438          438
+29:       0.2970871524          0.47652554                438          438
+30:      -0.0002156986          0.02580305                438          438
+    gene_bootstrap_low gene_bootstrap_high fixed_target_genes paired_genes
+                 <num>               <num>              <int>        <int>
+    source94_positive validation94_positive finite_bootstrap_draws
+                <int>                 <int>                  <int>
+ 1:                17                    14                   4999
+ 2:                17                    14                   4999
+ 3:                17                    14                   4999
+ 4:                17                    14                   4999
+ 5:                17                    14                   4999
+ 6:                17                    14                   4999
+ 7:                 8                    14                   4999
+ 8:                 8                    14                   4999
+ 9:                 8                    14                   4999
+10:                 8                    14                   4999
+11:                 8                    14                   4999
+12:                 8                    14                   4999
+13:                10                    18                   4999
+14:                10                    18                   4999
+15:                10                    18                   4999
+16:                10                    18                   4999
+17:                10                    18                   4999
+18:                10                    18                   4999
+19:                10                    16                   4999
+20:                10                    16                   4999
+21:                10                    16                   4999
+22:                10                    16                   4999
+23:                10                    16                   4999
+24:                10                    16                   4999
+25:               158                   131                   4999
+26:               158                   131                   4999
+27:               158                   131                   4999
+28:               160                   132                   4999
+29:               160                   132                   4999
+30:               160                   132                   4999
+    source94_positive validation94_positive finite_bootstrap_draws
+                <int>                 <int>                  <int>
+                                                           scope
+                                                          <char>
+ 1: descriptive identifier robustness; no new P value or ranking
+ 2: descriptive identifier robustness; no new P value or ranking
+ 3: descriptive identifier robustness; no new P value or ranking
+ 4: descriptive identifier robustness; no new P value or ranking
+ 5: descriptive identifier robustness; no new P value or ranking
+ 6: descriptive identifier robustness; no new P value or ranking
+ 7: descriptive identifier robustness; no new P value or ranking
+ 8: descriptive identifier robustness; no new P value or ranking
+ 9: descriptive identifier robustness; no new P value or ranking
+10: descriptive identifier robustness; no new P value or ranking
+11: descriptive identifier robustness; no new P value or ranking
+12: descriptive identifier robustness; no new P value or ranking
+13: descriptive identifier robustness; no new P value or ranking
+14: descriptive identifier robustness; no new P value or ranking
+15: descriptive identifier robustness; no new P value or ranking
+16: descriptive identifier robustness; no new P value or ranking
+17: descriptive identifier robustness; no new P value or ranking
+18: descriptive identifier robustness; no new P value or ranking
+19: descriptive identifier robustness; no new P value or ranking
+20: descriptive identifier robustness; no new P value or ranking
+21: descriptive identifier robustness; no new P value or ranking
+22: descriptive identifier robustness; no new P value or ranking
+23: descriptive identifier robustness; no new P value or ranking
+24: descriptive identifier robustness; no new P value or ranking
+25: descriptive identifier robustness; no new P value or ranking
+26: descriptive identifier robustness; no new P value or ranking
+27: descriptive identifier robustness; no new P value or ranking
+28: descriptive identifier robustness; no new P value or ranking
+29: descriptive identifier robustness; no new P value or ranking
+30: descriptive identifier robustness; no new P value or ranking
+                                                           scope
+                                                          <char>

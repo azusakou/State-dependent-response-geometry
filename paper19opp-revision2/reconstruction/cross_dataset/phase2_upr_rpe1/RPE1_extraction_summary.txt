@@ -1,0 +1,9 @@
+source_locked_genes 438
+metadata_selected_cells 97065
+scorable_cells 97065
+unscorable_cells 0
+scorable_control_cells 11485
+raw_feature_rows 8749
+unique_raw_symbols 8748
+elapsed_seconds 100.85223197937
+Fixed-denominator primary scores include assigned-target numerator exclusion; controls remain base per-cell scores until target-specific correction in the shared helper. Raw UPR and target counts permit exact real-UPR L-target sensitivity. No RPE1 outcome-dependent ranking, matching or eligibility modification was performed.

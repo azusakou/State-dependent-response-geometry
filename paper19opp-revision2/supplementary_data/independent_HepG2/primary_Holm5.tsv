@@ -1,0 +1,6 @@
+endpoint	estimate	raw_p	estimable	Holm5	p_role	reported_raw_p
+signed_UPR_rho	0.402579647728266	9.99900009999e-05	TRUE	0.0004999500049995	MonteCarlo_test	9.99900009999e-05
+literal_Top10_signed_gap		1	FALSE	1	correction_placeholder_unestimable	
+weighted_minus_raw_NDCG10		1	FALSE	1	correction_placeholder_unestimable	
+literal_Top20_signed_gap		1	FALSE	1	correction_placeholder_unestimable	
+weighted_minus_raw_NDCG20		1	FALSE	1	correction_placeholder_unestimable	

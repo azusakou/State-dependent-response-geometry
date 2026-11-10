@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-06T08:22:56.085151+00:00",
+  "files": {
+    "independent_validation/metadata_addendum.txt": "e0a6fb6d3106b62e8f9b1ec65446a8deadf6b60f51803bc691c5dc6e32cb7050",
+    "independent_validation/extract_effects.R": "87183a40334bbbdea348cff0ee30b0e4f85c0eca0509d1caf84689634d484b82",
+    "reconstruction/cross_dataset/phase2_upr_rpe1/phase2_gene_universe.tsv": "028ff6c3400d2e464a6df78819a1e38bb098bbb2846b850523d486cd44a466d0",
+    "reconstruction/cross_dataset/phase2_upr_rpe1/phase2_axis_spec.rds": "d54dd704e6df0fa372a3384c0e7b7dbd6789af8801806a5bb5a27be5225c6667",
+    "reconstruction/cross_dataset/phase2_upr_rpe1/all_source_comparator_rankings.tsv": "186d86996616e05f8cd6fe141ed26f0ece173d8ce2cd9d456abfa06dd64709ea",
+    "reconstruction/cross_dataset/phase2_upr_rpe1/null100_source_rankings.tsv.gz": "7ceb65a1d9efd5a11a181d55ef4b70822ad4ebe546f879d24c5730aadf608098"
+  },
+  "mechanical_QC_addendum": {
+    "utc": "2026-11-06T08:38:07.777120+00:00",
+    "reason": "Before any expression reading: assert raw-count integrality instead of silently normalizing non-count data",
+    "code_sha256": "cfbcd67bfd65d715fa47b6a909cccf7882d16bfc7d633d0be2a246f8685bfb0d"
+  }
+}

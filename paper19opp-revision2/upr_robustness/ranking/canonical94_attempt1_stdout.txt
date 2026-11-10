@@ -1,0 +1,3 @@
+Completed canonical94 current-list projection exact_Lminus_target 
+Completed canonical94 current-list projection fixed_L6780 
+Canonical94 current-list projection complete 2026-11-06 06:11:27 UTC 

@@ -1,0 +1,7 @@
+{
+  "source": "HEK293T_filtered_guide_calls_per_cell.csv.gz",
+  "sha256": "549ec4a236c95eeec9cd54e2fb7e318594616402fb801a3f6da607c86d596ecb",
+  "pass_guide_cells": 4534299,
+  "cell_counts_are_guide_metadata_not_RNA_QC": true,
+  "minimum_frozen_top20": 29
+}

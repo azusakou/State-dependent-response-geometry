@@ -1,0 +1,2 @@
+package	version	mapping
+org.Hs.eg.db	3.20.0	Unique Entrez ID viaSYMBOL thenALIAS; ambiguous mappings excluded

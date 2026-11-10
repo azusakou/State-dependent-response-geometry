@@ -1,0 +1,5 @@
+Warning messages:
+1: package ‘data.table’ was built under R version 4.4.3 
+2: package ‘digest’ was built under R version 4.4.3 
+Error: !anyNA(j) is not TRUE
+Execution halted

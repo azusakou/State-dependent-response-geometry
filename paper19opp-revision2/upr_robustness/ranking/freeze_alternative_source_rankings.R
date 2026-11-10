@@ -1,0 +1,42 @@
+#!/usr/bin/env Rscript
+args<-commandArgs(TRUE);project<-normalizePath(if(length(args))args[1]else'paper19opp-revision2');p<-file.path(project,'upr_robustness','ranking');out<-file.path(p,'alternative_definitions');dir.create(out,showWarnings=FALSE);.libPaths(c(file.path(dirname(project),'.Rlib'),.libPaths()));suppressPackageStartupMessages({library(data.table);library(digest)})
+modules<-file.path(project,'upr_robustness','modules');src<-file.path(project,'reconstruction','cross_dataset','phase2_upr_rpe1');gene_path<-file.path(modules,'scored','K562_gene_effects.tsv.gz');gem_path<-file.path(modules,'scored','K562_GEM_effects.tsv.gz')
+plan<-file.path(p,'alternative_definition_rank_plan.txt');stopifnot(digest(plan,file=TRUE,algo='sha256')=='344802ed410a51ffc300cc257c09747ea58b3afa515d94c30cfca3d28c811506')
+stopifnot(file.exists(gene_path),file.exists(gem_path),file.exists(file.path(modules,'scored','K562_Hallmark_reference_QA.tsv')))
+qa<-fread(file.path(modules,'scored','K562_Hallmark_reference_QA.tsv'));stopifnot(nrow(qa)==2L,all(qa$passed))
+input_files<-c(gene_path,gem_path,file.path(modules,c('membership_lock_manifest.tsv','scoring_lock_manifest.tsv','null100_per_readout_memberships.tsv.gz','primary_gene_universe.tsv')),file.path(src,c('source_rank_inputs.tsv','complete_covariate_gene_roster.tsv','all_source_comparator_rankings.tsv','complete_covariate_source_rankings.tsv')),plan)
+fwrite(data.table(file=sub(paste0('^',project,'/'),'',input_files),sha256=vapply(input_files,digest,'',file=TRUE,algo='sha256')),file.path(out,'source_input_hashes.tsv'),sep='\t')
+cat('Source rank freeze started',format(Sys.time(),tz='UTC',usetz=TRUE),'\n');flush.console()
+d<-fread(gene_path);gg<-fread(gem_path);stopifnot(all(d$study=='K562'),all(gg$study=='K562'))
+meta<-fread(file.path(src,'source_rank_inputs.tsv'));ids<-sort(meta$gene);cc<-sort(fread(file.path(src,'complete_covariate_gene_roster.tsv'))$gene);stopifnot(length(ids)==438L,length(cc)==370L)
+d<-d[gene%in%ids];gg<-gg[gene%in%ids]
+axes<-c('Reactome_UPR_full','Reactome_UPR_no_Hallmark','GO_ER_UPR_full','GO_ER_UPR_no_Hallmark');modes<-c('exact_Lminus_target','fixed_L6780');real<-d[axis%in%axes&mode%in%modes]
+greal<-gg[axis%in%axes&mode%in%modes]
+check<-greal[,.(independent_delta_z=weighted.mean(contrast_z,n_target),independent_f_positive=mean(contrast_z[n_target>=5]>0),independent_supported=sum(n_target>=5)),by=.(gene,axis,mode)]
+check<-merge(real[,.(gene,axis,mode,delta_z,f_positive,supported_groups_ge5)],check,by=c('gene','axis','mode'));check[,`:=`(delta_difference=delta_z-independent_delta_z,f_difference=f_positive-independent_f_positive)]
+stopifnot(nrow(check)==438L*4L*2L,max(abs(check$delta_difference),na.rm=TRUE)<1e-8,max(abs(check$f_difference),na.rm=TRUE)<1e-12,all(check$supported_groups_ge5==check$independent_supported))
+fwrite(check,file.path(out,'source_GEM_consistency_QA.tsv'),sep='\t')
+current<-fread(file.path(src,'all_source_comparator_rankings.tsv'))[method=='UPR_priority'][order(rank)];currentcc<-fread(file.path(src,'complete_covariate_source_rankings.tsv'))[method=='UPR_priority'][order(rank_cc)]
+nullmap<-unique(fread(file.path(modules,'null100_per_readout_memberships.tsv.gz'))[,.(axis=module,parent=family)])[parent%in%axes]
+nulls<-merge(d[mode=='fixed_L6780'],nullmap,by='axis');stopifnot(nrow(nullmap)==400L,nrow(nulls)==400L*438L)
+make_rank<-function(z,cohort,roster,kind){a<-copy(z[gene%in%roster]);stopifnot(nrow(a)==length(roster),!anyDuplicated(a$gene));a[,score:=if(kind=='alternative_raw')pmax(delta_z,0)else pmax(delta_z,0)*f_positive];a[,defined:=is.finite(score)&is.finite(delta_z)&is.finite(f_positive)];setorder(a,-defined,-score,-delta_z,gene,na.last=TRUE);a[,`:=`(cohort=cohort,kind=kind,rank=seq_len(.N),Top10=seq_len(.N)<=10,Top20=seq_len(.N)<=20)];a[,.(gene,axis,mode,cohort,kind,delta_z,f_positive,score,defined,rank,Top10,Top20)]}
+ranks<-list();ri<-0L
+for(a in axes)for(m in modes)for(n in c('all438','complete370'))for(k in c('alternative_priority','alternative_raw')){ri<-ri+1L;ranks[[ri]]<-make_rank(real[axis==a&mode==m],n,if(n=='all438')ids else cc,k)}
+ranks<-rbindlist(ranks);fwrite(ranks,file.path(out,'source_alternative_rankings.tsv.gz'),sep='\t');fwrite(ranks[Top20==TRUE],file.path(out,'source_alternative_Top10_Top20.tsv'),sep='\t')
+nrank<-list();ni<-0L;for(a in nullmap$axis)for(n in c('all438','complete370')){ni<-ni+1L;nrank[[ni]]<-make_rank(nulls[axis==a],n,if(n=='all438')ids else cc,'parent_specific_null_priority')};nrank<-rbindlist(nrank);nrank<-merge(nrank,nullmap,by='axis');fwrite(nrank,file.path(out,'source_parent_specific_null_rankings.tsv.gz'),sep='\t')
+stability<-list();si<-0L
+for(a in axes)for(m in modes)for(n in c('all438','complete370'))for(kind_name in c('alternative_priority','alternative_raw')){z<-ranks[axis==a&mode==m&cohort==n&kind==kind_name][order(rank)];cur<-if(n=='all438')current$gene else currentcc$gene;r0<-match(z$gene,cur);for(k in c(10L,20L)){old<-head(cur,k);new<-head(z$gene,k);si<-si+1L;stability[[si]]<-data.table(axis=a,mode=m,cohort=n,kind=kind_name,rank_spearman=cor(z$rank,r0,method='spearman'),rank_kendall=cor(z$rank,r0,method='kendall'),K=k,overlap=length(intersect(old,new)),Jaccard=length(intersect(old,new))/length(union(old,new)),undefined_scores=sum(!z$defined),TopK_defined=all(head(z$defined,k)))}}
+fwrite(rbindlist(stability),file.path(out,'source_rank_stability_vs_current.tsv'),sep='\t')
+# Same deterministic SOURCE-only four-covariate matching as the original phase2 analysis.
+covs<-c('source_count_score','source_control_expression','generic_three_program_magnitude','depmap_essentiality');available<-meta[complete.cases(meta[,..covs]),gene]
+match_one<-function(sel,label){bad<-setdiff(sel,available);if(length(sel)!=20L||length(bad))return(list(status=data.table(list=label,estimable=FALSE,reason='literal selected members lack required source covariates; no truncation/refill',missing_genes=paste(bad,collapse=';')),matches=NULL));pool<-setdiff(available,sel);dat<-meta[match(c(sel,pool),gene)];x<-as.matrix(dat[,..covs]);sdv<-apply(x,2,sd);sdv[sdv<1e-8]<-1;x<-sweep(sweep(x,2,colMeans(x),'-'),2,sdv,'/');rownames(x)<-dat$gene;used<-character();ans<-list();for(i in seq_along(sel)){pp<-setdiff(pool,used);dist<-sqrt(rowSums(sweep(x[pp,,drop=FALSE],2,x[sel[i],],'-')^2));dd<-data.table(gene=pp,distance=dist)[order(distance,gene)][1:5];used<-c(used,dd$gene);ans[[i]]<-data.table(list=label,set=i,selected_gene=sel[i],background_gene=dd$gene,distance=dd$distance,Top10=i<=10)};list(status=data.table(list=label,estimable=TRUE,reason='all20 members retained; five unique source matches per selected role',missing_genes=NA_character_),matches=rbindlist(ans))}
+mat<-list();stat<-list();mi<-0L
+for(a in axes)for(m in modes)for(n in c('all438','complete370'))for(kind_name in c('alternative_priority','alternative_raw')){z<-ranks[axis==a&mode==m&cohort==n&kind==kind_name][order(rank)];label<-paste(a,m,n,kind_name,sep='|');v<-match_one(head(z$gene,20),label);mi<-mi+1L;mat[[mi]]<-v$matches;stat[[mi]]<-v$status}
+fwrite(rbindlist(mat,fill=TRUE),file.path(out,'source_alternative_background_matches.tsv'),sep='\t');fwrite(rbindlist(stat),file.path(out,'source_alternative_matching_coverage.tsv'),sep='\t')
+writeLines(capture.output(sessionInfo()),file.path(out,'source_freeze_sessionInfo.txt'))
+# Freeze source artifacts and executed scoring/ranking methods before any new validation-release read.
+extra<-c(plan,file.path(p,'freeze_alternative_source_rankings.R'),file.path(modules,c('extract_counts_scores.R','summarise_scores.R','scoring_helpers.R','verify_Hallmark_reference.R')),file.path(modules,'scored','K562_Hallmark_reference_QA.tsv'))
+f<-c(list.files(out,full.names=TRUE),extra);f<-unique(f[file.exists(f)&!dir.exists(f)&!grepl('source_lock_manifest|source_lock_record|stdout|stderr',f)])
+manifest<-data.table(file=sub(paste0('^',project,'/'),'',f),sha256=vapply(f,digest,'',file=TRUE,algo='sha256'));fwrite(manifest,file.path(out,'source_lock_manifest.tsv'),sep='\t');h<-digest(file.path(out,'source_lock_manifest.tsv'),file=TRUE,algo='sha256')
+writeLines(c(paste('Source lock UTC',format(Sys.time(),tz='UTC',usetz=TRUE)),paste('Manifest SHA256',h),'All rank/match calculations used K562 SOURCE effects only. Newly scored RPE1/Adamson/Frangieh alternative-definition effects remained unopened by this ranking analysis. No new formal testing family is introduced.'),file.path(out,'source_lock_record.txt'))
+cat('SOURCE LOCK COMPLETE',h,'\n');flush.console()

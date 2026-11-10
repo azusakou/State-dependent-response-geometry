@@ -1,0 +1,45 @@
+ADDITIONAL RETROSPECTIVE CAPTURED-RNA DEPTH DIAGNOSTIC
+2026-11-06. Seed2026110630. Fixed before depth aggregation/new model results.
+
+Schema-only inspection confirms recorded UMI_count and exact common_library fields
+in all four existing cell caches. No raw matrix is reread. For each existing
+study/context/target, average log1p(recorded UMI_count) over its treated cells;
+separately average log1p(common_library), the exact recorded count sum over the
+frozen6780 measured genes before target subtraction. These are two distinct fixed
+covariates, not a ratio, optimized combination or selected depth definition.
+
+Keep all438/30/19/19/17 target panels. The sixteen curated response readouts retain
+their exact_Lminus_target primary values. The seventeenth readout is the historical
+Hallmark_UPR90 original fixed_L6780 response, so the published original ordering
+receives the diagnostic without replacing its outcome. No94 readout, reranking,
+new target filter, normalization change or candidate-list alteration is introduced.
+
+For each readout/comparison, fit two separate rank-residual correlations:
+(1) condition on source and validation meanlog1p recorded UMI;
+(2) condition on source and validation meanlog1p shared-library count.
+Use the existing rank-residual/Freedman-Lane implementation: OLS residuals of ranked
+responses/covariates, at least three residual degrees of freedom,4999 whole-gene
+bootstrap draws refitting ranks/residual models,19999 residual permutations and
+two-sided tails centered on the finite permutation mean. Preserve rawP and model
+identity. All17x5x2=170 tests form ONE separate BH170 sensitivity family, including
+unavailable tests asP=1 for correction while reported estimates stayNA. Original
+BH80/BH160/BH320/Holm7/globalBH87 families remain unchanged.
+
+Depth summaries retain total/valid/missing/invalid-negative cell counts. Finite
+nonnegative values enter log1p means; an entirely unavailable covariate isNA.
+No cell or target is removed from an original response estimate. Conditional fits
+use their explicitly reported complete cases without imputation or a coverage
+threshold. No favorable depth model replaces another or rescues a failed marginal
+association. This is a diagnostic on already examined outcomes, not new validation.
+
+Recorded UMI and common-library counts measure captured RNA support, not sequenced
+read depth or saturation. They can also reflect perturbation-induced RNA-content
+changes. Conditioning therefore assesses nuisance associations and may remove
+biological variation; it does not isolate pure technical confounding, a causal
+effect or pathway specificity. CP10k normalization, equal-target-cell resampling
+and captured-RNA depth adjustment remain separate procedures.
+
+Write protocol/code/input hashes before aggregation. Retain executable code,
+actual stdout/stderr/session records, schema availability, per-target covariates
+and all170 model summaries. The ranking owner separately evaluates fixed-list
+continuous matched gaps, without newP, adjustedPrecision or reordered lists.
